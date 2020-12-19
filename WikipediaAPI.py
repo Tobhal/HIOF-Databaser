@@ -47,4 +47,20 @@ def getWikiData(page):
 
     return dataOut
 
-print(getWikiData(page))
+#print(getWikiData(page))
+
+
+# -----------
+# Web scraper
+# -----------
+# https://realpython.com/beautiful-soup-web-scraper-python/
+#
+
+
+
+# -------------
+# Wikipedia API
+# -------------
+# https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&props=claims&titles=CD_Projekt&format=json
+# 
+# 
