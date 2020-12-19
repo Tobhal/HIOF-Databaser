@@ -1,5 +1,6 @@
 import SteamAPI
 import WikipediaAPI
+import Database
 import mysql.connector
 import json
 

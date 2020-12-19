@@ -2,9 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 
 #page = requests.get('https://en.wikipedia.org/wiki/CD_Projekt')
-page = requests.get('https://en.wikipedia.org/wiki/FromSoftware')
+#page = requests.get('https://en.wikipedia.org/wiki/FromSoftware')
 #page = requests.get('https://en.wikipedia.org/wiki/Ubisoft')
 
+
+def searchForWikiPage(searchText):
+    return requests.get('https://en.wikipedia.org/w/index.php?search=' + searchText)
 
 def getWikiData(page):
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -62,5 +65,12 @@ def getWikiData(page):
 # Wikipedia API
 # -------------
 # https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&props=claims&titles=CD_Projekt&format=json
-# 
-# 
+
+# ----------------
+# Wikipedia search
+# ----------------
+# https://en.wikipedia.org/w/index.php?search=name
+#
+## Other
+## https://en.wikipedia.org/w/index.php?search=name&title=Special%3ASearch&wprov=acrw1_0
+## https://en.wikipedia.org/w/index.php?search=name&title=Special%3ASearch&wprov=acrw1_-1&fulltext=1
