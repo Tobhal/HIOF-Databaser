@@ -39,6 +39,7 @@ def getWikiData(page):
         elif text == 'website':
             if texts[i + 1] == 'www':
                 dataOut[text] = texts[i + 1] + texts[i + 2] + texts[i + 3]
+                continue
             else:
                 dataOut[text] = texts[i + 1]
 

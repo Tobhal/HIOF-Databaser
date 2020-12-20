@@ -23,6 +23,10 @@ def readJson(name):
 allGames = readJson('All Games')
 appDetail = readJson('Single game')
 
+wikiPage = WikipediaAPI.searchForWikiPage('fromsoftware')
+wikiData = WikipediaAPI.getWikiData(wikiPage)
+print(wikiData)
+
 db = mysql.connector.connect(
     host="localhost",
     user="root",
