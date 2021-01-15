@@ -53,11 +53,130 @@ def updateAllGames():
         else:
             print(f'Skip {game["name"]}')
 
+
+def createGame(newGameDetail):
+    allGames = readJson("All games")["response"]["games"]
+
+    i = 0
+    for game in allGames:
+        if i == 50:
+            break
+
+        appID = int(game["appid"])
+
+        if str(appID) in newGameDetail['games']:
+            print('Skiping:', newGameDetail['games'][str(appID)]['name'])
+        else:
+            gameDetail = SteamAPI.getAppDetail(appID)[str(appID)]['data']
+
+            print('Adding game', gameDetail['name'])
+
+            gameDict = {
+                'name': gameDetail['name'],
+                'gameType': gameDetail['type'],
+                'developer': gameDetail['developers'],
+                'publisher': gameDetail['publishers'],
+                'platforms': [key for key in gameDetail['platforms'] if gameDetail['platforms'][key] == True],
+                'releaceDate': gameDetail['release_date']['date'].replace("\u00a0", " "),
+                'categories': [key['description'] for key in gameDetail['categories']],
+                'genres': ([key['description'] for key in gameDetail['genres']]) if "genres" in gameDetail else None,
+                'metacritic': gameDetail['metacritic']['score'] if "metacritic" in gameDetail else None,
+                'price': {
+                    'final_formatted': gameDetail['price_overview']['final_formatted'] if "price_overview" in gameDetail else None,
+                    'currency': gameDetail['price_overview']['currency'] if "price_overview" in gameDetail else None
+                },
+                'recommendations': gameDetail['recommendations'] if "recommendations" in gameDetail else None,
+                'numDLC': len(gameDetail['dlc']) if "dlc" in gameDetail else None,
+                'controllerSupport': gameDetail['controller_support'] if "controller_support" in gameDetail else 'none'
+
+            }
+            
+            newGameDetail['games'][int(appID)] = gameDict
+
+            for developer in gameDict['developer']:
+                if developer not in newGameDetail['company']:
+                    devName = developer
+
+                    if devName == 'Valve':
+                        devName = 'Valve_Corporation'
+
+                    if devName == 'Crytek Studios':
+                        devName = 'Crytek'
+
+                    if devName == 'Arcen Games, LLC':
+                        devName = 'Arcen_Games'
+
+                    if devName == 'DICE':
+                        devName = 'DICE_(company)'
+
+                    if devName == 'Petroglyph':
+                        devName = 'Petroglyph_Games'
+
+                    if devName == 'Terry Cavanagh' or 'Geoff Keighley':
+                        continue
+
+                    print('Adding developer', devName)
+
+                    devName = devName.replace(" ", "_")
+
+                    developerPage = WikipediaAPI.searchForWikiPage(devName)
+                    developerData = WikipediaAPI.getWikiData(developerPage)
+
+                    newGameDetail['company'][developer] = developerData
+
+            for publicher in gameDict['publisher']:
+                if publicher not in newGameDetail['company']:
+                    pubName = publicher
+
+                    if pubName == 'Valve':
+                        pubName = 'Valve_Corporation'
+                    
+                    if pubName == 'Crytek Studios':
+                        pubName = 'Crytek'
+
+                    if pubName == 'Arcen Games, LLC':
+                        pubName = 'Arcen_Games'
+
+                    if pubName == 'DICE':
+                        pubName = 'DICE_(company)'
+
+                    if pubName == 'Petroglyph':
+                        pubName = 'Petroglyph_Games'
+
+                    if pubName == 'Terry Cavanagh' or 'Geoff Keighley':
+                        continue
+
+                    print('Adding publisher', pubName)
+
+                    pubName.replace(' ', '_')
+
+                    publicherPage = WikipediaAPI.searchForWikiPage(pubName)
+                    publicherData = WikipediaAPI.getWikiData(publicherPage)
+
+                    newGameDetail['company'][publicher] = publicherData
+
+        writeJson('allGamesDetail', newGameDetail)
+
+        i += 1
+
+    return newGameDetail    
+
+
+#newGameDetail = dict()
+#newGameDetail['games'] = dict()
+#newGameDetail['company'] = dict()
+
+newGameDetail = readJson('allGamesDetail')
+writeJson('AllGamesDetail', createGame(newGameDetail))
+
+
+
+exit()
 writeJson('All games', SteamAPI.getOwnedGames())
 
 allGamesDetail = readJson('All games detail')
 #allGamesDetail = dict()
-updateAllGames()
+#updateAllGames()
 
 exit()
 

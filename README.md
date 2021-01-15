@@ -32,6 +32,8 @@ Python script to crate and import data to a MySQL database. Gets all games for t
 - genres
 - recommendations
 - release_date
+- number of DLC's
+- controller support
 
 ### From Wikipedia infobar (Scraped)
 #### Publisher / develpers

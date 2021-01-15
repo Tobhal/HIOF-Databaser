@@ -1,12 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
+import pretty_errors
 
 #page = requests.get('https://en.wikipedia.org/wiki/CD_Projekt')
 #page = requests.get('https://en.wikipedia.org/wiki/FromSoftware')
 #page = requests.get('https://en.wikipedia.org/wiki/Ubisoft')
+#page = requests.get('https://en.wikipedia.org/w/index.php?search=Ubisoft')
+#page = requests.get('https://en.wikipedia.org/w/index.php?search=Valve_Corporation')
+#page = requests.get('https://en.wikipedia.org/w/index.php?search=Cryteck_Studios')
+page = requests.get('https://en.wikipedia.org/w/index.php?search=Terry_Cavanagh_(developer)')
 
 
 def searchForWikiPage(searchText):
+    print('WikiAPI: search for:', searchText)
     return requests.get('https://en.wikipedia.org/w/index.php?search=' + searchText)
 
 def getWikiData(page):
@@ -47,9 +53,11 @@ def getWikiData(page):
             dataOut[text] = texts[i + 2]
 
         elif text in dataOut:
-            dataOut[text] = texts[i + 1]
+            dataOut[text] = texts[i + 1].replace('\u00a0', ' ')
 
     return dataOut
+
+#page = searchForWikiPage('Valve_Corporation')
 
 #print(getWikiData(page))
 
