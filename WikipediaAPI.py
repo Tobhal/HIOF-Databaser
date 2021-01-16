@@ -8,7 +8,7 @@ import pretty_errors
 #page = requests.get('https://en.wikipedia.org/w/index.php?search=Ubisoft')
 #page = requests.get('https://en.wikipedia.org/w/index.php?search=Valve_Corporation')
 #page = requests.get('https://en.wikipedia.org/w/index.php?search=Cryteck_Studios')
-page = requests.get('https://en.wikipedia.org/w/index.php?search=Terry_Cavanagh_(developer)')
+page = requests.get('https://en.wikipedia.org/w/index.php?search=Crytek')
 
 
 def searchForWikiPage(searchText):
@@ -57,7 +57,7 @@ def getWikiData(page):
 
     return dataOut
 
-#page = searchForWikiPage('Valve_Corporation')
+#page = searchForWikiPage('Atari,_Inc.')
 
 #print(getWikiData(page))
 
