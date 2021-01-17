@@ -53,7 +53,6 @@ def updateAllGames():
         else:
             print(f'Skip {game["name"]}')
 
-
 def createGame(newGameDetail):
     allGames = readJson("All games")["response"]["games"]
 
@@ -70,6 +69,9 @@ def createGame(newGameDetail):
         appID = int(game["appid"])
 
         if str(appID) in newGameDetail['games']:
+            if newGameDetail['games'][str(appID)]['developer'] == None:
+                continue
+
             for developer in newGameDetail['games'][str(appID)]['developer']:
                 if developer not in newGameDetail['company']:
 
@@ -222,66 +224,8 @@ def createGame(newGameDetail):
     return newGameDetail    
 
 
-#newGameDetail = dict()
-#newGameDetail['games'] = dict()
-#newGameDetail['company'] = dict()
-
 newGameDetail = readJson('allGamesDetail')
 writeJson('AllGamesDetail', createGame(newGameDetail))
-
-
-
-exit()
-writeJson('All games', SteamAPI.getOwnedGames())
-
-allGamesDetail = readJson('All games detail')
-#allGamesDetail = dict()
-#updateAllGames()
-
-exit()
-
-allGames = readJson('All games')['response']['games']
-allGamesDetail = readJson('All games detail')
-
-i = 0
-for game in allGames:
-    if i >= 1000:
-        break
-
-    if allGamesDetail[str(game['appid'])]['success'] == False:
-        continue
-
-    gameDetail = allGamesDetail[str(game['appid'])]['data']
-
-    print(f"""{gameDetail['name']} | {gameDetail['steam_appid']}
-        Type: {gameDetail['type']} | Dev: {gameDetail['developers']} | Pub: {gameDetail['publishers']}
-        Platforms: {[key for key in gameDetail['platforms'] if gameDetail['platforms'][key] == True]}
-        Categories: {[key['description'] for key in gameDetail['categories']]}
-        Releace Date: {gameDetail['release_date']['date']} """)
-
-    if "metacritic" in gameDetail:
-        print(f"""        Metacritic: {gameDetail['metacritic']['score']} """)
-
-    if "price_overview" in gameDetail:
-        print(f"""        Price: {gameDetail['price_overview']['initial_formatted']} | Currency: {gameDetail['price_overview']['currency']} """)
-    
-    if "genres" in gameDetail:
-        print(f"""        Genres: {[key['description'] for key in gameDetail['genres']]} """)
-
-    if "recommendations" in gameDetail:
-        print(f"""        Recommendations: {gameDetail['recommendations']['total']} """)
-
-    if "dlc" in gameDetail:
-        print(f"""        Num DLC: {len(gameDetail['dlc'])} """)
-
-    if "controller_support" in gameDetail:
-        print(f"""        Controller support = {gameDetail['controller_support']} """)
-
-    #print(game['name'], "|", game['appid'])
-
-    print()
-    i += 1
-
 
 # MySQL tutorial
 # https://www.datacamp.com/community/tutorials/mysql-python
