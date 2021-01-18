@@ -3,6 +3,7 @@ import WikipediaAPI
 #import Database
 import json
 import pretty_errors
+from currency_converter import CurrencyConverter
 
 def writeJson(name, data):
     if not name.endswith('.json'):
@@ -53,6 +54,26 @@ def updateAllGames():
         else:
             print(f'Skip {game["name"]}')
 
+def convertCurrency(initialFormat, code, final_formatted):
+    currencyList = readJson('Currency')
+    currency = CurrencyConverter()
+
+    if code not in currencyList:
+        print()
+        print()
+        print('Enter desimal value for', code, 'Final formatt:', final_formatted)
+        newCode = int(input())
+        
+        currencyList[code] = newCode
+        writeJson('Currency', currencyList)
+
+    price = initialFormat/(10 ** currencyList[code])
+
+    return {
+        'price': price,
+        'priceNOK': currency.convert(price, code, 'NOK')
+    }
+
 def createGame(newGameDetail):
     allGames = readJson("All games")["response"]["games"]
 
@@ -63,7 +84,7 @@ def createGame(newGameDetail):
 
     i = 0
     for game in allGames:
-        if i == 1000:
+        if i == 10:
             break
 
         appID = int(game["appid"])
@@ -85,7 +106,6 @@ def createGame(newGameDetail):
                         elif devName in failedNames:
                             continue
 
-                        print()
                         print()
                         print('Adding developer', devName)
 
@@ -129,7 +149,7 @@ def createGame(newGameDetail):
                         writeJson('companyNames', companyNames)
 
 
-            print('Skiping:', newGameDetail['games'][str(appID)]['name'])
+            print(f"{i:3} | Skiping: {newGameDetail['games'][str(appID)]['name']}")
         else:
             gameDetail = SteamAPI.getAppDetail(appID)[str(appID)]
             
@@ -138,7 +158,9 @@ def createGame(newGameDetail):
             
             gameDetail = gameDetail['data']
 
-            print('Adding game', gameDetail['name'])
+            print(f"{i:3} | Adding: {gameDetail['name']}")
+
+            price = convertCurrency(gameDetail['price_overview']['initial'], gameDetail['price_overview']['currency'], gameDetail['price_overview']['final_formatted'])
 
             gameDict = {
                 'name': gameDetail['name'],
@@ -151,7 +173,9 @@ def createGame(newGameDetail):
                 'genres': ([key['description'] for key in gameDetail['genres']]) if "genres" in gameDetail else None,
                 'metacritic': gameDetail['metacritic']['score'] if "metacritic" in gameDetail else None,
                 'price': {
-                    'final_formatted': gameDetail['price_overview']['final_formatted'] if "price_overview" in gameDetail else None,
+                    'initial': gameDetail['price_overview']['initial'] if "price_overview" in gameDetail else None,
+                    'final_formatted': price['price'] if "price_overview" in gameDetail else None,
+                    "price_NOK": price['priceNOK'] if "price_overview" in gameDetail else None,
                     'currency': gameDetail['price_overview']['currency'] if "price_overview" in gameDetail else None
                 },
                 'recommendations': gameDetail['recommendations'] if "recommendations" in gameDetail else None,
@@ -160,7 +184,7 @@ def createGame(newGameDetail):
 
             }
             
-            newGameDetail['games'][int(appID)] = gameDict
+            newGameDetail['games'][appID] = gameDict
 
             if gameDict['developer'] != None:
 
@@ -186,7 +210,7 @@ def createGame(newGameDetail):
                             newGameDetail['company'][developer] = developerData
                         except:
                             companyNames['failed'].append(developer)
-                            print('Failed to finde: ', developer)
+                            print('WikiAPI: Failed to finde', developer)
 
                             writeJson('companyNames', companyNames)
 
@@ -223,8 +247,13 @@ def createGame(newGameDetail):
 
     return newGameDetail    
 
+newGameDetail = dict()
+newGameDetail['games'] = dict()
+newGameDetail['company'] = dict()
 
-newGameDetail = readJson('allGamesDetail')
+#companyNames = dict()
+
+#newGameDetail = readJson('allGamesDetail')
 writeJson('AllGamesDetail', createGame(newGameDetail))
 
 # MySQL tutorial

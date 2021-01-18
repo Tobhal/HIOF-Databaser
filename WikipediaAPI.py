@@ -12,7 +12,7 @@ page = requests.get('https://en.wikipedia.org/w/index.php?search=Crytek')
 
 
 def searchForWikiPage(searchText):
-    print('WikiAPI: search for:', searchText)
+    print('WikiAPI search:', searchText)
     return requests.get('https://en.wikipedia.org/w/index.php?search=' + searchText)
 
 def getWikiData(page):
