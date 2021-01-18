@@ -22,9 +22,10 @@ Python script to crate and import data to a MySQL database. Gets all games for t
 - developers
 - publishers
 - price_overview
-    - currency
-    - final
+    - initial
     - final_formatted
+    - price_NOK
+    - currency
 - platforms
 - metacritic
     - score
