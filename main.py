@@ -3,6 +3,8 @@ import WikipediaAPI
 #import Database
 import json
 import pretty_errors
+import datetime
+import re
 from currency_converter import CurrencyConverter
 
 def writeJson(name, data):
@@ -74,6 +76,23 @@ def convertCurrency(initialFormat, code, final_formatted):
         'priceNOK': currency.convert(price, code, 'NOK')
     }
 
+def convertDateTime(date):
+    patternDate1 = re.compile('^\d{1,2} \w{3},? \d{4}$') # ex: 1 NOV, 2010
+    patternDate2 = re.compile('^\d{4}$') # ex: 2010
+    patternDate3 = re.compile('^[A-Z]\w+ \d{1,2},? \d{4}$') # ex: August 24, 1996
+    patternDate4 = re.compike('^[A-Z]\w+ \w{4}$') #ex: June 2004
+
+    if patternDate1.match(date):
+        date = datetime.datetime.strptime(date, '%d %b, %Y')
+    elif patternDate2.match(date):
+        date = datetime.datetime.strptime(date, '%Y')
+    elif patternDate3.match(date):
+        date = datetime.datetime.strptime(date, '%B %d, %Y')
+    elif patternDate4.match(date):
+        date = dateTime.datetime.strptime(date, '%B %Y')
+
+    return date
+
 def createGame(newGameDetail):
     allGames = readJson("All games")["response"]["games"]
 
@@ -84,7 +103,7 @@ def createGame(newGameDetail):
 
     i = 0
     for game in allGames:
-        if i == 10:
+        if i == 50:
             break
 
         appID = int(game["appid"])
@@ -160,7 +179,10 @@ def createGame(newGameDetail):
 
             print(f"{i:3} | Adding: {gameDetail['name']}")
 
-            price = convertCurrency(gameDetail['price_overview']['initial'], gameDetail['price_overview']['currency'], gameDetail['price_overview']['final_formatted'])
+            if 'price_overview' in gameDetail:
+                price = convertCurrency(gameDetail['price_overview']['initial'], gameDetail['price_overview']['currency'], gameDetail['price_overview']['final_formatted'])
+
+            date = gameDetail['release_date']['date'].replace("\u00a0", " ")
 
             gameDict = {
                 'name': gameDetail['name'],
@@ -168,7 +190,7 @@ def createGame(newGameDetail):
                 'developer': (gameDetail['developers']) if "developers" in gameDetail else None,
                 'publisher': gameDetail['publishers'],
                 'platforms': [key for key in gameDetail['platforms'] if gameDetail['platforms'][key] == True],
-                'releaceDate': gameDetail['release_date']['date'].replace("\u00a0", " "),
+                'releaceDate': str(convertDateTime(date)),
                 'categories': ([key['description'] for key in gameDetail['categories']]) if "description" in gameDetail else None,
                 'genres': ([key['description'] for key in gameDetail['genres']]) if "genres" in gameDetail else None,
                 'metacritic': gameDetail['metacritic']['score'] if "metacritic" in gameDetail else None,
@@ -183,7 +205,7 @@ def createGame(newGameDetail):
                 'controllerSupport': gameDetail['controller_support'] if "controller_support" in gameDetail else 'none'
 
             }
-            
+            # gameDetail['release_date']['date'].replace("\u00a0", " ")
             newGameDetail['games'][appID] = gameDict
 
             if gameDict['developer'] != None:
@@ -247,14 +269,16 @@ def createGame(newGameDetail):
 
     return newGameDetail    
 
-newGameDetail = dict()
-newGameDetail['games'] = dict()
-newGameDetail['company'] = dict()
+#newGameDetail = dict()
+#newGameDetail['games'] = dict()
+#newGameDetail['company'] = dict()
 
 #companyNames = dict()
 
-#newGameDetail = readJson('allGamesDetail')
+newGameDetail = readJson('allGamesDetail')
 writeJson('AllGamesDetail', createGame(newGameDetail))
+
+# developerData['founded'] = convertDateTime(developerData['founded'])
 
 # MySQL tutorial
 # https://www.datacamp.com/community/tutorials/mysql-python
