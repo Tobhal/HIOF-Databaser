@@ -128,9 +128,7 @@ def createGame(newGameDetail):
 
             try:
                 companyPage = WikipediaAPI.searchForWikiPage(companyName)
-                companyData = WikipediaAPI.getWikiData(companyPage)
-
-                companyData['founded'] = str(convertDateTime(companyData['founded']))
+                companyData = WikipediaAPI.getWikiData2(companyPage)
 
                 newGameDetail['company'][oCompName] = companyData
             except:
@@ -141,7 +139,7 @@ def createGame(newGameDetail):
 
     i = 0
     for game in allGames:
-        if i == 50:
+        if i == 100:
             break
 
         appID = int(game["appid"])

@@ -1,17 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import pretty_errors
-import xmltodict as xd
-
+import lxml
 import re
 
-import lxml
-import xmltodict
-from collections import OrderedDict
-
-#page = requests.get('https://en.wikipedia.org/wiki/CD_Projekt')
+page = requests.get('https://en.wikipedia.org/wiki/CD_Projekt')
 #page = requests.get('https://en.wikipedia.org/wiki/FromSoftware')
-page = requests.get('https://en.wikipedia.org/wiki/Ubisoft')
+#page = requests.get('https://en.wikipedia.org/wiki/Ubisoft')
 #page = requests.get('https://en.wikipedia.org/w/index.php?search=Ubisoft')
 #page = requests.get('https://en.wikipedia.org/w/index.php?search=Valve_Corporation')
 #page = requests.get('https://en.wikipedia.org/w/index.php?search=Cryteck_Studios')
@@ -74,8 +69,6 @@ def getWikiData2(page):
     job_elems = results.find('table', class_='infobox vcard')
     job_data = job_elems.findAll('tr')
 
-    #print(job_data[6].findAll(text=True))
-
     dataOut = {
         'Type': None,
         'Industry': None,
@@ -92,7 +85,6 @@ def getWikiData2(page):
     }
 
     for line in job_data:
-        oLine = line
         line = line.findAll(text=True)
 
         if not line:
@@ -108,18 +100,40 @@ def getWikiData2(page):
             for part in city:
                 dataOut[line[0]] += part
 
+        elif line[0] == 'Website':
+            dataOut[line[0]] = ''
+            page = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
+
+            for part in page:
+                dataOut[line[0]] += part
+
+        elif line[0] == 'Parent':
+            dataOut[line[0]] = ''
+            parent = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
+
+            for part in parent:
+                if not re.compile('^ ?\(\d+\\\\| u| .+\)').match(part):
+                    dataOut[line[0]].append(part)
+
         elif line[0] == 'Number of employees':
-            split =
-            #dataOut[line[0]] = line[1].split('\\')
+            nummber = line[1]
+
+            if re.compile('^~').match(nummber):
+                nummber = nummber.replace('~', '')
+            
+            if re.compile('^\d+,?\d+ (.+)').match(nummber):
+                nummber = nummber.split()[0]
+
+            dataOut[line[0]] = int(nummber)
 
         elif line[0] in dataOut:
-            dataOut[line[0]] = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 3 else line[1]
+            dataOut[line[0]] = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
 
     return dataOut
 
-#page = searchForWikiPage('Activision')
+#page = searchForWikiPage('CD_Projekt')
 
-print(getWikiData2(page))
+#print(getWikiData2(page))
 
 
 # -----------
