@@ -55,7 +55,7 @@ def updateAllGames():
             print(f'Skip {game["name"]}')
 
 def convertCurrency(initialFormat, code, final_formatted):
-    currencyList = readJson('Currency')
+    currencyList = readJson('currency')
     currency = CurrencyConverter()
 
     if code not in currencyList:
@@ -76,15 +76,42 @@ def convertCurrency(initialFormat, code, final_formatted):
 
 def createGame(newGameDetail):
     allGames = readJson("All games")["response"]["games"]
+    allGamesLen = len(allGames)
 
     companyNames = readJson('companyNames')
     modifyNames = companyNames['modify']
     skipNames = companyNames['skip']
     failedNames = companyNames['failed']
 
+    def addCompany(compName):
+        oCompName = compName
+
+        if compName not in newGameDetail['company']:
+            if compName in modifyNames:
+                compName = modifyNames[compName]
+            elif compName in skipNames:
+                return
+            elif compName in failedNames:
+                return
+
+            print('Adding company')
+
+            companyName = compName.replace(' ', '_')
+
+            try:
+                companyPage = WikipediaAPI.searchForWikiPage(companyName)
+                companyData = WikipediaAPI.getWikiData(companyPage)
+
+                newGameDetail['company'][oCompName] = companyData
+            except:
+                companyNames['failed'].append(oCompName)
+                print('Failed to add company:', compName)
+
+                writeJson('companyNames', companyNames)
+
     i = 0
     for game in allGames:
-        if i == 10:
+        if i == 1000:
             break
 
         appID = int(game["appid"])
@@ -94,62 +121,13 @@ def createGame(newGameDetail):
                 continue
 
             for developer in newGameDetail['games'][str(appID)]['developer']:
-                if developer not in newGameDetail['company']:
-
-                    if developer in modifyNames:
-                        devName = developer
-
-                        if devName in modifyNames:
-                            devName = modifyNames[devName]
-                        elif devName in skipNames:
-                            continue
-                        elif devName in failedNames:
-                            continue
-
-                        print()
-                        print('Adding developer', devName)
-
-                        devName = devName.replace(" ", "_")
-
-                        try:
-                            developerPage = WikipediaAPI.searchForWikiPage(devName)
-                            developerData = WikipediaAPI.getWikiData(developerPage)
-
-                            newGameDetail['company'][developer] = developerData
-                        except:
-                            companyNames['failed'].append(devName)
-                            print('Failed to finde: ', devName)
-
-                            writeJson('companyNames', companyNames)
+                addCompany(developer)
                 
             for publicher in newGameDetail['games'][str(appID)]['publisher']:
-                if publicher not in newGameDetail['company']:
-                    pubName = publicher
-
-                    if pubName in modifyNames:
-                        pubName = modifyNames[pubName]
-                    elif pubName in skipNames:
-                        continue
-                    elif pubName in failedNames:
-                        continue
-
-                    print('Adding publisher', pubName)
-
-                    pubName.replace(' ', '_')
-
-                    try:
-                        publicherPage = WikipediaAPI.searchForWikiPage(devName)
-                        publicherData = WikipediaAPI.getWikiData(publicherPage)
-
-                        newGameDetail['company'][publicher] = publicherData
-                    except:
-                        companyNames['failed'].append(publicher)
-                        print('Failed to finde: ', publicher)
-                        
-                        writeJson('companyNames', companyNames)
+                addCompany(publicher)
 
 
-            print(f"{i:3} | Skiping: {newGameDetail['games'][str(appID)]['name']}")
+            print(f"{i:3}/{allGamesLen} | Skiping: {newGameDetail['games'][str(appID)]['name']}")
         else:
             gameDetail = SteamAPI.getAppDetail(appID)[str(appID)]
             
@@ -158,9 +136,10 @@ def createGame(newGameDetail):
             
             gameDetail = gameDetail['data']
 
-            print(f"{i:3} | Adding: {gameDetail['name']}")
+            print(f"{i:3}/{allGamesLen} | Adding: {gameDetail['name']}")
 
-            price = convertCurrency(gameDetail['price_overview']['initial'], gameDetail['price_overview']['currency'], gameDetail['price_overview']['final_formatted'])
+            if "price_overview" in gameDetail:
+                price = convertCurrency(gameDetail['price_overview']['initial'], gameDetail['price_overview']['currency'], gameDetail['price_overview']['final_formatted'])
 
             gameDict = {
                 'name': gameDetail['name'],
@@ -189,56 +168,10 @@ def createGame(newGameDetail):
             if gameDict['developer'] != None:
 
                 for developer in gameDict['developer']:
-                    if developer not in newGameDetail['company']:
-                        devName = developer
-
-                        if devName in modifyNames:
-                            devName = modifyNames[devName]
-                        elif devName in skipNames:
-                            continue
-                        elif devName in failedNames:
-                            continue
-
-                        print('Adding developer', devName)
-
-                        devName = devName.replace(" ", "_")
-
-                        try:
-                            developerPage = WikipediaAPI.searchForWikiPage(devName)
-                            developerData = WikipediaAPI.getWikiData(developerPage)
-
-                            newGameDetail['company'][developer] = developerData
-                        except:
-                            companyNames['failed'].append(developer)
-                            print('WikiAPI: Failed to finde', developer)
-
-                            writeJson('companyNames', companyNames)
+                    addCompany(developer)
 
             for publicher in gameDict['publisher']:
-                if publicher not in newGameDetail['company']:
-                    pubName = publicher
-
-                    if pubName in modifyNames:
-                        pubName = modifyNames[pubName]
-                    elif pubName in skipNames:
-                        continue
-                    elif pubName in failedNames:
-                        continue
-
-                    print('Adding publisher', pubName)
-
-                    pubName.replace(' ', '_')
-
-                    try:
-                        publicherPage = WikipediaAPI.searchForWikiPage(devName)
-                        publicherData = WikipediaAPI.getWikiData(publicherPage)
-
-                        newGameDetail['company'][publicher] = publicherData
-                    except:
-                        companyNames['failed'].append(publicher)
-                        print('Failed to finde: ', publicher)
-                        
-                        writeJson('companyNames', companyNames)
+                addCompany(publicher)
 
 
         writeJson('allGamesDetail', newGameDetail)
@@ -247,13 +180,13 @@ def createGame(newGameDetail):
 
     return newGameDetail    
 
-newGameDetail = dict()
-newGameDetail['games'] = dict()
-newGameDetail['company'] = dict()
+#newGameDetail = dict()
+#newGameDetail['games'] = dict()
+#newGameDetail['company'] = dict()
 
 #companyNames = dict()
-
-#newGameDetail = readJson('allGamesDetail')
+#writeJson('All Games', SteamAPI.getOwnedGames())
+newGameDetail = readJson('allGamesDetail')
 writeJson('AllGamesDetail', createGame(newGameDetail))
 
 # MySQL tutorial
