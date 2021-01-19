@@ -77,10 +77,13 @@ def convertCurrency(initialFormat, code, final_formatted):
     }
 
 def convertDateTime(date):
-    patternDate1 = re.compile('^\d{1,2} \w{3},? \d{4}$') # ex: 1 NOV, 2010
+    patternDate1 = re.compile('^\d{1,2} \w{3}, \d{4}$') # ex: 1 NOV, 2010
     patternDate2 = re.compile('^\d{4}$') # ex: 2010
     patternDate3 = re.compile('^[A-Z]\w+ \d{1,2},? \d{4}$') # ex: August 24, 1996
-    patternDate4 = re.compike('^[A-Z]\w+ \w{4}$') #ex: June 2004
+    patternDate4 = re.compile('^[A-Z]\w+ \w{4}$') #ex: June 2004
+    patternDate5 = re.compile('^\w{1,2} [A-Z]\w+, \d{4}') # ex: 5 April, 1997
+    patternData6 = re.compile('^\d{4} \\\\u.{4} \d{1,2} \\\\u.{4} \d{1,2} \\\\u.{4}$') # ex: 2006 \u5e74 11 \u6708 29 \u65e5
+    patternData7 = re.compile('^\d{1,2} \w{3} \d{4}$') # ex: 1 NOV 2010
 
     if patternDate1.match(date):
         date = datetime.datetime.strptime(date, '%d %b, %Y')
@@ -90,8 +93,14 @@ def convertDateTime(date):
         date = datetime.datetime.strptime(date, '%B %d, %Y')
     elif patternDate4.match(date):
         date = dateTime.datetime.strptime(date, '%B %Y')
+    elif patternDate5.match(date):
+        date = dateTime.datetime.strptime(date, '%d %B %Y')
+    elif patternData6.match(date):
+        date = dateTime.datetime.strptime(date, '%Y %% %m %% %d')
+    elif patternData7.match(date):
+        date = dateTime.datetime.strptime(date, '%d %b %Y')
 
-    return date
+    return date.date()
 
 def createGame(newGameDetail):
     allGames = readJson("All games")["response"]["games"]
@@ -121,6 +130,8 @@ def createGame(newGameDetail):
                 companyPage = WikipediaAPI.searchForWikiPage(companyName)
                 companyData = WikipediaAPI.getWikiData(companyPage)
 
+                companyData['founded'] = str(convertDateTime(companyData['founded']))
+
                 newGameDetail['company'][oCompName] = companyData
             except:
                 companyNames['failed'].append(oCompName)
@@ -130,7 +141,7 @@ def createGame(newGameDetail):
 
     i = 0
     for game in allGames:
-        if i == 1000:
+        if i == 50:
             break
 
         appID = int(game["appid"])
@@ -146,7 +157,7 @@ def createGame(newGameDetail):
                 addCompany(publicher)
 
 
-            print(f"{i:3}/{allGamesLen} | Skiping: {newGameDetail['games'][str(appID)]['name']}")
+            print(f"{i + 1:3}/{allGamesLen} | Skiping: {newGameDetail['games'][str(appID)]['name']}")
         else:
             gameDetail = SteamAPI.getAppDetail(appID)[str(appID)]
             
@@ -155,7 +166,7 @@ def createGame(newGameDetail):
             
             gameDetail = gameDetail['data']
 
-            print(f"{i:3}/{allGamesLen} | Adding: {gameDetail['name']}")
+            print(f"{i + 1:3}/{allGamesLen} | Adding: {gameDetail['name']}")
 
             if "price_overview" in gameDetail:
                 price = convertCurrency(gameDetail['price_overview']['initial'], gameDetail['price_overview']['currency'], gameDetail['price_overview']['final_formatted'])
@@ -207,6 +218,7 @@ def createGame(newGameDetail):
 
 #companyNames = dict()
 #writeJson('All Games', SteamAPI.getOwnedGames())
+
 newGameDetail = readJson('allGamesDetail')
 writeJson('AllGamesDetail', createGame(newGameDetail))
 
