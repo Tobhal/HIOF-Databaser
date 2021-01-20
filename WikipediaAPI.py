@@ -87,6 +87,8 @@ def getWikiData2(page):
     for line in job_data:
         line = line.findAll(text=True)
 
+        #print(line)
+
         if not line:
             continue
 
@@ -108,12 +110,19 @@ def getWikiData2(page):
                 dataOut[line[0]] += part
 
         elif line[0] == 'Parent':
+            print('Parent')
+            #dataOut[line[0]] = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
+
             dataOut[line[0]] = ''
             parent = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
 
             for part in parent:
-                if not re.compile('^ ?\(\d+\\\\| u| .+\)').match(part):
+                if not part.contains('\\u2013'):
                     dataOut[line[0]].append(part)
+
+
+#                if not re.compile('^ ?\(\d+\\\\| u| .+\)').match(part):
+#                    dataOut[line[0]].append(part)
 
         elif line[0] == 'Number of employees':
             nummber = line[1]
@@ -128,6 +137,9 @@ def getWikiData2(page):
 
         elif line[0] in dataOut:
             dataOut[line[0]] = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
+
+    print()
+    print()
 
     return dataOut
 

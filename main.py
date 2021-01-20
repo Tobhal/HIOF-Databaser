@@ -77,6 +77,8 @@ def convertCurrency(initialFormat, code, final_formatted):
     }
 
 def convertDateTime(date):
+    print(date)
+
     patternDate1 = re.compile('^\d{1,2} \w{3}, \d{4}$') # ex: 1 NOV, 2010
     patternDate2 = re.compile('^\d{4}$') # ex: 2010
     patternDate3 = re.compile('^[A-Z]\w+ \d{1,2},? \d{4}$') # ex: August 24, 1996
@@ -92,13 +94,15 @@ def convertDateTime(date):
     elif patternDate3.match(date):
         date = datetime.datetime.strptime(date, '%B %d, %Y')
     elif patternDate4.match(date):
-        date = dateTime.datetime.strptime(date, '%B %Y')
+        date = datetime.datetime.strptime(date, '%B %Y')
     elif patternDate5.match(date):
-        date = dateTime.datetime.strptime(date, '%d %B %Y')
+        date = datetime.datetime.strptime(date, '%d %B %Y')
     elif patternData6.match(date):
-        date = dateTime.datetime.strptime(date, '%Y %% %m %% %d')
+        date = datetime.datetime.strptime(date, '%Y %% %m %% %d')
     elif patternData7.match(date):
-        date = dateTime.datetime.strptime(date, '%d %b %Y')
+        date = datetime.datetime.strptime(date, '%d %b %Y')
+
+    print(date)
 
     return date.date()
 
@@ -177,7 +181,7 @@ def createGame(newGameDetail):
                 'developer': (gameDetail['developers']) if "developers" in gameDetail else None,
                 'publisher': gameDetail['publishers'],
                 'platforms': [key for key in gameDetail['platforms'] if gameDetail['platforms'][key] == True],
-                'releaceDate': str(convertDateTime(date)),
+                'releaceDate': str(convertDateTime(date)) if date != '' else None,
                 'categories': ([key['description'] for key in gameDetail['categories']]) if "description" in gameDetail else None,
                 'genres': ([key['description'] for key in gameDetail['genres']]) if "genres" in gameDetail else None,
                 'metacritic': gameDetail['metacritic']['score'] if "metacritic" in gameDetail else None,
