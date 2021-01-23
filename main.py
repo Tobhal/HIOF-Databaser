@@ -130,16 +130,27 @@ def createGame(newGameDetail):
 
             companyName = compName.replace(' ', '_')
 
+            companyPage = None
+
             try:
                 companyPage = WikipediaAPI.searchForWikiPage(companyName)
+            except:
+                print('Failed to fine company page:', oCompName)
+            else:
                 companyData = WikipediaAPI.getWikiData2(companyPage)
 
                 newGameDetail['company'][oCompName] = companyData
-            except:
-                companyNames['failed'].append(oCompName)
-                print('Failed to add company:', compName)
 
-                writeJson('companyNames', companyNames)
+#            try:
+#                companyPage = WikipediaAPI.searchForWikiPage(companyName)
+#                companyData = WikipediaAPI.getWikiData2(companyPage)
+
+#                newGameDetail['company'][oCompName] = companyData
+#            except:
+#                companyNames['failed'].append(oCompName)
+#                print('Failed to add company:', compName)
+
+#                writeJson('companyNames', companyNames)
 
     i = 0
     for game in allGames:
