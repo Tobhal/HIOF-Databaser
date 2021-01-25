@@ -77,8 +77,6 @@ def convertCurrency(initialFormat, code, final_formatted):
     }
 
 def convertDateTime(date):
-    print(date)
-
     patternDate1 = re.compile('^\d{1,2} \w{3}, \d{4}$') # ex: 1 NOV, 2010
     patternDate2 = re.compile('^\d{4}$') # ex: 2010
     patternDate3 = re.compile('^[A-Z]\w+ \d{1,2},? \d{4}$') # ex: August 24, 1996
@@ -101,8 +99,6 @@ def convertDateTime(date):
         date = datetime.datetime.strptime(date, '%Y %% %m %% %d')
     elif patternData7.match(date):
         date = datetime.datetime.strptime(date, '%d %b %Y')
-
-    print(date)
 
     return date.date()
 
@@ -154,7 +150,7 @@ def createGame(newGameDetail):
 
     i = 0
     for game in allGames:
-        if i == 100:
+        if i == 1000:
             break
 
         appID = int(game["appid"])
@@ -234,8 +230,6 @@ def createGame(newGameDetail):
 
 newGameDetail = readJson('allGamesDetail')
 writeJson('AllGamesDetail', createGame(newGameDetail))
-
-# developerData['founded'] = convertDateTime(developerData['founded'])
 
 # MySQL tutorial
 # https://www.datacamp.com/community/tutorials/mysql-python

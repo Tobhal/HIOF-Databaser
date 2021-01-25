@@ -87,8 +87,6 @@ def getWikiData2(page):
     for line in job_data:
         line = line.findAll(text=True)
 
-        #print(line)
-
         if not line:
             continue
 
@@ -116,7 +114,6 @@ def getWikiData2(page):
             parent = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
 
             for part in parent:
-                print(part)
                 if not re.compile('\w').match(part):
                     pass
                 else:
@@ -125,10 +122,26 @@ def getWikiData2(page):
         elif line[0] == 'Number of employees':
             nummber = line[1]
 
+            nummber = nummber.replace(u'\xa0', u' ')
+
+            if re.compile('^\w+ \d+$').match(nummber):
+                nummber = nummber.split()[1]
+
+#            if re.compile('^\[A-z]+.?\[A-z]+.?\[A-z]+$').match(nummber):
+#                nummber = line[2]
+
+#            if re.compile('^[A-z]+ \([A-z]+\)$'):
+#                nummber = line[2]
+
+            if re.compile('^Est.').match(nummber):
+                nummber = str(nummber.split()[1])
+                tmp = nummber.split(',')
+                nummber = tmp[0] + tmp[1]
+
             if re.compile('^~').match(nummber):
                 nummber = nummber.replace('~', '')
             
-            if re.compile('^\d+,?\d+ (.+)').match(nummber):
+            if re.compile('^ ?\d+,?\d+ (.+)').match(nummber):
                 nummber = nummber.split()[0]
 
             if re.compile('^\d+ \(\d+\)').match(nummber):
@@ -137,8 +150,37 @@ def getWikiData2(page):
             if re.compile('\d+.+').match(nummber):
                 nummber = nummber.split()[0]
 
-            if re.compile('-').match(nummber):
-                nummber = re.split('–', nummber)
+            if re.compile('\d+–\d+').match(nummber):
+                nummber = str(int((int(nummber.split('–')[0]) + int(nummber.split('–')[1]) / 2)))
+
+            if re.compile('\d+\+').match(nummber):
+                nummber = nummber.split('+')[0]
+
+            if re.compile('^\d+,\d+\+').match(nummber):
+                nummber = nummber.split('+')[0]
+                tmp = nummber.split(',')
+                nummber = tmp[0] + tmp[1]
+
+            if re.compile(' ?\d+,\d+').match(nummber):
+                tmp = nummber.split(',')
+                nummber = tmp[0] + tmp[1]
+
+            if re.compile('≈\d+ \(\d+\)').match(nummber):
+                nummber = nummber.split('≈')[1]
+                nummber = nummber.split()[0]
+
+            if re.compile('≈\d+').match(nummber):
+                nummber = nummber.split('≈')[1]
+
+            if re.compile('>\d+ \(\d+\)').match(nummber):
+                nummber = nummber.split('>')[1]
+                nummber = nummber.split()[0]
+
+            if re.compile('>\d+').match(nummber):
+                nummber = nummber.split('>')[1]
+
+            if re.compile('<\d+').match(nummber):
+                nummber = nummber.split('<')[1]
 
             dataOut[line[0]] = int(nummber)
 
