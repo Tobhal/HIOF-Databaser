@@ -135,18 +135,20 @@ def createGame(newGameDetail):
             else:
                 companyData = WikipediaAPI.getWikiData2(companyPage)
 
+                companyData['Founded'] = convertDateTime(companyData['Founded']) if companyData['Founded'] not == None
+
                 newGameDetail['company'][oCompName] = companyData
 
-#            try:
-#                companyPage = WikipediaAPI.searchForWikiPage(companyName)
-#                companyData = WikipediaAPI.getWikiData2(companyPage)
+            #try:
+                #companyPage = WikipediaAPI.searchForWikiPage(companyName)
+                #companyData = WikipediaAPI.getWikiData2(companyPage)
 
-#                newGameDetail['company'][oCompName] = companyData
-#            except:
-#                companyNames['failed'].append(oCompName)
-#                print('Failed to add company:', compName)
+                #newGameDetail['company'][oCompName] = companyData
+            #except:
+                #companyNames['failed'].append(oCompName)
+                #print('Failed to add company:', compName)
 
-#                writeJson('companyNames', companyNames)
+                #writeJson('companyNames', companyNames)
 
     i = 0
     for game in allGames:
@@ -198,6 +200,7 @@ def createGame(newGameDetail):
                     "price_NOK": price['priceNOK'] if "price_overview" in gameDetail else None,
                     'currency': gameDetail['price_overview']['currency'] if "price_overview" in gameDetail else None
                 },
+                #'recommendations': gameDetail['recommendations']['score'] if "recommendations" in gameDetail else None,
                 'recommendations': gameDetail['recommendations'] if "recommendations" in gameDetail else None,
                 'numDLC': len(gameDetail['dlc']) if "dlc" in gameDetail else None,
                 'controllerSupport': gameDetail['controller_support'] if "controller_support" in gameDetail else 'none'

@@ -4,7 +4,7 @@ import pretty_errors
 import lxml
 import re
 
-page = requests.get('https://en.wikipedia.org/wiki/CD_Projekt')
+#page = requests.get('https://en.wikipedia.org/wiki/CD_Projekt')
 #page = requests.get('https://en.wikipedia.org/wiki/FromSoftware')
 #page = requests.get('https://en.wikipedia.org/wiki/Ubisoft')
 #page = requests.get('https://en.wikipedia.org/w/index.php?search=Ubisoft')
@@ -186,9 +186,6 @@ def getWikiData2(page):
 
         elif line[0] in dataOut:
             dataOut[line[0]] = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
-
-    print()
-    print()
 
     return dataOut
 

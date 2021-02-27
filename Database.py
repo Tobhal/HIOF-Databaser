@@ -1,5 +1,13 @@
 import mysql.connector
 
+db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password=input("Type password: ")
+)
+
+cursor = db.cursor()
+
 def setUpDatabase():
     pass
 
@@ -11,11 +19,3 @@ def addCompany(company):
 
 def deleteDatabase():
     pass
-
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password=input("Type password: ")
-)
-
-cursor = db.cursor()
