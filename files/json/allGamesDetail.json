@@ -1,0 +1,6370 @@
+{
+  "games": {
+    "10": {
+      "name": "Counter-Strike",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2000-11-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 102410
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "80": {
+      "name": "Counter-Strike: Condition Zero",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2004-03-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 65,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 12962
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "100": {
+      "name": "Counter-Strike: Condition Zero",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2004-03-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 65,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 12962
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "300": {
+      "name": "Day of Defeat: Source",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2010-07-12",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 80,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 9834
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "30": {
+      "name": "Day of Defeat",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2003-05-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 79,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2824
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "40": {
+      "name": "Deathmatch Classic",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2001-06-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1320
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "60": {
+      "name": "Ricochet",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2000-11-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2707
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "240": {
+      "name": "Counter-Strike: Source",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2004-11-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 75909
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "4000": {
+      "name": "Garry's Mod",
+      "gameType": "game",
+      "developer": [
+        "Facepunch Studios"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2006-11-29",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 564276
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "400": {
+      "name": "Portal",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2007-10-10",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 90,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 69115
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "13520": {
+      "name": "Far Cry\u00ae",
+      "gameType": "game",
+      "developer": [
+        "Crytek Studios"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2008-04-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 89,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4876
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "20": {
+      "name": "Team Fortress Classic",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "1999-04-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 3859
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "50": {
+      "name": "Half-Life: Opposing Force",
+      "gameType": "game",
+      "developer": [
+        "Gearbox Software"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "1999-11-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 8699
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "70": {
+      "name": "Half-Life",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "1998-11-08",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 96,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 45158
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "130": {
+      "name": "Half-Life: Blue Shift",
+      "gameType": "game",
+      "developer": [
+        "Gearbox Software"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2001-06-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 71,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 6566
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "220": {
+      "name": "Half-Life 2",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2004-11-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 96,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 87123
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "280": {
+      "name": "Half-Life: Source",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2004-06-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 7255
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "320": {
+      "name": "Half-Life 2: Deathmatch",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2004-11-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 5874
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "340": {
+      "name": "Half-Life 2: Lost Coast",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2005-10-27",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 6496
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "360": {
+      "name": "Half-Life Deathmatch: Source",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2006-05-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2197
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "380": {
+      "name": "Half-Life 2: Episode One",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2006-06-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 87,
+      "price": {
+        "initial": 5800,
+        "final_formatted": 58.0,
+        "price_NOK": 58.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 12148
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "420": {
+      "name": "Half-Life 2: Episode Two",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2007-10-10",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 90,
+      "price": {
+        "initial": 5800,
+        "final_formatted": 58.0,
+        "price_NOK": 58.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 17925
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "19900": {
+      "name": "Far Cry\u00ae 2: Fortune's Edition",
+      "gameType": "game",
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2008-10-22",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 85,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 9039
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "500": {
+      "name": "Left 4 Dead",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2008-11-17",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 89,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 24994
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "10090": {
+      "name": "Call of Duty: World at War",
+      "gameType": "game",
+      "developer": [
+        "Treyarch"
+      ],
+      "publisher": [
+        "Activision"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2008-11-18",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 13999,
+        "final_formatted": 139.99,
+        "price_NOK": 139.99,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 28779
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "6000": {
+      "name": "STAR WARS\u2122 Republic Commando\u2122",
+      "gameType": "game",
+      "developer": [
+        "LucasArts"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-07-08",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 78,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 8969
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "6060": {
+      "name": "Star Wars: Battlefront 2 (Classic, 2005)",
+      "gameType": "game",
+      "developer": [
+        "Pandemic Studios"
+      ],
+      "publisher": [
+        "Lucasfilm",
+        "LucasArts",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-07-08",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 78,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 37137
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "32350": {
+      "name": "STAR WARS\u2122 Starfighter\u2122",
+      "gameType": "game",
+      "developer": [
+        "LucasArts"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-07-08",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Simulation"
+      ],
+      "metacritic": 71,
+      "price": {
+        "initial": 4150,
+        "final_formatted": 41.5,
+        "price_NOK": 41.50000000000001,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 375
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "32400": {
+      "name": "STAR WARS\u2122 - Dark Forces",
+      "gameType": "game",
+      "developer": [
+        "LucasArts"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-09-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 4150,
+        "final_formatted": 41.5,
+        "price_NOK": 41.50000000000001,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1691
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "32380": {
+      "name": "STAR WARS\u2122 Jedi Knight: Dark Forces II",
+      "gameType": "game",
+      "developer": [
+        "LucasArts"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-09-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 91,
+      "price": {
+        "initial": 4150,
+        "final_formatted": 41.5,
+        "price_NOK": 41.50000000000001,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1195
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "32390": {
+      "name": "STAR WARS\u2122 Jedi Knight - Mysteries of the Sith\u2122",
+      "gameType": "game",
+      "developer": [
+        "LucasArts"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-09-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 2050,
+        "final_formatted": 20.5,
+        "price_NOK": 20.5,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 639
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "6020": {
+      "name": "STAR WARS\u2122 Jedi Knight - Jedi Academy\u2122",
+      "gameType": "game",
+      "developer": [
+        "Raven Software"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-09-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 81,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 8387
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "6030": {
+      "name": "STAR WARS\u2122 Jedi Knight II - Jedi Outcast\u2122",
+      "gameType": "game",
+      "developer": [
+        "Raven Software"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-09-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 89,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2819
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "32420": {
+      "name": "STAR WARS\u2122: The Clone Wars - Republic Heroes\u2122",
+      "gameType": "game",
+      "developer": [
+        "Krome Studios"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-10-06",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 46,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 520
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "10180": {
+      "name": "Call of Duty\u00ae: Modern Warfare\u00ae 2",
+      "gameType": "game",
+      "developer": [
+        "Infinity Ward"
+      ],
+      "publisher": [
+        "Activision"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-11-11",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 86,
+      "price": {
+        "initial": 13999,
+        "final_formatted": 139.99,
+        "price_NOK": 139.99,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 19639
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "10190": {
+      "name": "Call of Duty\u00ae: Modern Warfare\u00ae 2",
+      "gameType": "game",
+      "developer": [
+        "Infinity Ward"
+      ],
+      "publisher": [
+        "Activision"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-11-11",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 86,
+      "price": {
+        "initial": 13999,
+        "final_formatted": 139.99,
+        "price_NOK": 139.99,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 19639
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "40400": {
+      "name": "AI War: Fleet Command",
+      "gameType": "game",
+      "developer": [
+        "Arcen Games, LLC"
+      ],
+      "publisher": [
+        "Arcen Games, LLC"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2009-10-21",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": 80,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 914
+      },
+      "numDLC": 6,
+      "controllerSupport": "none"
+    },
+    "32440": {
+      "name": "LEGO\u00ae Star Wars\u2122 - The Complete Saga",
+      "gameType": "game",
+      "developer": [
+        "Traveller's Tales"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-11-12",
+      "categories": null,
+      "genres": [
+        "Adventure"
+      ],
+      "metacritic": 77,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 9981
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "550": {
+      "name": "Left 4 Dead 2",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2009-11-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 89,
+      "price": {
+        "initial": 1050000,
+        "final_formatted": 1050.0,
+        "price_NOK": 8.071308988176206,
+        "currency": "KRW"
+      },
+      "recommendations": {
+        "total": 317702
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "32430": {
+      "name": "STAR WARS\u2122 - The Force Unleashed\u2122 Ultimate Sith Edition",
+      "gameType": "game",
+      "developer": [
+        "LucasArts"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-12-15",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 65,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4510
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "24960": {
+      "name": "Battlefield: Bad Company\u2122 2",
+      "gameType": "game",
+      "developer": [
+        "DICE"
+      ],
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2010-03-02",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 87,
+      "price": {
+        "initial": 19900,
+        "final_formatted": 199.0,
+        "price_NOK": 199.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 28553
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "32470": {
+      "name": "STAR WARS\u2122 Empire at War - Gold Pack",
+      "gameType": "game",
+      "developer": [
+        "Petroglyph"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2010-05-25",
+      "categories": null,
+      "genres": [
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 18337
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "70300": {
+      "name": "VVVVVV",
+      "gameType": "game",
+      "developer": [
+        "Terry Cavanagh"
+      ],
+      "publisher": [
+        "Terry Cavanagh"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2010-09-07",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": 81,
+      "price": {
+        "initial": 3600,
+        "final_formatted": 36.0,
+        "price_NOK": 36.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4781
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "32500": {
+      "name": "STAR WARS\u2122: The Force Unleashed\u2122 II",
+      "gameType": "game",
+      "developer": [
+        "Aspyr Studios"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2010-12-01",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 59,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 3671
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "620": {
+      "name": "Portal 2",
+      "gameType": "game",
+      "developer": [
+        "Valve"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2011-04-18",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": 95,
+      "price": {
+        "initial": 1050000,
+        "final_formatted": 1050.0,
+        "price_NOK": 8.071308988176206,
+        "currency": "KRW"
+      },
+      "recommendations": {
+        "total": 187000
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "55040": {
+      "name": "Atom Zombie Smasher",
+      "gameType": "game",
+      "developer": [
+        "Blendo Games"
+      ],
+      "publisher": [
+        "Blendo Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2011-03-14",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": 75,
+      "price": {
+        "initial": 1450,
+        "final_formatted": 14.5,
+        "price_NOK": 95.19500829822546,
+        "currency": "AUD"
+      },
+      "recommendations": {
+        "total": 900
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "32510": {
+      "name": "LEGO\u00ae Star Wars\u2122 III - The Clone Wars\u2122",
+      "gameType": "game",
+      "developer": [
+        "Traveller's Tales"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Lucasfilm",
+        "Disney"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2011-03-22",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": 76,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2854
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "104600": {
+      "name": "Portal 2 - The Final Hours",
+      "gameType": "game",
+      "developer": [
+        "Geoff Keighley"
+      ],
+      "publisher": [
+        "Geoff Keighley"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2011-05-17",
+      "categories": null,
+      "genres": null,
+      "metacritic": null,
+      "price": {
+        "initial": 1550,
+        "final_formatted": 15.5,
+        "price_NOK": 15.5,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 495
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "22000": {
+      "name": "World of Goo",
+      "gameType": "game",
+      "developer": [
+        "2D BOY"
+      ],
+      "publisher": [
+        "2D BOY "
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2008-10-13",
+      "categories": null,
+      "genres": [
+        "Indie"
+      ],
+      "metacritic": 90,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 3208
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "7760": {
+      "name": "X-COM: UFO Defense",
+      "gameType": "game",
+      "developer": [
+        "MicroProse Software, Inc"
+      ],
+      "publisher": [
+        "2K"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2008-09-04",
+      "categories": null,
+      "genres": [
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3600,
+        "final_formatted": 36.0,
+        "price_NOK": 36.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2263
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "24240": {
+      "name": "PAYDAY\u2122 The Heist",
+      "gameType": "game",
+      "developer": [
+        "OVERKILL Software"
+      ],
+      "publisher": [
+        "Daybreak Game Company"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2011-10-20",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 76,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 18335
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "8930": {
+      "name": "Sid Meier's Civilization\u00ae V",
+      "gameType": "game",
+      "developer": [
+        "Firaxis Games",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "publisher": [
+        "2K",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2010-09-23",
+      "categories": null,
+      "genres": [
+        "Strategy"
+      ],
+      "metacritic": 90,
+      "price": {
+        "initial": 20000,
+        "final_formatted": 200.0,
+        "price_NOK": 200.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 106267
+      },
+      "numDLC": 15,
+      "controllerSupport": "none"
+    },
+    "65800": {
+      "name": "Dungeon Defenders",
+      "gameType": "game",
+      "developer": [
+        "Trendy Entertainment"
+      ],
+      "publisher": [
+        "Trendy Entertainment"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2011-10-18",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "metacritic": 81,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 8721
+      },
+      "numDLC": 25,
+      "controllerSupport": "full"
+    },
+    "102600": {
+      "name": "Orcs Must Die!",
+      "gameType": "game",
+      "developer": [
+        "Robot Entertainment"
+      ],
+      "publisher": [
+        "Robot Entertainment"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2011-10-11",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4811
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "72850": {
+      "name": "The Elder Scrolls V: Skyrim",
+      "gameType": "game",
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2011-11-10",
+      "categories": null,
+      "genres": [
+        "RPG"
+      ],
+      "metacritic": 94,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 174347
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "207650": {
+      "name": "A Virus Named TOM",
+      "gameType": "game",
+      "developer": [
+        "Misfits Attic"
+      ],
+      "publisher": [
+        "Misfits Attic"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-08-01",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": 65,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": null,
+      "numDLC": 2,
+      "controllerSupport": "full"
+    },
+    "208580": {
+      "name": "STAR WARS\u2122 Knights of the Old Republic\u2122 II - The Sith Lords\u2122",
+      "gameType": "game",
+      "developer": [
+        "Obsidian Entertainment",
+        "Aspyr (Mac, Linux, & Windows Update)"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Disney",
+        "Lucasfilm",
+        "Aspyr (Mac, Linux)"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-08-23",
+      "categories": null,
+      "genres": [
+        "RPG"
+      ],
+      "metacritic": 85,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 14403
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "63380": {
+      "name": "Sniper Elite V2",
+      "gameType": "game",
+      "developer": [
+        "Rebellion"
+      ],
+      "publisher": [
+        "Rebellion"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": null,
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 66,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 5165
+      },
+      "numDLC": 4,
+      "controllerSupport": "none"
+    },
+    "204060": {
+      "name": "Superbrothers: Sword & Sworcery EP",
+      "gameType": "game",
+      "developer": [
+        "Capybara",
+        "Superbrothers",
+        "Jim Guthrie"
+      ],
+      "publisher": [
+        "Capybara Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-04-16",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 5600,
+        "final_formatted": 56.0,
+        "price_NOK": 56.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1227
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "32370": {
+      "name": "STAR WARS\u2122 - Knights of the Old Republic\u2122",
+      "gameType": "game",
+      "developer": [
+        "BioWare",
+        "Aspyr (Mac)"
+      ],
+      "publisher": [
+        "LucasArts",
+        "Aspyr (Mac)",
+        "Disney",
+        "Lucasfilm"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-09-05",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 18859
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "210170": {
+      "name": "Spirits",
+      "gameType": "game",
+      "developer": [
+        "Spaces of Play UG"
+      ],
+      "publisher": [
+        "Spaces of Play UG"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-09-04",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3100,
+        "final_formatted": 31.0,
+        "price_NOK": 31.0,
+        "currency": "NOK"
+      },
+      "recommendations": null,
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "201790": {
+      "name": "Orcs Must Die! 2",
+      "gameType": "game",
+      "developer": [
+        "Robot Entertainment"
+      ],
+      "publisher": [
+        "Robot Entertainment"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2012-07-30",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 10682
+      },
+      "numDLC": 4,
+      "controllerSupport": "full"
+    },
+    "209080": {
+      "name": "Guns of Icarus Online",
+      "gameType": "game",
+      "developer": [
+        "Muse Games"
+      ],
+      "publisher": [
+        "Muse Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-10-29",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": 64,
+      "price": {
+        "initial": 3600,
+        "final_formatted": 36.0,
+        "price_NOK": 36.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 8294
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "27400": {
+      "name": "Dangerous High School Girls in Trouble!\u2122",
+      "gameType": "game",
+      "developer": [
+        "Mousechief"
+      ],
+      "publisher": [
+        "Mousechief"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2009-02-23",
+      "categories": null,
+      "genres": [
+        "RPG",
+        "Indie",
+        "Casual"
+      ],
+      "metacritic": 81,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": null,
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "730": {
+      "name": "Counter-Strike: Global Offensive",
+      "gameType": "game",
+      "developer": [
+        "Valve",
+        "Hidden Path Entertainment"
+      ],
+      "publisher": [
+        "Valve"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-08-21",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Free to Play"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 3013341
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "214700": {
+      "name": "Thirty Flights of Loving",
+      "gameType": "game",
+      "developer": [
+        "Blendo Games"
+      ],
+      "publisher": [
+        "Blendo Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2012-08-20",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 3600,
+        "final_formatted": 36.0,
+        "price_NOK": 36.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1097
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "215510": {
+      "name": "Rocketbirds: Hardboiled Chicken",
+      "gameType": "game",
+      "developer": [
+        "Ratloop Asia"
+      ],
+      "publisher": [
+        "Reverb Publishing"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-10-15",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 74,
+      "price": {
+        "initial": 3600,
+        "final_formatted": 36.0,
+        "price_NOK": 36.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1786
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "200510": {
+      "name": "XCOM: Enemy Unknown",
+      "gameType": "game",
+      "developer": [
+        "Firaxis Games",
+        "Feral Interactive (Linux)"
+      ],
+      "publisher": [
+        "2K",
+        "Feral Interactive (Linux)"
+      ],
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "releaceDate": "2012-10-11",
+      "categories": null,
+      "genres": [
+        "Strategy"
+      ],
+      "metacritic": 89,
+      "price": {
+        "initial": 20000,
+        "final_formatted": 200.0,
+        "price_NOK": 200.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 30718
+      },
+      "numDLC": 3,
+      "controllerSupport": "full"
+    },
+    "219150": {
+      "name": "Hotline Miami",
+      "gameType": "game",
+      "developer": [
+        "Dennaton Games"
+      ],
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-10-23",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": 85,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 50461
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "57690": {
+      "name": "Tropico 4",
+      "gameType": "game",
+      "developer": [
+        "Haemimont Games"
+      ],
+      "publisher": [
+        "Kalypso Media Digital"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2011-09-01",
+      "categories": null,
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": 78,
+      "price": {
+        "initial": 13900,
+        "final_formatted": 139.0,
+        "price_NOK": 139.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 7144
+      },
+      "numDLC": 11,
+      "controllerSupport": "none"
+    },
+    "3700": {
+      "name": "Sniper Elite",
+      "gameType": "game",
+      "developer": [
+        "Rebellion"
+      ],
+      "publisher": [
+        "Rebellion"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2009-07-16",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": 76,
+      "price": {
+        "initial": 5600,
+        "final_formatted": 56.0,
+        "price_NOK": 56.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1872
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "214510": {
+      "name": "LEGO\u00ae The Lord of the Rings\u2122",
+      "gameType": "game",
+      "developer": [
+        "Traveller's Tales"
+      ],
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2012-11-27",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": 80,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 3914
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "221640": {
+      "name": "Super Hexagon",
+      "gameType": "game",
+      "developer": [
+        "Terry Cavanagh"
+      ],
+      "publisher": [
+        "Terry Cavanagh"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-11-27",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 2000,
+        "final_formatted": 20.0,
+        "price_NOK": 20.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 16037
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "220700": {
+      "name": "RPG Maker VX Ace",
+      "gameType": "game",
+      "developer": [
+        "Gotcha Gotcha Games",
+        "KADOKAWA",
+        "Yoji Ojima"
+      ],
+      "publisher": [
+        "Degica"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2012-12-10",
+      "categories": null,
+      "genres": [
+        "Design & Illustration",
+        "Web Publishing"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 48000,
+        "final_formatted": 480.0,
+        "price_NOK": 480.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2622
+      },
+      "numDLC": 301,
+      "controllerSupport": "none"
+    },
+    "4570": {
+      "name": "Warhammer\u00ae 40,000: Dawn of War\u00ae - Game of the Year Edition",
+      "gameType": "game",
+      "developer": [
+        "Relic Entertainment"
+      ],
+      "publisher": [
+        "SEGA"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2007-08-07",
+      "categories": null,
+      "genres": [
+        "Strategy"
+      ],
+      "metacritic": 86,
+      "price": {
+        "initial": 8599,
+        "final_formatted": 85.99,
+        "price_NOK": 85.98999999999998,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4082
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "227200": {
+      "name": "Waking Mars",
+      "gameType": "game",
+      "developer": [
+        "Tiger Style"
+      ],
+      "publisher": [
+        "Tiger Style"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-12-13",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 79,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 590
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "224540": {
+      "name": "Ace of Spades: Battle Builder",
+      "gameType": "game",
+      "developer": [
+        "Jagex Limited"
+      ],
+      "publisher": [
+        "Jagex Limited"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": null,
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 12999
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "227300": {
+      "name": "Euro Truck Simulator 2",
+      "gameType": "game",
+      "developer": [
+        "SCS Software"
+      ],
+      "publisher": [
+        "SCS Software"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-10-12",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": 79,
+      "price": {
+        "initial": 2350000,
+        "final_formatted": 2350.0,
+        "price_NOK": 18.06435821163246,
+        "currency": "KRW"
+      },
+      "recommendations": {
+        "total": 299253
+      },
+      "numDLC": 73,
+      "controllerSupport": "none"
+    },
+    "203290": {
+      "name": "America's Army: Proving Grounds",
+      "gameType": "game",
+      "developer": [
+        "U.S. Army"
+      ],
+      "publisher": [
+        "U.S. Army"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2013-08-01",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Free to Play"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 142
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "205710": {
+      "name": "EverQuest",
+      "gameType": "game",
+      "developer": [
+        "Darkpaw Games"
+      ],
+      "publisher": [
+        "Daybreak Game Company"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2012-12-13",
+      "categories": null,
+      "genres": [
+        "Free to Play",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": null,
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "212070": {
+      "name": "Star Conflict",
+      "gameType": "game",
+      "developer": [
+        "Star Gem Inc."
+      ],
+      "publisher": [
+        "Gaijin Distribution KFT"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2013-02-27",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Free to Play",
+        "Massively Multiplayer",
+        "Simulation"
+      ],
+      "metacritic": 75,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 206
+      },
+      "numDLC": 38,
+      "controllerSupport": "none"
+    },
+    "218230": {
+      "name": "PlanetSide 2",
+      "gameType": "game",
+      "developer": [
+        "Rogue Planet Games"
+      ],
+      "publisher": [
+        "Daybreak Game Company"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2012-11-20",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Free to Play",
+        "Massively Multiplayer"
+      ],
+      "metacritic": 84,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 631
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "236390": {
+      "name": "War Thunder",
+      "gameType": "game",
+      "developer": [
+        "Gaijin Entertainment"
+      ],
+      "publisher": [
+        "Gaijin Distribution KFT"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2013-08-15",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Free to Play",
+        "Massively Multiplayer",
+        "Simulation"
+      ],
+      "metacritic": 81,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 1636
+      },
+      "numDLC": 18,
+      "controllerSupport": "none"
+    },
+    "39000": {
+      "name": "Moonbase Alpha",
+      "gameType": "game",
+      "developer": [
+        "Virtual Heroes",
+        "Army Game Studio"
+      ],
+      "publisher": [
+        "NASA"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2010-07-06",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 182
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "248570": {
+      "name": "Toribash",
+      "gameType": "game",
+      "developer": [
+        "Nabi Studios"
+      ],
+      "publisher": [
+        "Nicalis, Inc."
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-05-16",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Free to Play",
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 162
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "262410": {
+      "name": "World of Guns: Gun Disassembly",
+      "gameType": "game",
+      "developer": [
+        "Noble Empire Corp."
+      ],
+      "publisher": [
+        "Noble Empire Corp."
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-05-21",
+      "categories": null,
+      "genres": [
+        "Free to Play",
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 293
+      },
+      "numDLC": 25,
+      "controllerSupport": "none"
+    },
+    "223750": {
+      "name": "DCS World Steam Edition",
+      "gameType": "game",
+      "developer": [
+        "Eagle Dynamics SA"
+      ],
+      "publisher": [
+        ""
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2013-08-02",
+      "categories": null,
+      "genres": [
+        "Free to Play",
+        "Simulation"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 369
+      },
+      "numDLC": 86,
+      "controllerSupport": "none"
+    },
+    "232910": {
+      "name": "TrackMania\u00b2 Stadium",
+      "gameType": "game",
+      "developer": [
+        "Nadeo"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2013-06-20",
+      "categories": null,
+      "genres": [
+        "Racing",
+        "Sports"
+      ],
+      "metacritic": 77,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4490
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "233450": {
+      "name": "Prison Architect",
+      "gameType": "game",
+      "developer": [
+        "Double Eleven",
+        "Introversion Software"
+      ],
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-10-06",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 20700,
+        "final_formatted": 207.0,
+        "price_NOK": 207.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 44326
+      },
+      "numDLC": 5,
+      "controllerSupport": "none"
+    },
+    "226740": {
+      "name": "Monster Loves You!",
+      "gameType": "game",
+      "developer": [
+        "Radial Games Corp",
+        "Dejobaan Games, LLC"
+      ],
+      "publisher": [
+        "Radial Games Corp"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2013-03-18",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 795
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "31280": {
+      "name": "Poker Night at the Inventory",
+      "gameType": "game",
+      "developer": [
+        "Telltale Games"
+      ],
+      "publisher": [
+        ""
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2010-11-22",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Sports"
+      ],
+      "metacritic": 71,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 5912
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "234710": {
+      "name": "Poker Night 2",
+      "gameType": "game",
+      "developer": [
+        "Telltale Games"
+      ],
+      "publisher": [
+        "Telltale Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2013-04-26",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Sports"
+      ],
+      "metacritic": 75,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 4912
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "44350": {
+      "name": "GRID 2",
+      "gameType": "game",
+      "developer": [
+        "Codemasters Racing"
+      ],
+      "publisher": [
+        "Codemasters"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": null,
+      "categories": null,
+      "genres": [
+        "Racing",
+        "Sports"
+      ],
+      "metacritic": 80,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 7863
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "222480": {
+      "name": "Resident Evil Revelations",
+      "gameType": "game",
+      "developer": [
+        "Capcom"
+      ],
+      "publisher": [
+        "Capcom"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2013-05-23",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": 77,
+      "price": {
+        "initial": 20999,
+        "final_formatted": 209.99,
+        "price_NOK": 209.99,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 5117
+      },
+      "numDLC": 7,
+      "controllerSupport": "full"
+    },
+    "220200": {
+      "name": "Kerbal Space Program",
+      "gameType": "game",
+      "developer": [
+        "Squad"
+      ],
+      "publisher": [
+        "Private Division "
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-04-27",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 33000,
+        "final_formatted": 330.0,
+        "price_NOK": 330.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 70727
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "35450": {
+      "name": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
+      "gameType": "game",
+      "developer": [
+        "Tripwire Interactive"
+      ],
+      "publisher": [
+        "Tripwire Interactive"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2011-09-13",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Massively Multiplayer",
+        "Simulation"
+      ],
+      "metacritic": 76,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 21428
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "242760": {
+      "name": "The Forest",
+      "gameType": "game",
+      "developer": [
+        "Endnight Games Ltd"
+      ],
+      "publisher": [
+        "Endnight Games Ltd"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2018-04-30",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 212134
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "242860": {
+      "name": "Verdun",
+      "gameType": "game",
+      "developer": [
+        "M2H",
+        "Blackmill Games"
+      ],
+      "publisher": [
+        "M2H"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-04-28",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Massively Multiplayer",
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": 70,
+      "price": {
+        "initial": 14500,
+        "final_formatted": 145.0,
+        "price_NOK": 145.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 25813
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "243160": {
+      "name": "Mushroom 11",
+      "gameType": "game",
+      "developer": [
+        "Untame"
+      ],
+      "publisher": [
+        "Untame"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-10-15",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 78,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 114
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "204530": {
+      "name": "Infested Planet",
+      "gameType": "game",
+      "developer": [
+        "Rocket Bear Games"
+      ],
+      "publisher": [
+        "Rocket Bear Games"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2014-03-06",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": 75,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1984
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "246680": {
+      "name": "Secrets of R\u00e6tikon",
+      "gameType": "game",
+      "developer": [
+        "Broken Rules"
+      ],
+      "publisher": [
+        "Broken Rules"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-04-17",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 156
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "214770": {
+      "name": "Guacamelee! Gold Edition",
+      "gameType": "game",
+      "developer": [
+        "DrinkBox Studios"
+      ],
+      "publisher": [
+        "DrinkBox Studios"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2013-08-08",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2768
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "239350": {
+      "name": "Spelunky",
+      "gameType": "game",
+      "developer": [
+        "Mossmouth"
+      ],
+      "publisher": [
+        "Mossmouth"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2013-08-08",
+      "categories": null,
+      "genres": [
+        "Indie"
+      ],
+      "metacritic": 90,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 12090
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "218620": {
+      "name": "PAYDAY 2",
+      "gameType": "game",
+      "developer": [
+        "OVERKILL - a Starbreeze Studio."
+      ],
+      "publisher": [
+        "Starbreeze Publishing AB"
+      ],
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "releaceDate": "2013-08-13",
+      "categories": null,
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "metacritic": 79,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 307092
+      },
+      "numDLC": 64,
+      "controllerSupport": "full"
+    },
+    "235600": {
+      "name": "Tom Clancy\u2019s Splinter Cell Blacklist",
+      "gameType": "game",
+      "developer": [
+        "Ubisoft Toronto"
+      ],
+      "publisher": [
+        "Ubisoft"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2013-08-22",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 19900,
+        "final_formatted": 199.0,
+        "price_NOK": 199.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 12479
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "232810": {
+      "name": "Godus",
+      "gameType": "game",
+      "developer": [
+        "22cans"
+      ],
+      "publisher": [
+        "22cans Ltd."
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": null,
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 5701
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "422420": {
+      "name": "Godus Wars",
+      "gameType": "game",
+      "developer": [
+        "22cans"
+      ],
+      "publisher": [
+        "22cans"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2016-02-03",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 413
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "251130": {
+      "name": "Chroma Squad",
+      "gameType": "game",
+      "developer": [
+        "Behold Studios"
+      ],
+      "publisher": [
+        "Behold Studios"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-04-30",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "metacritic": 75,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2097
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "251570": {
+      "name": "7 Days to Die",
+      "gameType": "game",
+      "developer": [
+        "The Fun Pimps"
+      ],
+      "publisher": [
+        "The Fun Pimps Entertainment LLC"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2013-12-13",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 17000,
+        "final_formatted": 170.0,
+        "price_NOK": 169.99999999999997,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 110950
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "252430": {
+      "name": "Dusty Revenge:Co-Op Edition",
+      "gameType": "game",
+      "developer": [
+        "PD Design Studio"
+      ],
+      "publisher": [
+        "PD Design Studio"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2014-02-17",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": null,
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "252490": {
+      "name": "Rust",
+      "gameType": "game",
+      "developer": [
+        "Facepunch Studios"
+      ],
+      "publisher": [
+        "Facepunch Studios"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2018-02-08",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "metacritic": 69,
+      "price": {
+        "initial": 27900,
+        "final_formatted": 279.0,
+        "price_NOK": 279.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 451378
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "252850": {
+      "name": "Streamline",
+      "gameType": "game",
+      "developer": [
+        "Proletariat Inc."
+      ],
+      "publisher": [
+        "Proletariat Inc."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2016-09-30",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Sports",
+        "Early Access"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": null,
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "252950": {
+      "name": "Rocket League\u00ae",
+      "gameType": "game",
+      "developer": [
+        "Psyonix LLC"
+      ],
+      "publisher": [
+        "Psyonix LLC"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2015-07-06",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing",
+        "Sports"
+      ],
+      "metacritic": 86,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 381514
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "254320": {
+      "name": "Duskers",
+      "gameType": "game",
+      "developer": [
+        "Misfits Attic"
+      ],
+      "publisher": [
+        "Misfits Attic"
+      ],
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "releaceDate": "2016-05-18",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1439
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "205100": {
+      "name": "Dishonored",
+      "gameType": "game",
+      "developer": [
+        "Arkane Studios"
+      ],
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2012-10-11",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": 91,
+      "price": {
+        "initial": 8499,
+        "final_formatted": 84.99,
+        "price_NOK": 84.99,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 42789
+      },
+      "numDLC": 5,
+      "controllerSupport": "full"
+    },
+    "255220": {
+      "name": "GRID Autosport",
+      "gameType": "game",
+      "developer": [
+        "Codemasters Racing",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)"
+      ],
+      "publisher": [
+        "Codemasters",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-06-26",
+      "categories": null,
+      "genres": [
+        "Racing",
+        "Sports"
+      ],
+      "metacritic": 78,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 4957
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "107410": {
+      "name": "Arma 3",
+      "gameType": "game",
+      "developer": [
+        "Bohemia Interactive"
+      ],
+      "publisher": [
+        "Bohemia Interactive"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2013-09-12",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": 74,
+      "price": {
+        "initial": 2799,
+        "final_formatted": 27.99,
+        "price_NOK": 287.87715,
+        "currency": "EUR"
+      },
+      "recommendations": {
+        "total": 135849
+      },
+      "numDLC": 15,
+      "controllerSupport": "none"
+    },
+    "257850": {
+      "name": "Hyper Light Drifter",
+      "gameType": "game",
+      "developer": [
+        "Heart Machine"
+      ],
+      "publisher": [
+        "Heart Machine"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2016-03-31",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "metacritic": 84,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 11295
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "238930": {
+      "name": "7 Grand Steps: What Ancients Begat",
+      "gameType": "game",
+      "developer": [
+        "Mousechief"
+      ],
+      "publisher": [
+        "Mousechief"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2013-06-07",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 286
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "49520": {
+      "name": "Borderlands 2",
+      "gameType": "game",
+      "developer": [
+        "Gearbox Software",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "publisher": [
+        "2K",
+        "Aspyr (Mac)",
+        "Aspyr (Linux)"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2012-09-20",
+      "categories": null,
+      "genres": [
+        "Action",
+        "RPG"
+      ],
+      "metacritic": 89,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 164240
+      },
+      "numDLC": 48,
+      "controllerSupport": "full"
+    },
+    "94400": {
+      "name": "Nidhogg",
+      "gameType": "game",
+      "developer": [
+        "Messhof"
+      ],
+      "publisher": [
+        "Messhof"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2014-01-13",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Sports"
+      ],
+      "metacritic": 81,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4973
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "221910": {
+      "name": "The Stanley Parable",
+      "gameType": "game",
+      "developer": [
+        "Galactic Cafe"
+      ],
+      "publisher": [
+        "Galactic Cafe"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2013-10-17",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 34307
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "263460": {
+      "name": "Girls Like Robots",
+      "gameType": "game",
+      "developer": [
+        "Popcannibal"
+      ],
+      "publisher": [
+        "Popcannibal"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-02-14",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 5000,
+        "final_formatted": 50.0,
+        "price_NOK": 50.0,
+        "currency": "NOK"
+      },
+      "recommendations": null,
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "263760": {
+      "name": "Turbo Dismount\u2122",
+      "gameType": "game",
+      "developer": [
+        "Secret Exit Ltd."
+      ],
+      "publisher": [
+        "Secret Exit Ltd."
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2014-05-21",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4199
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "264710": {
+      "name": "Subnautica",
+      "gameType": "game",
+      "developer": [
+        "Unknown Worlds Entertainment"
+      ],
+      "publisher": [
+        "Unknown Worlds Entertainment"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2018-01-23",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 87,
+      "price": {
+        "initial": 28500,
+        "final_formatted": 285.0,
+        "price_NOK": 285.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 143014
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "266110": {
+      "name": "Tower of Guns",
+      "gameType": "game",
+      "developer": [
+        "Terrible Posture Games"
+      ],
+      "publisher": [
+        "Versus Evil"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-03-04",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": 76,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 411
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "267530": {
+      "name": "The LEGO\u00ae Movie - Videogame",
+      "gameType": "game",
+      "developer": [
+        "TT Fusion",
+        "Traveller's Tales"
+      ],
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2014-02-27",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1769
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "25000": {
+      "name": "Overgrowth",
+      "gameType": "game",
+      "developer": [
+        "Wolfire Games"
+      ],
+      "publisher": [
+        "Wolfire Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2017-10-16",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 20700,
+        "final_formatted": 207.0,
+        "price_NOK": 207.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 3740
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "234190": {
+      "name": "Receiver",
+      "gameType": "game",
+      "developer": [
+        "Wolfire Games"
+      ],
+      "publisher": [
+        "Wolfire Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2013-04-29",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3700,
+        "final_formatted": 37.0,
+        "price_NOK": 37.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2355
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "268910": {
+      "name": "Cuphead",
+      "gameType": "game",
+      "developer": [
+        "Studio MDHR Entertainment Inc."
+      ],
+      "publisher": [
+        "Studio MDHR Entertainment Inc."
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2017-09-29",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": 88,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 61637
+      },
+      "numDLC": 2,
+      "controllerSupport": "full"
+    },
+    "269170": {
+      "name": "Sports Bar VR",
+      "gameType": "game",
+      "developer": [
+        "Cherry Pop Games",
+        "Perilous Orbit"
+      ],
+      "publisher": [
+        "Perilous Orbit"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2016-06-01",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Sports",
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 731
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "269790": {
+      "name": "DreadOut",
+      "gameType": "game",
+      "developer": [
+        "Digital Happiness"
+      ],
+      "publisher": [
+        "Digital Happiness"
+      ],
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "releaceDate": "2014-05-15",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 55,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 3378
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "270130": {
+      "name": "The Gallery - Episode 1: Call of the Starseed",
+      "gameType": "game",
+      "developer": [
+        "Cloudhead Games ltd."
+      ],
+      "publisher": [
+        "Cloudhead Games ltd."
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2016-04-05",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "metacritic": 79,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 968
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "270150": {
+      "name": "RUNNING WITH RIFLES",
+      "gameType": "game",
+      "developer": [
+        "Osumia Games"
+      ],
+      "publisher": [
+        "Osumia Games"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-04-02",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": 78,
+      "price": {
+        "initial": 12000,
+        "final_formatted": 120.0,
+        "price_NOK": 120.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 6951
+      },
+      "numDLC": 3,
+      "controllerSupport": "none"
+    },
+    "270450": {
+      "name": "Robot Roller-Derby Disco Dodgeball",
+      "gameType": "game",
+      "developer": [
+        "Erik Asmussen"
+      ],
+      "publisher": [
+        "82 Apps"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-02-19",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Sports"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 7000,
+        "final_formatted": 70.0,
+        "price_NOK": 70.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2181
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "271590": {
+      "name": "Grand Theft Auto V",
+      "gameType": "game",
+      "developer": [
+        "Rockstar North"
+      ],
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2015-04-13",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": 96,
+      "price": {
+        "initial": null,
+        "final_formatted": null,
+        "price_NOK": null,
+        "currency": null
+      },
+      "recommendations": {
+        "total": 928172
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "228380": {
+      "name": "Wreckfest",
+      "gameType": "game",
+      "developer": [
+        "Bugbear"
+      ],
+      "publisher": [
+        "THQ Nordic"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2018-06-14",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie",
+        "Racing",
+        "Simulation",
+        "Sports"
+      ],
+      "metacritic": 81,
+      "price": {
+        "initial": 28900,
+        "final_formatted": 289.0,
+        "price_NOK": 289.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 18184
+      },
+      "numDLC": 13,
+      "controllerSupport": "none"
+    },
+    "224480": {
+      "name": "Octodad: Dadliest Catch",
+      "gameType": "game",
+      "developer": [
+        "Young Horses"
+      ],
+      "publisher": [
+        "Young Horses"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-01-30",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 69,
+      "price": {
+        "initial": 8200,
+        "final_formatted": 82.0,
+        "price_NOK": 82.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 6824
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "274170": {
+      "name": "Hotline Miami 2: Wrong Number",
+      "gameType": "game",
+      "developer": [
+        "Dennaton Games"
+      ],
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-03-10",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 12995,
+        "final_formatted": 129.95,
+        "price_NOK": 129.95,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 28878
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "274190": {
+      "name": "Broforce",
+      "gameType": "game",
+      "developer": [
+        "Free Lives"
+      ],
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2015-10-15",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "metacritic": 83,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 33194
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "275390": {
+      "name": "Guacamelee! Super Turbo Championship Edition",
+      "gameType": "game",
+      "developer": [
+        "DrinkBox Studios"
+      ],
+      "publisher": [
+        "DrinkBox Studios"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2014-08-21",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": 80,
+      "price": {
+        "initial": 10300,
+        "final_formatted": 103.0,
+        "price_NOK": 103.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1757
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "278100": {
+      "name": "RIVE: Wreck, Hack, Die, Retry!",
+      "gameType": "game",
+      "developer": [
+        "Two Tribes"
+      ],
+      "publisher": [
+        "Two Tribes Publishing"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2016-09-13",
+      "categories": null,
+      "genres": [
+        "Action"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 302
+      },
+      "numDLC": null,
+      "controllerSupport": "full"
+    },
+    "239160": {
+      "name": "Thief",
+      "gameType": "game",
+      "developer": [
+        "Eidos-Montr\u00e9al",
+        "Feral Interactive (Mac)"
+      ],
+      "publisher": [
+        "Square Enix",
+        "Feral Interactive (Mac)"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2014-02-27",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "metacritic": 70,
+      "price": {
+        "initial": 16900,
+        "final_formatted": 169.0,
+        "price_NOK": 169.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 13196
+      },
+      "numDLC": 5,
+      "controllerSupport": "full"
+    },
+    "265930": {
+      "name": "Goat Simulator",
+      "gameType": "game",
+      "developer": [
+        "Coffee Stain Studios"
+      ],
+      "publisher": [
+        "Coffee Stain Publishing"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-04-01",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "metacritic": 62,
+      "price": {
+        "initial": 7200,
+        "final_formatted": 72.0,
+        "price_NOK": 72.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 42479
+      },
+      "numDLC": 5,
+      "controllerSupport": "full"
+    },
+    "280200": {
+      "name": "Eterium",
+      "gameType": "game",
+      "developer": [
+        "Rogue Earth LLC"
+      ],
+      "publisher": [
+        "Rogue Earth LLC"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2014-04-15",
+      "categories": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3600,
+        "final_formatted": 36.0,
+        "price_NOK": 36.0,
+        "currency": "NOK"
+      },
+      "recommendations": null,
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "281640": {
+      "name": "The Banner Saga 2",
+      "gameType": "game",
+      "developer": [
+        "Stoic"
+      ],
+      "publisher": [
+        "Versus Evil"
+      ],
+      "platforms": [
+        "windows",
+        "mac"
+      ],
+      "releaceDate": "2016-04-19",
+      "categories": null,
+      "genres": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "metacritic": 82,
+      "price": {
+        "initial": 17500,
+        "final_formatted": 175.0,
+        "price_NOK": 175.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 2238
+      },
+      "numDLC": 1,
+      "controllerSupport": "full"
+    },
+    "281990": {
+      "name": "Stellaris",
+      "gameType": "game",
+      "developer": [
+        "Paradox Development Studio"
+      ],
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2016-05-09",
+      "categories": null,
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": 78,
+      "price": {
+        "initial": 27000,
+        "final_formatted": 270.0,
+        "price_NOK": 270.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 70697
+      },
+      "numDLC": 17,
+      "controllerSupport": "none"
+    },
+    "246620": {
+      "name": "Plague Inc: Evolved",
+      "gameType": "game",
+      "developer": [
+        "Ndemic Creations"
+      ],
+      "publisher": [
+        "Ndemic Creations"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2016-02-18",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 10000,
+        "final_formatted": 100.0,
+        "price_NOK": 100.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 33726
+      },
+      "numDLC": 2,
+      "controllerSupport": "none"
+    },
+    "282760": {
+      "name": "Circuits",
+      "gameType": "game",
+      "developer": [
+        "Digital Tentacle"
+      ],
+      "publisher": [
+        "Digital Tentacle"
+      ],
+      "platforms": [
+        "windows",
+        "mac",
+        "linux"
+      ],
+      "releaceDate": "2014-04-17",
+      "categories": null,
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 3600,
+        "final_formatted": 36.0,
+        "price_NOK": 36.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 1651
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "284160": {
+      "name": "BeamNG.drive",
+      "gameType": "game",
+      "developer": [
+        "BeamNG"
+      ],
+      "publisher": [
+        "BeamNG"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2015-05-29",
+      "categories": null,
+      "genres": [
+        "Racing",
+        "Simulation",
+        "Early Access"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 2600000,
+        "final_formatted": 2600.0,
+        "price_NOK": 19.98609844691251,
+        "currency": "KRW"
+      },
+      "recommendations": {
+        "total": 56427
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    },
+    "284240": {
+      "name": "Maize",
+      "gameType": "game",
+      "developer": [
+        "Finish Line Games"
+      ],
+      "publisher": [
+        "Finish Line Games"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2016-12-01",
+      "categories": null,
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 14000,
+        "final_formatted": 140.0,
+        "price_NOK": 140.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 515
+      },
+      "numDLC": 1,
+      "controllerSupport": "none"
+    },
+    "285310": {
+      "name": "RollerCoaster Tycoon\u00ae: Deluxe",
+      "gameType": "game",
+      "developer": [
+        "Chris Sawyer Productions"
+      ],
+      "publisher": [
+        "Atari"
+      ],
+      "platforms": [
+        "windows"
+      ],
+      "releaceDate": "2014-05-21",
+      "categories": null,
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "metacritic": null,
+      "price": {
+        "initial": 4000,
+        "final_formatted": 40.0,
+        "price_NOK": 40.0,
+        "currency": "NOK"
+      },
+      "recommendations": {
+        "total": 4418
+      },
+      "numDLC": null,
+      "controllerSupport": "none"
+    }
+  },
+  "company": {
+    "Valve": {
+      "Type": "Private",
+      "Industry": [
+        "Video games",
+        "Digital distribution"
+      ],
+      "Founded": "Kirkland, Washington",
+      "Founder": null,
+      "Founders": [
+        "Gabe Newell",
+        "Mike Harrington"
+      ],
+      "Headquarters": "Bellevue, Washington, US",
+      "Area served": "Worldwide",
+      "Number of employees": 360,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "valvesoftware.com"
+    },
+    "Crytek Studios": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "Coburg",
+      "Founder": null,
+      "Founders": [
+        "Cevat Yerli",
+        "Avni Yerli",
+        "Faruk Yerli"
+      ],
+      "Headquarters": "Frankfurt, Germany",
+      "Area served": null,
+      "Number of employees": 290,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "crytek.com"
+    },
+    "Arcen Games, LLC": {
+      "Type": "LLC",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "United States",
+      "Area served": null,
+      "Number of employees": 1,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.arcengames.com"
+    },
+    "DICE": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "V\u00e4xj\u00f6",
+      "Founder": null,
+      "Founders": [
+        "Olof Gustafsson",
+        "Markus Nystr\u00f6m",
+        "Fredrik Liljegren",
+        "Andreas Axelsson"
+      ],
+      "Headquarters": "Stockholm, Sweden",
+      "Area served": null,
+      "Number of employees": 640,
+      "Parent": [
+        "Electronic Arts"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "dice.se"
+    },
+    "Petroglyph": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2003",
+      "Founder": null,
+      "Founders": [
+        "Joe Bostic",
+        "Michael Legg",
+        "Steve Tall"
+      ],
+      "Headquarters": "Las Vegas, US",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "petroglyphgames.com"
+    },
+    "Aspyr Studios": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "1996-09-27",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Austin, Texas, U.S.",
+      "Area served": "Worldwide",
+      "Number of employees": null,
+      "Parent": [
+        "S",
+        "a",
+        "b",
+        "e",
+        "r",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "aspyr.com"
+    },
+    "Blendo Games": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2010",
+      "Founder": "Brendon Chung",
+      "Founders": null,
+      "Headquarters": "Culver City, California, United States",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "blendogames.com"
+    },
+    "MicroProse Software, Inc": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": ")",
+      "Founder": null,
+      "Founders": [
+        "Sid Meier",
+        "Bill Stealey"
+      ],
+      "Headquarters": "Hunt Valley, Maryland, U.S.",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": [
+        "Spectrum HoloByte",
+        "Hasbro Interactive",
+        "Infogrames"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.microprose.com"
+    },
+    "2K": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "New York City",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Novato, California, US",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": [
+        "T",
+        "a",
+        "k",
+        "e",
+        "T",
+        "w",
+        "o",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "2k.com"
+    },
+    "Aspyr (Mac)": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "1996-09-27",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Austin, Texas, U.S.",
+      "Area served": "Worldwide",
+      "Number of employees": null,
+      "Parent": [
+        "S",
+        "a",
+        "b",
+        "e",
+        "r",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "aspyr.com"
+    },
+    "Aspyr (Linux)": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "1996-09-27",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Austin, Texas, U.S.",
+      "Area served": "Worldwide",
+      "Number of employees": null,
+      "Parent": [
+        "S",
+        "a",
+        "b",
+        "e",
+        "r",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "aspyr.com"
+    },
+    "Trendy Entertainment": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2009-12-14",
+      "Founder": null,
+      "Founders": [
+        "Agapitus \"Augi\" Lye",
+        "Jeremy Stieglitz"
+      ],
+      "Headquarters": "Gainesville, Florida, U.S.",
+      "Area served": null,
+      "Number of employees": 30,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "chromatic.games"
+    },
+    "Robot Entertainment": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Plano, Texas, United States",
+      "Area served": null,
+      "Number of employees": 30,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.robotentertainment.com"
+    },
+    "Aspyr (Mac, Linux, & Windows Update)": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "1996-09-27",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Austin, Texas, U.S.",
+      "Area served": "Worldwide",
+      "Number of employees": null,
+      "Parent": [
+        "S",
+        "a",
+        "b",
+        "e",
+        "r",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "aspyr.com"
+    },
+    "Aspyr (Mac, Linux)": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "1996-09-27",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Austin, Texas, U.S.",
+      "Area served": "Worldwide",
+      "Number of employees": null,
+      "Parent": [
+        "S",
+        "a",
+        "b",
+        "e",
+        "r",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "aspyr.com"
+    },
+    "Rebellion": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1992-12-04",
+      "Founder": [
+        "Jason Kingsley",
+        "Chris Kingsley"
+      ],
+      "Founders": null,
+      "Headquarters": "Oxford, England",
+      "Area served": "Worldwide",
+      "Number of employees": 300,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "rebellion.com"
+    },
+    "Capybara": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Toronto, Ontario, Canada",
+      "Area served": null,
+      "Number of employees": 22,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.capybaragames.com"
+    },
+    "Capybara Games": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Toronto, Ontario, Canada",
+      "Area served": null,
+      "Number of employees": 22,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.capybaragames.com"
+    },
+    "Muse Games": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1978-08-01",
+      "Founder": "Ed Zaron",
+      "Founders": null,
+      "Headquarters": "Baltimore, Maryland, U.S.",
+      "Area served": "North America",
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": null
+    },
+    "Hidden Path Entertainment": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": " ",
+      "Founder": "Michael Austin, Jim Garbarini, Dave McCoy, Jeff Pobst, and Mark Terrano",
+      "Founders": null,
+      "Headquarters": "Bellevue, Washington, U.S.",
+      "Area served": "Worldwide",
+      "Number of employees": 40,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.hiddenpath.com"
+    },
+    "Ratloop Asia": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1997",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Houston, Texas, United States",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.ratloop.com"
+    },
+    "Feral Interactive (Linux)": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1996",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "London, UK",
+      "Area served": "Global",
+      "Number of employees": 100,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.feralinteractive.com"
+    },
+    "Dennaton Games": {
+      "Type": "Independent business",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": [
+        "Jonatan S\u00f6derstr\u00f6m",
+        "Dennis Wedin"
+      ],
+      "Founders": null,
+      "Headquarters": "Gothenburg, Sweden",
+      "Area served": null,
+      "Number of employees": 2,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "dennatongames.com"
+    },
+    "Devolver Digital": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2009-06-25",
+      "Founder": null,
+      "Founders": [
+        "Mike Wilson",
+        "Harry Miller",
+        "Rick Stults",
+        "Nigel Lowrie",
+        "Graeme Struthers"
+      ],
+      "Headquarters": "Austin, Texas, US",
+      "Area served": "Worldwide",
+      "Number of employees": 20,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "devolverdigital.com"
+    },
+    "Haemimont Games": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1997-09",
+      "Founder": "Gabriel Dobrev",
+      "Founders": null,
+      "Headquarters": "Sofia, Bulgaria",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "haemimontgames.com"
+    },
+    "Kalypso Media Digital": {
+      "Type": "Games publisher & developer",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Worms, Germany",
+      "Area served": null,
+      "Number of employees": 80,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.kalypsomedia.com"
+    },
+    "KADOKAWA": {
+      "Type": [
+        "Public",
+        "KK",
+        "Holding Company"
+      ],
+      "Industry": [
+        "\n",
+        "Publishing",
+        "\n",
+        "film",
+        "\n",
+        "copyright",
+        "\n",
+        "mass media",
+        "\n",
+        "video games",
+        "\n"
+      ],
+      "Founded": ")",
+      "Founder": [
+        "Genyoshi Kadokawa (for the ",
+        "Kadokawa Shoten",
+        " branch)"
+      ],
+      "Founders": null,
+      "Headquarters": "Fujimi, Chiyoda, Tokyo, Japan",
+      "Area served": "Global",
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": "\u682a\u5f0f\u4f1a\u793eKADOKAWA",
+      "Romanized": [
+        " name",
+        "Kabushiki gaisha KADOKAWA"
+      ],
+      "Website": "ir.kadokawa.co.jp/global/"
+    },
+    "Tiger Style": {
+      "Type": null,
+      "Industry": null,
+      "Founded": "[1]",
+      "Founder": null,
+      "Founders": [
+        "David Kalina",
+        "Randy Smith"
+      ],
+      "Headquarters": null,
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.tigerstylegames.com"
+    },
+    "SCS Software": {
+      "Type": "Privately held company",
+      "Industry": "Video games",
+      "Founded": "1997",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Prague, Czech Republic",
+      "Area served": "Worldwide",
+      "Number of employees": 170,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "scssoft.com"
+    },
+    "Star Gem Inc.": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Yekaterinburg, Russia",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.targem.ru/en/"
+    },
+    "Gaijin Distribution KFT": {
+      "Type": "Privately held company",
+      "Industry": "Video game industry",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Cyprus",
+      "Area served": null,
+      "Number of employees": 150,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "gaijinent.com"
+    },
+    "Gaijin Entertainment": {
+      "Type": "Privately held company",
+      "Industry": "Video game industry",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Cyprus",
+      "Area served": null,
+      "Number of employees": 150,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "gaijinent.com"
+    },
+    "NASA": {
+      "Type": "Space agency",
+      "Industry": null,
+      "Founded": null,
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Washington, D.C..mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}38\u00b052\u203259\u2033N 77\u00b00\u203259\u2033W\ufeff / \ufeff38.88306\u00b0N 77.01639\u00b0W\ufeff / 38.88306; -77.01639Coordinates: 38\u00b052\u203259\u2033N 77\u00b00\u203259\u2033W\ufeff / \ufeff38.88306\u00b0N 77.01639\u00b0W\ufeff / 38.88306; -77.01639",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "NASA.gov"
+    },
+    "Nicalis, Inc.": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2007",
+      "Founder": "Tyrone Rodriguez",
+      "Founders": null,
+      "Headquarters": "Santa Ana, California, U.S.",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "nicalis.com"
+    },
+    "Eagle Dynamics SA": {
+      "Type": null,
+      "Industry": "Video games",
+      "Founded": "1991 in ",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Moscow, Russia",
+      "Area served": null,
+      "Number of employees": 150,
+      "Parent": [
+        "T",
+        "h",
+        "e",
+        "F",
+        "i",
+        "g",
+        "h",
+        "t",
+        "e",
+        "r",
+        "C",
+        "o",
+        "l",
+        "l",
+        "e",
+        "c",
+        "t",
+        "i",
+        "o",
+        "n"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "http://www.eagle.ru/"
+    },
+    "Double Eleven": {
+      "Type": "Video game developer",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Middlesbrough, United Kingdom",
+      "Area served": null,
+      "Number of employees": 150,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.double11.com"
+    },
+    "Paradox Interactive": {
+      "Type": "Public",
+      "Industry": "Video games",
+      "Founded": "1999",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Stockholm, Sweden",
+      "Area served": null,
+      "Number of employees": 479,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.paradoxplaza.com"
+    },
+    "Dejobaan Games, LLC": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1999",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Boston, Massachusetts, U.S.",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "dejobaan.com"
+    },
+    "Telltale Games": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2004-07",
+      "Founder": null,
+      "Founders": [
+        "Kevin Bruner",
+        "Dan Connors",
+        "Troy Molander"
+      ],
+      "Headquarters": "San Rafael, California, US",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "telltale.com"
+    },
+    "Codemasters Racing": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "Banbury",
+      "Founder": null,
+      "Founders": [
+        "Richard Darling",
+        "David Darling"
+      ],
+      "Headquarters": "Southam, England",
+      "Area served": null,
+      "Number of employees": 700,
+      "Parent": [
+        "Reliance Entertainment",
+        "Electronic Arts"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "codemasters.com"
+    },
+    "Codemasters": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "Banbury",
+      "Founder": null,
+      "Founders": [
+        "Richard Darling",
+        "David Darling"
+      ],
+      "Headquarters": "Southam, England",
+      "Area served": null,
+      "Number of employees": 700,
+      "Parent": [
+        "Reliance Entertainment",
+        "Electronic Arts"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "codemasters.com"
+    },
+    "Squad": {
+      "Type": "Private",
+      "Industry": [
+        "Marketing",
+        "Video games"
+      ],
+      "Founded": "2008",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Mexico City, Mexico",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "squad.com.mx"
+    },
+    "Tripwire Interactive": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2005-02-17",
+      "Founder": "Alan Wilson",
+      "Founders": null,
+      "Headquarters": "Roswell, Georgia, U.S.",
+      "Area served": null,
+      "Number of employees": 87,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "tripwireinteractive.com"
+    },
+    "DrinkBox Studios": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2008-04",
+      "Founder": null,
+      "Founders": [
+        "Chris Harvey",
+        "Ryan MacLean",
+        "Graham Smith"
+      ],
+      "Headquarters": "Toronto, Canada",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "drinkboxstudios.com"
+    },
+    "OVERKILL - a Starbreeze Studio.": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "Sweden",
+      "Founder": [
+        "Ulf Andersson",
+        "Bo Andersson",
+        "Simon Viklund"
+      ],
+      "Founders": null,
+      "Headquarters": "Stockholm",
+      "Area served": "Worldwide",
+      "Number of employees": 75,
+      "Parent": [
+        "Starbreeze Studios"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "overkillsoftware.com"
+    },
+    "Starbreeze Publishing AB": {
+      "Type": "Public",
+      "Industry": "Video games",
+      "Founded": "H\u00e4rn\u00f6sand",
+      "Founder": "Magnus H\u00f6gdahl",
+      "Founders": null,
+      "Headquarters": "Stockholm, Sweden",
+      "Area served": null,
+      "Number of employees": 180,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "starbreeze.com"
+    },
+    "Ubisoft Toronto": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2010-09",
+      "Founder": [
+        "Jade Raymond",
+        "Alexandre Parizeau",
+        "Maxime B\u00e9land"
+      ],
+      "Founders": null,
+      "Headquarters": "Toronto, Canada",
+      "Area served": null,
+      "Number of employees": 600,
+      "Parent": [
+        "U",
+        "b",
+        "i",
+        "s",
+        "o",
+        "f",
+        "t"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "toronto.ubisoft.com"
+    },
+    "22cans": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "Farnborough",
+      "Founder": "Peter Molyneux",
+      "Founders": null,
+      "Headquarters": "Guildford, England",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "22cans.com"
+    },
+    "Psyonix LLC": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2000",
+      "Founder": "Dave Hagewood",
+      "Founders": null,
+      "Headquarters": "San Diego, California, U.S.",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": [
+        "Epic Games"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "psyonix.com"
+    },
+    "Arkane Studios": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "1999-10-01",
+      "Founder": "Rapha\u00ebl Colantonio",
+      "Founders": null,
+      "Headquarters": "Lyon, France",
+      "Area served": null,
+      "Number of employees": 150,
+      "Parent": [
+        "ZeniMax Media"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "arkane-studios.com"
+    },
+    "Feral Interactive (Mac)": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1996",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "London, UK",
+      "Area served": "Global",
+      "Number of employees": 100,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.feralinteractive.com"
+    },
+    "Bohemia Interactive": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "1999-05",
+      "Founder": null,
+      "Founders": [
+        "Marek \u0160pan\u011bl",
+        "Ond\u0159ej \u0160pan\u011bl",
+        "Slavom\u00edr Pavl\u00ed\u010dek"
+      ],
+      "Headquarters": "Prague, Czech Republic",
+      "Area served": null,
+      "Number of employees": 400,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "bohemia.net"
+    },
+    "Heart Machine": {
+      "Type": null,
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": "Alx Preston",
+      "Founders": null,
+      "Headquarters": "Culver City, California, United States",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.heart-machine.com"
+    },
+    "Unknown Worlds Entertainment": {
+      "Type": null,
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "San Francisco",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": [
+        "Perfect World Games"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.unknownworlds.com"
+    },
+    "Versus Evil": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": null,
+      "Founder": "Steve Escalante",
+      "Founders": null,
+      "Headquarters": "Baltimore, Maryland, United States",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.versusevil.com"
+    },
+    "TT Fusion": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2005",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Maidenhead, England",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "ttgames.com"
+    },
+    "Wolfire Games": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": "David Rosen",
+      "Founders": null,
+      "Headquarters": "San Francisco Bay Area, California, US",
+      "Area served": null,
+      "Number of employees": 4,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "wolfire.com"
+    },
+    "Digital Happiness": {
+      "Type": null,
+      "Industry": "Video games",
+      "Founded": "Founded",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Bandung, West Java",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "www.digitalhappiness.net"
+    },
+    "Rockstar North": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "Dundee",
+      "Founder": "David Jones",
+      "Founders": null,
+      "Headquarters": "Edinburgh, Scotland",
+      "Area served": null,
+      "Number of employees": 650,
+      "Parent": [
+        "Gremlin Interactive",
+        "Infogrames",
+        "Take-Two Interactive",
+        "Rockstar Games"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "rockstarnorth.com"
+    },
+    "Rockstar Games": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "1998-12",
+      "Founder": null,
+      "Founders": [
+        "Sam Houser",
+        "Dan Houser",
+        "Terry Donovan",
+        "Jamie King"
+      ],
+      "Headquarters": "New York City, U.S.",
+      "Area served": null,
+      "Number of employees": 2000,
+      "Parent": [
+        "T",
+        "a",
+        "k",
+        "e",
+        "T",
+        "w",
+        "o",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "rockstargames.com"
+    },
+    "Bugbear": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2000",
+      "Founder": "Janne Alanenp\u00e4\u00e4",
+      "Founders": null,
+      "Headquarters": "Helsinki, Finland",
+      "Area served": null,
+      "Number of employees": 28,
+      "Parent": [
+        "THQ Nordic"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "bugbeargames.com"
+    },
+    "THQ Nordic": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2011",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Vienna, Austria",
+      "Area served": "Worldwide",
+      "Number of employees": null,
+      "Parent": [
+        "E",
+        "m",
+        "b",
+        "r",
+        "a",
+        "c",
+        "e",
+        "r",
+        "G",
+        "r",
+        "o",
+        "u",
+        "p"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "thqnordic.com"
+    },
+    "Free Lives": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2012-04",
+      "Founder": "Evan Greenwood",
+      "Founders": null,
+      "Headquarters": "Cape Town, South Africa",
+      "Area served": null,
+      "Number of employees": 16,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "freelives.net"
+    },
+    "Two Tribes": {
+      "Type": "Private",
+      "Industry": "Video games",
+      "Founded": "2001",
+      "Founder": null,
+      "Founders": [
+        "Martijn Reuvers",
+        "Collin van Ginkel"
+      ],
+      "Headquarters": "Harderwijk, Netherlands",
+      "Area served": null,
+      "Number of employees": null,
+      "Parent": [
+        "T",
+        "w",
+        "o",
+        "T",
+        "r",
+        "i",
+        "b",
+        "e",
+        "s",
+        "P",
+        "u",
+        "b",
+        "l",
+        "i",
+        "s",
+        "h",
+        "i",
+        "n",
+        "g",
+        "B",
+        "V"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "twotribes.com"
+    },
+    "Eidos-Montr\u00e9al": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2007-11-26",
+      "Founder": "St\u00e9phane D'Astous",
+      "Founders": null,
+      "Headquarters": "Montreal, Canada",
+      "Area served": null,
+      "Number of employees": 500,
+      "Parent": [
+        "S",
+        "q",
+        "u",
+        "a",
+        "r",
+        "e",
+        "E",
+        "n",
+        "i",
+        "x",
+        "E",
+        "u",
+        "r",
+        "o",
+        "p",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "eidosmontreal.com"
+    },
+    "Square Enix": {
+      "Type": [
+        "Public",
+        " ",
+        "KK"
+      ],
+      "Industry": [
+        "Video games",
+        "Entertainment",
+        "Publishing",
+        "Motion pictures"
+      ],
+      "Founded": ")",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Shinjuku, Tokyo, Japan",
+      "Area served": null,
+      "Number of employees": 5077,
+      "Parent": null,
+      "Native name": "\u682a\u5f0f\u4f1a\u793e\u30b9\u30af\u30a6\u30a7\u30a2\u30fb\u30a8\u30cb\u30c3\u30af\u30b9\u30fb\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9",
+      "Romanized": [
+        " name",
+        "Kabushiki gaisha",
+        " Sukuwea Enikkusu H\u014drudingusu"
+      ],
+      "Website": "square-enix.com"
+    },
+    "Coffee Stain Studios": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2010",
+      "Founder": null,
+      "Founders": [
+        "Anton Westbergh",
+        "Johannes Aspeby",
+        "Mikael M\u00e5rd",
+        "Oscar Jils\u00e9n",
+        "Gustaf Tivander",
+        "Daniel Lundwall",
+        "Markus R\u00e4nnare",
+        "Joakim Sj\u00f6\u00f6",
+        "Stefan Hanna"
+      ],
+      "Headquarters": "Sk\u00f6vde, Sweden",
+      "Area served": null,
+      "Number of employees": 25,
+      "Parent": [
+        "C",
+        "o",
+        "f",
+        "f",
+        "e",
+        "e",
+        "S",
+        "t",
+        "a",
+        "i",
+        "n",
+        "H",
+        "o",
+        "l",
+        "d",
+        "i",
+        "n",
+        "g"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "coffeestainstudios.com"
+    },
+    "Coffee Stain Publishing": {
+      "Type": "Subsidiary",
+      "Industry": "Video games",
+      "Founded": "2010",
+      "Founder": null,
+      "Founders": [
+        "Anton Westbergh",
+        "Johannes Aspeby",
+        "Mikael M\u00e5rd",
+        "Oscar Jils\u00e9n",
+        "Gustaf Tivander",
+        "Daniel Lundwall",
+        "Markus R\u00e4nnare",
+        "Joakim Sj\u00f6\u00f6",
+        "Stefan Hanna"
+      ],
+      "Headquarters": "Sk\u00f6vde, Sweden",
+      "Area served": null,
+      "Number of employees": 25,
+      "Parent": [
+        "C",
+        "o",
+        "f",
+        "f",
+        "e",
+        "e",
+        "S",
+        "t",
+        "a",
+        "i",
+        "n",
+        "H",
+        "o",
+        "l",
+        "d",
+        "i",
+        "n",
+        "g"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": "coffeestainstudios.com"
+    },
+    "Stoic": {
+      "Type": null,
+      "Industry": "Video games",
+      "Founded": "2011-12-26",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Austin, Texas, U.S.",
+      "Area served": null,
+      "Number of employees": 27,
+      "Parent": null,
+      "Native name": null,
+      "Romanized": null,
+      "Website": "stoicstudio.com"
+    },
+    "Paradox Development Studio": {
+      "Type": [
+        "Subsidiary",
+        " of ",
+        "Paradox Interactive"
+      ],
+      "Industry": "Video games",
+      "Founded": "1995",
+      "Founder": null,
+      "Founders": null,
+      "Headquarters": "Stockholm, Sweden",
+      "Area served": "Worldwide",
+      "Number of employees": 80,
+      "Parent": [
+        "P",
+        "a",
+        "r",
+        "a",
+        "d",
+        "o",
+        "x",
+        "I",
+        "n",
+        "t",
+        "e",
+        "r",
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "e"
+      ],
+      "Native name": null,
+      "Romanized": null,
+      "Website": null
+    }
+  }
+}

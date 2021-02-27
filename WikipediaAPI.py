@@ -127,11 +127,11 @@ def getWikiData2(page):
             if re.compile('^\w+ \d+$').match(nummber):
                 nummber = nummber.split()[1]
 
-#            if re.compile('^\[A-z]+.?\[A-z]+.?\[A-z]+$').match(nummber):
-#                nummber = line[2]
+            #if re.compile('^\[A-z]+.?\[A-z]+.?\[A-z]+$').match(nummber):
+                #nummber = line[2]
 
-#            if re.compile('^[A-z]+ \([A-z]+\)$'):
-#                nummber = line[2]
+            #if re.compile('^[A-z]+ \([A-z]+\)$'):
+                #nummber = line[2]
 
             if re.compile('^Est.').match(nummber):
                 nummber = str(nummber.split()[1])
@@ -189,9 +189,11 @@ def getWikiData2(page):
 
     return dataOut
 
-#page = searchForWikiPage('CD_Projekt')
 
-#print(getWikiData2(page))
+if __name__ == '__main__':
+    page = searchForWikiPage('Aspyr')
+
+    print(getWikiData2(page))
 
 
 # -----------

@@ -2,7 +2,7 @@ import SteamAPI
 import WikipediaAPI
 #import Database
 import json
-import pretty_errors
+import yaml
 import datetime
 import re
 from currency_converter import CurrencyConverter
@@ -14,14 +14,32 @@ def writeJson(name, data):
     with open("files/" + name, 'w') as outfile:
         json.dump(data, outfile, indent=2)
 
+def writeYaml(name, data):
+    if not name.endswith('.yaml'):
+        name += '.yaml'
+
+    with open("files/" + name, 'w') as outfile:
+        yaml.dump(data, outfile, indent=2, default_flow_style=False)
+
 def readJson(name):
     if not name.endswith('.json'):
         name += '.json'
 
-    with open("files/" + name) as jsonFile:
-        data = json.load(jsonFile)
+    with open("files/" + name) as infile:
+        data = json.load(infile)
 
     return data
+
+def readYaml(name):
+    if not name.endswith('.yaml'):
+        name += '.yaml'
+
+    with open('files/' + name) as infile:
+        data = yaml.load(infile, Loader=yaml.FullLoader)
+
+    return data
+
+
 
 def updateAllGames():
     global allGamesDetail
@@ -39,14 +57,14 @@ def updateAllGames():
             app = SteamAPI.getAppDetail(appID)      # Get the app info form the Steam Store API
 
             #if app[str(appID)]['success'] == False:     # If the awnser from Steam was false remove the game from the all games list
-            #    allGamesOld = readJson('All games')
-            #    allGamesOld['response']['game_count'] -= 1
-            #    gamesMax -= 1
-            #    gameIndex -= 1
-            #
-            #    del allGamesOld['response']['games'][gameIndex - 1]
-            #    writeJson('All games', allGamesOld)
-            #    print(f'fail on game {game["name"]}')
+                #allGamesOld = readJson('All games')
+                #allGamesOld['response']['game_count'] -= 1
+                #gamesMax -= 1
+                #gameIndex -= 1
+            
+                #del allGamesOld['response']['games'][gameIndex - 1]
+                #writeJson('All games', allGamesOld)
+                #print(f'fail on game {game["name"]}')
             #else:
             allGamesDetail[appID] = app[str(appID)]
 
@@ -80,10 +98,11 @@ def convertDateTime(date):
     patternDate1 = re.compile('^\d{1,2} \w{3}, \d{4}$') # ex: 1 NOV, 2010
     patternDate2 = re.compile('^\d{4}$') # ex: 2010
     patternDate3 = re.compile('^[A-Z]\w+ \d{1,2},? \d{4}$') # ex: August 24, 1996
-    patternDate4 = re.compile('^[A-Z]\w+ \w{4}$') #ex: June 2004
-    patternDate5 = re.compile('^\w{1,2} [A-Z]\w+, \d{4}') # ex: 5 April, 1997
-    patternData6 = re.compile('^\d{4} \\\\u.{4} \d{1,2} \\\\u.{4} \d{1,2} \\\\u.{4}$') # ex: 2006 \u5e74 11 \u6708 29 \u65e5
-    patternData7 = re.compile('^\d{1,2} \w{3} \d{4}$') # ex: 1 NOV 2010
+    patternDate4 = re.compile('^[A-Z]\w{2} \w{4}$')
+    patternDate5 = re.compile('^[A-Z]\w{3,} \w{4}$') #ex: June 2004
+    patternDate6 = re.compile('^\w{1,2} [A-Z]\w+, \d{4}') # ex: 5 April, 1997
+    patternData7 = re.compile('^\d{4} \\\\u.{4} \d{1,2} \\\\u.{4} \d{1,2} \\\\u.{4}$') # ex: 2006 \u5e74 11 \u6708 29 \u65e5
+    patternData8 = re.compile('^\d{1,2} \w{3} \d{4}$') # ex: 1 NOV 2010
 
     if patternDate1.match(date):
         date = datetime.datetime.strptime(date, '%d %b, %Y')
@@ -92,13 +111,17 @@ def convertDateTime(date):
     elif patternDate3.match(date):
         date = datetime.datetime.strptime(date, '%B %d, %Y')
     elif patternDate4.match(date):
-        date = datetime.datetime.strptime(date, '%B %Y')
+        date = datetime.datetime.strptime(date, '%b %Y')
     elif patternDate5.match(date):
+        date = datetime.datetime.strptime(date, '%B %Y')
+    elif patternDate6.match(date):
         date = datetime.datetime.strptime(date, '%d %B %Y')
-    elif patternData6.match(date):
-        date = datetime.datetime.strptime(date, '%Y %% %m %% %d')
     elif patternData7.match(date):
+        date = datetime.datetime.strptime(date, '%Y %% %m %% %d')
+    elif patternData8.match(date):
         date = datetime.datetime.strptime(date, '%d %b %Y')
+    else:
+        print('Not known date:', date)
 
     return date.date()
 
@@ -134,8 +157,6 @@ def createGame(newGameDetail):
                 print('Failed to fine company page:', oCompName)
             else:
                 companyData = WikipediaAPI.getWikiData2(companyPage)
-
-                companyData['Founded'] = convertDateTime(companyData['Founded']) if companyData['Founded'] not == None
 
                 newGameDetail['company'][oCompName] = companyData
 
@@ -224,12 +245,12 @@ def createGame(newGameDetail):
 
     return newGameDetail    
 
-#newGameDetail = dict()
-#newGameDetail['games'] = dict()
-#newGameDetail['company'] = dict()
+newGameDetail = dict()
+newGameDetail['games'] = dict()
+newGameDetail['company'] = dict()
 
-#companyNames = dict()
-#writeJson('All Games', SteamAPI.getOwnedGames())
+companyNames = dict()
+writeJson('All Games', SteamAPI.getOwnedGames())
 
 newGameDetail = readJson('allGamesDetail')
 writeJson('AllGamesDetail', createGame(newGameDetail))

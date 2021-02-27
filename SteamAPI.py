@@ -23,6 +23,12 @@ def getAppDetail(appID):
     r = requests.get('http://store.steampowered.com/api/appdetails', params=param)
     return r.json()
 
+
+
+if __name__ == '__main__':
+    pass
+
+
 # ---------------------
 # API calls to get info 
 # ---------------------
