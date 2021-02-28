@@ -1,2 +1,5203 @@
-company: {}
-games: {}
+company:
+  22cans:
+    Area served: null
+    Founded: Farnborough
+    Founder: Peter Molyneux
+    Founders: null
+    Headquarters: Guildford, England
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: 22cans.com
+  2K:
+    Area served: null
+    Founded: New York City
+    Founder: null
+    Founders: null
+    Headquarters: Novato, California, US
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - T
+    - a
+    - k
+    - e
+    - T
+    - w
+    - o
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: 2k.com
+  Arcen Games, LLC:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: United States
+    Industry: Video games
+    Native name: null
+    Number of employees: 1
+    Parent: null
+    Romanized: null
+    Type: LLC
+    Website: www.arcengames.com
+  Arkane Studios:
+    Area served: null
+    Founded: '1999-10-01'
+    Founder: "Rapha\xEBl Colantonio"
+    Founders: null
+    Headquarters: Lyon, France
+    Industry: Video games
+    Native name: null
+    Number of employees: 150
+    Parent:
+    - ZeniMax Media
+    Romanized: null
+    Type: Subsidiary
+    Website: arkane-studios.com
+  Aspyr (Linux):
+    Area served: Worldwide
+    Founded: '1996-09-27'
+    Founder: null
+    Founders: null
+    Headquarters: Austin, Texas, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - S
+    - a
+    - b
+    - e
+    - r
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: aspyr.com
+  Aspyr (Mac):
+    Area served: Worldwide
+    Founded: '1996-09-27'
+    Founder: null
+    Founders: null
+    Headquarters: Austin, Texas, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - S
+    - a
+    - b
+    - e
+    - r
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: aspyr.com
+  Aspyr (Mac, Linux):
+    Area served: Worldwide
+    Founded: '1996-09-27'
+    Founder: null
+    Founders: null
+    Headquarters: Austin, Texas, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - S
+    - a
+    - b
+    - e
+    - r
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: aspyr.com
+  Aspyr (Mac, Linux, & Windows Update):
+    Area served: Worldwide
+    Founded: '1996-09-27'
+    Founder: null
+    Founders: null
+    Headquarters: Austin, Texas, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - S
+    - a
+    - b
+    - e
+    - r
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: aspyr.com
+  Aspyr Studios:
+    Area served: Worldwide
+    Founded: '1996-09-27'
+    Founder: null
+    Founders: null
+    Headquarters: Austin, Texas, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - S
+    - a
+    - b
+    - e
+    - r
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: aspyr.com
+  Blendo Games:
+    Area served: null
+    Founded: '2010'
+    Founder: Brendon Chung
+    Founders: null
+    Headquarters: Culver City, California, United States
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: blendogames.com
+  Bohemia Interactive:
+    Area served: null
+    Founded: 1999-05
+    Founder: null
+    Founders:
+    - "Marek \u0160pan\u011Bl"
+    - "Ond\u0159ej \u0160pan\u011Bl"
+    - "Slavom\xEDr Pavl\xED\u010Dek"
+    Headquarters: Prague, Czech Republic
+    Industry: Video games
+    Native name: null
+    Number of employees: 400
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: bohemia.net
+  Bugbear:
+    Area served: null
+    Founded: '2000'
+    Founder: "Janne Alanenp\xE4\xE4"
+    Founders: null
+    Headquarters: Helsinki, Finland
+    Industry: Video games
+    Native name: null
+    Number of employees: 28
+    Parent:
+    - THQ Nordic
+    Romanized: null
+    Type: Subsidiary
+    Website: bugbeargames.com
+  Capybara:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Toronto, Ontario, Canada
+    Industry: Video games
+    Native name: null
+    Number of employees: 22
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.capybaragames.com
+  Capybara Games:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Toronto, Ontario, Canada
+    Industry: Video games
+    Native name: null
+    Number of employees: 22
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.capybaragames.com
+  Codemasters:
+    Area served: null
+    Founded: Banbury
+    Founder: null
+    Founders:
+    - Richard Darling
+    - David Darling
+    Headquarters: Southam, England
+    Industry: Video games
+    Native name: null
+    Number of employees: 700
+    Parent:
+    - Reliance Entertainment
+    - Electronic Arts
+    Romanized: null
+    Type: Subsidiary
+    Website: codemasters.com
+  Codemasters Racing:
+    Area served: null
+    Founded: Banbury
+    Founder: null
+    Founders:
+    - Richard Darling
+    - David Darling
+    Headquarters: Southam, England
+    Industry: Video games
+    Native name: null
+    Number of employees: 700
+    Parent:
+    - Reliance Entertainment
+    - Electronic Arts
+    Romanized: null
+    Type: Subsidiary
+    Website: codemasters.com
+  Coffee Stain Publishing:
+    Area served: null
+    Founded: '2010'
+    Founder: null
+    Founders:
+    - Anton Westbergh
+    - Johannes Aspeby
+    - "Mikael M\xE5rd"
+    - "Oscar Jils\xE9n"
+    - Gustaf Tivander
+    - Daniel Lundwall
+    - "Markus R\xE4nnare"
+    - "Joakim Sj\xF6\xF6"
+    - Stefan Hanna
+    Headquarters: "Sk\xF6vde, Sweden"
+    Industry: Video games
+    Native name: null
+    Number of employees: 25
+    Parent:
+    - C
+    - o
+    - f
+    - f
+    - e
+    - e
+    - S
+    - t
+    - a
+    - i
+    - n
+    - H
+    - o
+    - l
+    - d
+    - i
+    - n
+    - g
+    Romanized: null
+    Type: Subsidiary
+    Website: coffeestainstudios.com
+  Coffee Stain Studios:
+    Area served: null
+    Founded: '2010'
+    Founder: null
+    Founders:
+    - Anton Westbergh
+    - Johannes Aspeby
+    - "Mikael M\xE5rd"
+    - "Oscar Jils\xE9n"
+    - Gustaf Tivander
+    - Daniel Lundwall
+    - "Markus R\xE4nnare"
+    - "Joakim Sj\xF6\xF6"
+    - Stefan Hanna
+    Headquarters: "Sk\xF6vde, Sweden"
+    Industry: Video games
+    Native name: null
+    Number of employees: 25
+    Parent:
+    - C
+    - o
+    - f
+    - f
+    - e
+    - e
+    - S
+    - t
+    - a
+    - i
+    - n
+    - H
+    - o
+    - l
+    - d
+    - i
+    - n
+    - g
+    Romanized: null
+    Type: Subsidiary
+    Website: coffeestainstudios.com
+  Crytek Studios:
+    Area served: null
+    Founded: Coburg
+    Founder: null
+    Founders:
+    - Cevat Yerli
+    - Avni Yerli
+    - Faruk Yerli
+    Headquarters: Frankfurt, Germany
+    Industry: Video games
+    Native name: null
+    Number of employees: 290
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: crytek.com
+  DICE:
+    Area served: null
+    Founded: "V\xE4xj\xF6"
+    Founder: null
+    Founders:
+    - Olof Gustafsson
+    - "Markus Nystr\xF6m"
+    - Fredrik Liljegren
+    - Andreas Axelsson
+    Headquarters: Stockholm, Sweden
+    Industry: Video games
+    Native name: null
+    Number of employees: 640
+    Parent:
+    - Electronic Arts
+    Romanized: null
+    Type: Subsidiary
+    Website: dice.se
+  Dejobaan Games, LLC:
+    Area served: null
+    Founded: '1999'
+    Founder: null
+    Founders: null
+    Headquarters: Boston, Massachusetts, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: dejobaan.com
+  Dennaton Games:
+    Area served: null
+    Founded: Founded
+    Founder:
+    - "Jonatan S\xF6derstr\xF6m"
+    - Dennis Wedin
+    Founders: null
+    Headquarters: Gothenburg, Sweden
+    Industry: Video games
+    Native name: null
+    Number of employees: 2
+    Parent: null
+    Romanized: null
+    Type: Independent business
+    Website: dennatongames.com
+  Devolver Digital:
+    Area served: Worldwide
+    Founded: '2009-06-25'
+    Founder: null
+    Founders:
+    - Mike Wilson
+    - Harry Miller
+    - Rick Stults
+    - Nigel Lowrie
+    - Graeme Struthers
+    Headquarters: Austin, Texas, US
+    Industry: Video games
+    Native name: null
+    Number of employees: 20
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: devolverdigital.com
+  Digital Happiness:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Bandung, West Java
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: null
+    Website: www.digitalhappiness.net
+  Double Eleven:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Middlesbrough, United Kingdom
+    Industry: Video games
+    Native name: null
+    Number of employees: 150
+    Parent: null
+    Romanized: null
+    Type: Video game developer
+    Website: www.double11.com
+  DrinkBox Studios:
+    Area served: null
+    Founded: 2008-04
+    Founder: null
+    Founders:
+    - Chris Harvey
+    - Ryan MacLean
+    - Graham Smith
+    Headquarters: Toronto, Canada
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: drinkboxstudios.com
+  Eagle Dynamics SA:
+    Area served: null
+    Founded: '1991 in '
+    Founder: null
+    Founders: null
+    Headquarters: Moscow, Russia
+    Industry: Video games
+    Native name: null
+    Number of employees: 150
+    Parent:
+    - T
+    - h
+    - e
+    - F
+    - i
+    - g
+    - h
+    - t
+    - e
+    - r
+    - C
+    - o
+    - l
+    - l
+    - e
+    - c
+    - t
+    - i
+    - o
+    - n
+    Romanized: null
+    Type: null
+    Website: http://www.eagle.ru/
+  "Eidos-Montr\xE9al":
+    Area served: null
+    Founded: '2007-11-26'
+    Founder: "St\xE9phane D'Astous"
+    Founders: null
+    Headquarters: Montreal, Canada
+    Industry: Video games
+    Native name: null
+    Number of employees: 500
+    Parent:
+    - S
+    - q
+    - u
+    - a
+    - r
+    - e
+    - E
+    - n
+    - i
+    - x
+    - E
+    - u
+    - r
+    - o
+    - p
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: eidosmontreal.com
+  Feral Interactive (Linux):
+    Area served: Global
+    Founded: '1996'
+    Founder: null
+    Founders: null
+    Headquarters: London, UK
+    Industry: Video games
+    Native name: null
+    Number of employees: 100
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.feralinteractive.com
+  Feral Interactive (Mac):
+    Area served: Global
+    Founded: '1996'
+    Founder: null
+    Founders: null
+    Headquarters: London, UK
+    Industry: Video games
+    Native name: null
+    Number of employees: 100
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.feralinteractive.com
+  Free Lives:
+    Area served: null
+    Founded: 2012-04
+    Founder: Evan Greenwood
+    Founders: null
+    Headquarters: Cape Town, South Africa
+    Industry: Video games
+    Native name: null
+    Number of employees: 16
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: freelives.net
+  Gaijin Distribution KFT:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Cyprus
+    Industry: Video game industry
+    Native name: null
+    Number of employees: 150
+    Parent: null
+    Romanized: null
+    Type: Privately held company
+    Website: gaijinent.com
+  Gaijin Entertainment:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Cyprus
+    Industry: Video game industry
+    Native name: null
+    Number of employees: 150
+    Parent: null
+    Romanized: null
+    Type: Privately held company
+    Website: gaijinent.com
+  Haemimont Games:
+    Area served: null
+    Founded: 1997-09
+    Founder: Gabriel Dobrev
+    Founders: null
+    Headquarters: Sofia, Bulgaria
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: haemimontgames.com
+  Heart Machine:
+    Area served: null
+    Founded: Founded
+    Founder: Alx Preston
+    Founders: null
+    Headquarters: Culver City, California, United States
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: null
+    Website: www.heart-machine.com
+  Hidden Path Entertainment:
+    Area served: Worldwide
+    Founded: ' '
+    Founder: Michael Austin, Jim Garbarini, Dave McCoy, Jeff Pobst, and Mark Terrano
+    Founders: null
+    Headquarters: Bellevue, Washington, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: 40
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.hiddenpath.com
+  KADOKAWA:
+    Area served: Global
+    Founded: )
+    Founder:
+    - 'Genyoshi Kadokawa (for the '
+    - Kadokawa Shoten
+    - ' branch)'
+    Founders: null
+    Headquarters: Fujimi, Chiyoda, Tokyo, Japan
+    Industry:
+    - '
+
+      '
+    - Publishing
+    - '
+
+      '
+    - film
+    - '
+
+      '
+    - copyright
+    - '
+
+      '
+    - mass media
+    - '
+
+      '
+    - video games
+    - '
+
+      '
+    Native name: "\u682A\u5F0F\u4F1A\u793EKADOKAWA"
+    Number of employees: null
+    Parent: null
+    Romanized:
+    - ' name'
+    - Kabushiki gaisha KADOKAWA
+    Type:
+    - Public
+    - KK
+    - Holding Company
+    Website: ir.kadokawa.co.jp/global/
+  Kalypso Media Digital:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Worms, Germany
+    Industry: Video games
+    Native name: null
+    Number of employees: 80
+    Parent: null
+    Romanized: null
+    Type: Games publisher & developer
+    Website: www.kalypsomedia.com
+  MicroProse Software, Inc:
+    Area served: null
+    Founded: )
+    Founder: null
+    Founders:
+    - Sid Meier
+    - Bill Stealey
+    Headquarters: Hunt Valley, Maryland, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - Spectrum HoloByte
+    - Hasbro Interactive
+    - Infogrames
+    Romanized: null
+    Type: Private
+    Website: www.microprose.com
+  Muse Games:
+    Area served: North America
+    Founded: '1978-08-01'
+    Founder: Ed Zaron
+    Founders: null
+    Headquarters: Baltimore, Maryland, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: null
+  NASA:
+    Area served: null
+    Founded: null
+    Founder: null
+    Founders: null
+    Headquarters: "Washington, D.C..mw-parser-output .geo-default,.mw-parser-output\
+      \ .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output\
+      \ .geo-multi-punct{display:none}.mw-parser-output .longitude,.mw-parser-output\
+      \ .latitude{white-space:nowrap}38\xB052\u203259\u2033N 77\xB00\u203259\u2033\
+      W\uFEFF / \uFEFF38.88306\xB0N 77.01639\xB0W\uFEFF / 38.88306; -77.01639Coordinates:\
+      \ 38\xB052\u203259\u2033N 77\xB00\u203259\u2033W\uFEFF / \uFEFF38.88306\xB0\
+      N 77.01639\xB0W\uFEFF / 38.88306; -77.01639"
+    Industry: null
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Space agency
+    Website: NASA.gov
+  Nicalis, Inc.:
+    Area served: null
+    Founded: '2007'
+    Founder: Tyrone Rodriguez
+    Founders: null
+    Headquarters: Santa Ana, California, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: nicalis.com
+  OVERKILL - a Starbreeze Studio.:
+    Area served: Worldwide
+    Founded: Sweden
+    Founder:
+    - Ulf Andersson
+    - Bo Andersson
+    - Simon Viklund
+    Founders: null
+    Headquarters: Stockholm
+    Industry: Video games
+    Native name: null
+    Number of employees: 75
+    Parent:
+    - Starbreeze Studios
+    Romanized: null
+    Type: Subsidiary
+    Website: overkillsoftware.com
+  Paradox Development Studio:
+    Area served: Worldwide
+    Founded: '1995'
+    Founder: null
+    Founders: null
+    Headquarters: Stockholm, Sweden
+    Industry: Video games
+    Native name: null
+    Number of employees: 80
+    Parent:
+    - P
+    - a
+    - r
+    - a
+    - d
+    - o
+    - x
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type:
+    - Subsidiary
+    - ' of '
+    - Paradox Interactive
+    Website: null
+  Paradox Interactive:
+    Area served: null
+    Founded: '1999'
+    Founder: null
+    Founders: null
+    Headquarters: Stockholm, Sweden
+    Industry: Video games
+    Native name: null
+    Number of employees: 479
+    Parent: null
+    Romanized: null
+    Type: Public
+    Website: www.paradoxplaza.com
+  Petroglyph:
+    Area served: null
+    Founded: '2003'
+    Founder: null
+    Founders:
+    - Joe Bostic
+    - Michael Legg
+    - Steve Tall
+    Headquarters: Las Vegas, US
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: petroglyphgames.com
+  Psyonix LLC:
+    Area served: null
+    Founded: '2000'
+    Founder: Dave Hagewood
+    Founders: null
+    Headquarters: San Diego, California, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - Epic Games
+    Romanized: null
+    Type: Subsidiary
+    Website: psyonix.com
+  Ratloop Asia:
+    Area served: null
+    Founded: '1997'
+    Founder: null
+    Founders: null
+    Headquarters: Houston, Texas, United States
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.ratloop.com
+  Rebellion:
+    Area served: Worldwide
+    Founded: '1992-12-04'
+    Founder:
+    - Jason Kingsley
+    - Chris Kingsley
+    Founders: null
+    Headquarters: Oxford, England
+    Industry: Video games
+    Native name: null
+    Number of employees: 300
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: rebellion.com
+  Robot Entertainment:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Plano, Texas, United States
+    Industry: Video games
+    Native name: null
+    Number of employees: 30
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.robotentertainment.com
+  Rockstar Games:
+    Area served: null
+    Founded: 1998-12
+    Founder: null
+    Founders:
+    - Sam Houser
+    - Dan Houser
+    - Terry Donovan
+    - Jamie King
+    Headquarters: New York City, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: 2000
+    Parent:
+    - T
+    - a
+    - k
+    - e
+    - T
+    - w
+    - o
+    - I
+    - n
+    - t
+    - e
+    - r
+    - a
+    - c
+    - t
+    - i
+    - v
+    - e
+    Romanized: null
+    Type: Subsidiary
+    Website: rockstargames.com
+  Rockstar North:
+    Area served: null
+    Founded: Dundee
+    Founder: David Jones
+    Founders: null
+    Headquarters: Edinburgh, Scotland
+    Industry: Video games
+    Native name: null
+    Number of employees: 650
+    Parent:
+    - Gremlin Interactive
+    - Infogrames
+    - Take-Two Interactive
+    - Rockstar Games
+    Romanized: null
+    Type: Subsidiary
+    Website: rockstarnorth.com
+  SCS Software:
+    Area served: Worldwide
+    Founded: '1997'
+    Founder: null
+    Founders: null
+    Headquarters: Prague, Czech Republic
+    Industry: Video games
+    Native name: null
+    Number of employees: 170
+    Parent: null
+    Romanized: null
+    Type: Privately held company
+    Website: scssoft.com
+  Squad:
+    Area served: null
+    Founded: '2008'
+    Founder: null
+    Founders: null
+    Headquarters: Mexico City, Mexico
+    Industry:
+    - Marketing
+    - Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: squad.com.mx
+  Square Enix:
+    Area served: null
+    Founded: )
+    Founder: null
+    Founders: null
+    Headquarters: Shinjuku, Tokyo, Japan
+    Industry:
+    - Video games
+    - Entertainment
+    - Publishing
+    - Motion pictures
+    Native name: "\u682A\u5F0F\u4F1A\u793E\u30B9\u30AF\u30A6\u30A7\u30A2\u30FB\u30A8\
+      \u30CB\u30C3\u30AF\u30B9\u30FB\u30DB\u30FC\u30EB\u30C7\u30A3\u30F3\u30B0\u30B9"
+    Number of employees: 5077
+    Parent: null
+    Romanized:
+    - ' name'
+    - Kabushiki gaisha
+    - " Sukuwea Enikkusu H\u014Drudingusu"
+    Type:
+    - Public
+    - ' '
+    - KK
+    Website: square-enix.com
+  Star Gem Inc.:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: Yekaterinburg, Russia
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.targem.ru/en/
+  Starbreeze Publishing AB:
+    Area served: null
+    Founded: "H\xE4rn\xF6sand"
+    Founder: "Magnus H\xF6gdahl"
+    Founders: null
+    Headquarters: Stockholm, Sweden
+    Industry: Video games
+    Native name: null
+    Number of employees: 180
+    Parent: null
+    Romanized: null
+    Type: Public
+    Website: starbreeze.com
+  Stoic:
+    Area served: null
+    Founded: '2011-12-26'
+    Founder: null
+    Founders: null
+    Headquarters: Austin, Texas, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: 27
+    Parent: null
+    Romanized: null
+    Type: null
+    Website: stoicstudio.com
+  THQ Nordic:
+    Area served: Worldwide
+    Founded: '2011'
+    Founder: null
+    Founders: null
+    Headquarters: Vienna, Austria
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - E
+    - m
+    - b
+    - r
+    - a
+    - c
+    - e
+    - r
+    - G
+    - r
+    - o
+    - u
+    - p
+    Romanized: null
+    Type: Subsidiary
+    Website: thqnordic.com
+  TT Fusion:
+    Area served: null
+    Founded: '2005'
+    Founder: null
+    Founders: null
+    Headquarters: Maidenhead, England
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - Warner Bros. Interactive Entertainment
+    Romanized: null
+    Type: Subsidiary
+    Website: ttgames.com
+  Telltale Games:
+    Area served: null
+    Founded: 2004-07
+    Founder: null
+    Founders:
+    - Kevin Bruner
+    - Dan Connors
+    - Troy Molander
+    Headquarters: San Rafael, California, US
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: telltale.com
+  Tiger Style:
+    Area served: null
+    Founded: '[1]'
+    Founder: null
+    Founders:
+    - David Kalina
+    - Randy Smith
+    Headquarters: null
+    Industry: null
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: null
+    Website: www.tigerstylegames.com
+  Trendy Entertainment:
+    Area served: null
+    Founded: '2009-12-14'
+    Founder: null
+    Founders:
+    - Agapitus "Augi" Lye
+    - Jeremy Stieglitz
+    Headquarters: Gainesville, Florida, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: 30
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: chromatic.games
+  Tripwire Interactive:
+    Area served: null
+    Founded: '2005-02-17'
+    Founder: Alan Wilson
+    Founders: null
+    Headquarters: Roswell, Georgia, U.S.
+    Industry: Video games
+    Native name: null
+    Number of employees: 87
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: tripwireinteractive.com
+  Two Tribes:
+    Area served: null
+    Founded: '2001'
+    Founder: null
+    Founders:
+    - Martijn Reuvers
+    - Collin van Ginkel
+    Headquarters: Harderwijk, Netherlands
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - T
+    - w
+    - o
+    - T
+    - r
+    - i
+    - b
+    - e
+    - s
+    - P
+    - u
+    - b
+    - l
+    - i
+    - s
+    - h
+    - i
+    - n
+    - g
+    - B
+    - V
+    Romanized: null
+    Type: Private
+    Website: twotribes.com
+  Ubisoft Toronto:
+    Area served: null
+    Founded: 2010-09
+    Founder:
+    - Jade Raymond
+    - Alexandre Parizeau
+    - "Maxime B\xE9land"
+    Founders: null
+    Headquarters: Toronto, Canada
+    Industry: Video games
+    Native name: null
+    Number of employees: 600
+    Parent:
+    - U
+    - b
+    - i
+    - s
+    - o
+    - f
+    - t
+    Romanized: null
+    Type: Subsidiary
+    Website: toronto.ubisoft.com
+  Unknown Worlds Entertainment:
+    Area served: null
+    Founded: Founded
+    Founder: null
+    Founders: null
+    Headquarters: San Francisco
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent:
+    - Perfect World Games
+    Romanized: null
+    Type: null
+    Website: www.unknownworlds.com
+  Valve:
+    Area served: Worldwide
+    Founded: Kirkland, Washington
+    Founder: null
+    Founders:
+    - Gabe Newell
+    - Mike Harrington
+    Headquarters: Bellevue, Washington, US
+    Industry:
+    - Video games
+    - Digital distribution
+    Native name: null
+    Number of employees: 360
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: valvesoftware.com
+  Versus Evil:
+    Area served: null
+    Founded: null
+    Founder: Steve Escalante
+    Founders: null
+    Headquarters: Baltimore, Maryland, United States
+    Industry: Video games
+    Native name: null
+    Number of employees: null
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: www.versusevil.com
+  Wolfire Games:
+    Area served: null
+    Founded: Founded
+    Founder: David Rosen
+    Founders: null
+    Headquarters: San Francisco Bay Area, California, US
+    Industry: Video games
+    Native name: null
+    Number of employees: 4
+    Parent: null
+    Romanized: null
+    Type: Private
+    Website: wolfire.com
+games:
+  '10':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 88
+    name: Counter-Strike
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 102410
+    releaceDate: '2000-11-01'
+  '100':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 65
+    name: 'Counter-Strike: Condition Zero'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 12962
+    releaceDate: '2004-03-01'
+  '10090':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Treyarch
+    gameType: game
+    genres:
+    - Action
+    metacritic: 83
+    name: 'Call of Duty: World at War'
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 139.99
+      initial: 13999
+      price_NOK: 139.99
+    publisher:
+    - Activision
+    recommendations:
+      total: 28779
+    releaceDate: '2008-11-18'
+  '10180':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Infinity Ward
+    gameType: game
+    genres:
+    - Action
+    metacritic: 86
+    name: "Call of Duty\xAE: Modern Warfare\xAE 2"
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 139.99
+      initial: 13999
+      price_NOK: 139.99
+    publisher:
+    - Activision
+    recommendations:
+      total: 19639
+    releaceDate: '2009-11-11'
+  '10190':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Infinity Ward
+    gameType: game
+    genres:
+    - Action
+    metacritic: 86
+    name: "Call of Duty\xAE: Modern Warfare\xAE 2"
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 139.99
+      initial: 13999
+      price_NOK: 139.99
+    publisher:
+    - Activision
+    recommendations:
+      total: 19639
+    releaceDate: '2009-11-11'
+  '102600':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Robot Entertainment
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Strategy
+    metacritic: 83
+    name: Orcs Must Die!
+    numDLC: 2
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Robot Entertainment
+    recommendations:
+      total: 4811
+    releaceDate: '2011-10-11'
+  '104600':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Geoff Keighley
+    gameType: game
+    genres: null
+    metacritic: null
+    name: Portal 2 - The Final Hours
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 15.5
+      initial: 1550
+      price_NOK: 15.5
+    publisher:
+    - Geoff Keighley
+    recommendations:
+      total: 495
+    releaceDate: '2011-05-17'
+  '107410':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Bohemia Interactive
+    gameType: game
+    genres:
+    - Action
+    - Simulation
+    - Strategy
+    metacritic: 74
+    name: Arma 3
+    numDLC: 15
+    platforms:
+    - windows
+    price:
+      currency: EUR
+      final_formatted: 27.99
+      initial: 2799
+      price_NOK: 287.87715
+    publisher:
+    - Bohemia Interactive
+    recommendations:
+      total: 135849
+    releaceDate: '2013-09-12'
+  '130':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Gearbox Software
+    gameType: game
+    genres:
+    - Action
+    metacritic: 71
+    name: 'Half-Life: Blue Shift'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 6566
+    releaceDate: '2001-06-01'
+  '13520':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Crytek Studios
+    gameType: game
+    genres:
+    - Action
+    metacritic: 89
+    name: "Far Cry\xAE"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Ubisoft
+    recommendations:
+      total: 4876
+    releaceDate: '2008-04-01'
+  '19900':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Ubisoft Montreal
+    gameType: game
+    genres:
+    - Action
+    metacritic: 85
+    name: "Far Cry\xAE 2: Fortune's Edition"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Ubisoft
+    recommendations:
+      total: 9039
+    releaceDate: '2008-10-22'
+  '20':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: Team Fortress Classic
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 3859
+    releaceDate: '1999-04-01'
+  '200510':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Firaxis Games
+    - Feral Interactive (Linux)
+    gameType: game
+    genres:
+    - Strategy
+    metacritic: 89
+    name: 'XCOM: Enemy Unknown'
+    numDLC: 3
+    platforms:
+    - windows
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 200.0
+      initial: 20000
+      price_NOK: 200.0
+    publisher:
+    - 2K
+    - Feral Interactive (Linux)
+    recommendations:
+      total: 30718
+    releaceDate: '2012-10-11'
+  '201790':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Robot Entertainment
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    - RPG
+    - Strategy
+    metacritic: 83
+    name: Orcs Must Die! 2
+    numDLC: 4
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - Robot Entertainment
+    recommendations:
+      total: 10682
+    releaceDate: '2012-07-30'
+  '203290':
+    categories: null
+    controllerSupport: none
+    developer:
+    - U.S. Army
+    gameType: game
+    genres:
+    - Action
+    - Free to Play
+    metacritic: null
+    name: 'America''s Army: Proving Grounds'
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - U.S. Army
+    recommendations:
+      total: 142
+    releaceDate: '2013-08-01'
+  '204060':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Capybara
+    - Superbrothers
+    - Jim Guthrie
+    gameType: game
+    genres:
+    - Adventure
+    - Indie
+    metacritic: 83
+    name: 'Superbrothers: Sword & Sworcery EP'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 56.0
+      initial: 5600
+      price_NOK: 56.0
+    publisher:
+    - Capybara Games
+    recommendations:
+      total: 1227
+    releaceDate: '2012-04-16'
+  '204530':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Rocket Bear Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Strategy
+    metacritic: 75
+    name: Infested Planet
+    numDLC: 2
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - Rocket Bear Games
+    recommendations:
+      total: 1984
+    releaceDate: '2014-03-06'
+  '205100':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Arkane Studios
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: 91
+    name: Dishonored
+    numDLC: 5
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 84.99
+      initial: 8499
+      price_NOK: 84.99
+    publisher:
+    - Bethesda Softworks
+    recommendations:
+      total: 42789
+    releaceDate: '2012-10-11'
+  '205710':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Darkpaw Games
+    gameType: game
+    genres:
+    - Free to Play
+    - Massively Multiplayer
+    - RPG
+    metacritic: null
+    name: EverQuest
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Daybreak Game Company
+    recommendations: null
+    releaceDate: '2012-12-13'
+  '207650':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Misfits Attic
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Strategy
+    metacritic: 65
+    name: A Virus Named TOM
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Misfits Attic
+    recommendations: null
+    releaceDate: '2012-08-01'
+  '208580':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Obsidian Entertainment
+    - Aspyr (Mac, Linux, & Windows Update)
+    gameType: game
+    genres:
+    - RPG
+    metacritic: 85
+    name: "STAR WARS\u2122 Knights of the Old Republic\u2122 II - The Sith Lords\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - LucasArts
+    - Disney
+    - Lucasfilm
+    - Aspyr (Mac, Linux)
+    recommendations:
+      total: 14403
+    releaceDate: '2012-08-23'
+  '209080':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Muse Games
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    - Simulation
+    metacritic: 64
+    name: Guns of Icarus Online
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 36.0
+      initial: 3600
+      price_NOK: 36.0
+    publisher:
+    - Muse Games
+    recommendations:
+      total: 8294
+    releaceDate: '2012-10-29'
+  '210170':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Spaces of Play UG
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Strategy
+    metacritic: null
+    name: Spirits
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 31.0
+      initial: 3100
+      price_NOK: 31.0
+    publisher:
+    - Spaces of Play UG
+    recommendations: null
+    releaceDate: '2012-09-04'
+  '212070':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Star Gem Inc.
+    gameType: game
+    genres:
+    - Action
+    - Free to Play
+    - Massively Multiplayer
+    - Simulation
+    metacritic: 75
+    name: Star Conflict
+    numDLC: 38
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Gaijin Distribution KFT
+    recommendations:
+      total: 206
+    releaceDate: '2013-02-27'
+  '214510':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Traveller's Tales
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: 80
+    name: "LEGO\xAE The Lord of the Rings\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Warner Bros. Interactive Entertainment
+    recommendations:
+      total: 3914
+    releaceDate: '2012-11-27'
+  '214700':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Blendo Games
+    gameType: game
+    genres:
+    - Adventure
+    - Casual
+    - Indie
+    metacritic: 88
+    name: Thirty Flights of Loving
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 36.0
+      initial: 3600
+      price_NOK: 36.0
+    publisher:
+    - Blendo Games
+    recommendations:
+      total: 1097
+    releaceDate: '2012-08-20'
+  '214770':
+    categories: null
+    controllerSupport: full
+    developer:
+    - DrinkBox Studios
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    metacritic: 88
+    name: Guacamelee! Gold Edition
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - DrinkBox Studios
+    recommendations:
+      total: 2768
+    releaceDate: '2013-08-08'
+  '215510':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Ratloop Asia
+    gameType: game
+    genres:
+    - Adventure
+    - Indie
+    metacritic: 74
+    name: 'Rocketbirds: Hardboiled Chicken'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 36.0
+      initial: 3600
+      price_NOK: 36.0
+    publisher:
+    - Reverb Publishing
+    recommendations:
+      total: 1786
+    releaceDate: '2012-10-15'
+  '218230':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Rogue Planet Games
+    gameType: game
+    genres:
+    - Action
+    - Free to Play
+    - Massively Multiplayer
+    metacritic: 84
+    name: PlanetSide 2
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Daybreak Game Company
+    recommendations:
+      total: 631
+    releaceDate: '2012-11-20'
+  '218620':
+    categories: null
+    controllerSupport: full
+    developer:
+    - OVERKILL - a Starbreeze Studio.
+    gameType: game
+    genres:
+    - Action
+    - RPG
+    metacritic: 79
+    name: PAYDAY 2
+    numDLC: 64
+    platforms:
+    - windows
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Starbreeze Publishing AB
+    recommendations:
+      total: 307092
+    releaceDate: '2013-08-13'
+  '219150':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Dennaton Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: 85
+    name: Hotline Miami
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Devolver Digital
+    recommendations:
+      total: 50461
+    releaceDate: '2012-10-23'
+  '220':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 96
+    name: Half-Life 2
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 87123
+    releaceDate: '2004-11-16'
+  '22000':
+    categories: null
+    controllerSupport: none
+    developer:
+    - 2D BOY
+    gameType: game
+    genres:
+    - Indie
+    metacritic: 90
+    name: World of Goo
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - '2D BOY '
+    recommendations:
+      total: 3208
+    releaceDate: '2008-10-13'
+  '220200':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Squad
+    gameType: game
+    genres:
+    - Indie
+    - Simulation
+    metacritic: 88
+    name: Kerbal Space Program
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 330.0
+      initial: 33000
+      price_NOK: 330.0
+    publisher:
+    - 'Private Division '
+    recommendations:
+      total: 70727
+    releaceDate: '2015-04-27'
+  '220700':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Gotcha Gotcha Games
+    - KADOKAWA
+    - Yoji Ojima
+    gameType: game
+    genres:
+    - Design & Illustration
+    - Web Publishing
+    metacritic: null
+    name: RPG Maker VX Ace
+    numDLC: 301
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 480.0
+      initial: 48000
+      price_NOK: 480.0
+    publisher:
+    - Degica
+    recommendations:
+      total: 2622
+    releaceDate: '2012-12-10'
+  '221640':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Terry Cavanagh
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: 88
+    name: Super Hexagon
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 20.0
+      initial: 2000
+      price_NOK: 20.0
+    publisher:
+    - Terry Cavanagh
+    recommendations:
+      total: 16037
+    releaceDate: '2012-11-27'
+  '221910':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Galactic Cafe
+    gameType: game
+    genres:
+    - Adventure
+    - Indie
+    metacritic: 88
+    name: The Stanley Parable
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Galactic Cafe
+    recommendations:
+      total: 34307
+    releaceDate: '2013-10-17'
+  '222480':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Capcom
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: 77
+    name: Resident Evil Revelations
+    numDLC: 7
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 209.99
+      initial: 20999
+      price_NOK: 209.99
+    publisher:
+    - Capcom
+    recommendations:
+      total: 5117
+    releaceDate: '2013-05-23'
+  '223750':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Eagle Dynamics SA
+    gameType: game
+    genres:
+    - Free to Play
+    - Simulation
+    metacritic: null
+    name: DCS World Steam Edition
+    numDLC: 86
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - ''
+    recommendations:
+      total: 369
+    releaceDate: '2013-08-02'
+  '224480':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Young Horses
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    metacritic: 69
+    name: 'Octodad: Dadliest Catch'
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 82.0
+      initial: 8200
+      price_NOK: 82.0
+    publisher:
+    - Young Horses
+    recommendations:
+      total: 6824
+    releaceDate: '2014-01-30'
+  '224540':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Jagex Limited
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: null
+    name: 'Ace of Spades: Battle Builder'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Jagex Limited
+    recommendations:
+      total: 12999
+    releaceDate: null
+  '226740':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Radial Games Corp
+    - Dejobaan Games, LLC
+    gameType: game
+    genres:
+    - Adventure
+    - Casual
+    - Indie
+    - RPG
+    - Simulation
+    metacritic: null
+    name: Monster Loves You!
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Radial Games Corp
+    recommendations:
+      total: 795
+    releaceDate: '2013-03-18'
+  '227200':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Tiger Style
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    metacritic: 79
+    name: Waking Mars
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Tiger Style
+    recommendations:
+      total: 590
+    releaceDate: '2012-12-13'
+  '227300':
+    categories: null
+    controllerSupport: none
+    developer:
+    - SCS Software
+    gameType: game
+    genres:
+    - Indie
+    - Simulation
+    metacritic: 79
+    name: Euro Truck Simulator 2
+    numDLC: 73
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: KRW
+      final_formatted: 2350.0
+      initial: 2350000
+      price_NOK: 18.06435821163246
+    publisher:
+    - SCS Software
+    recommendations:
+      total: 299253
+    releaceDate: '2012-10-12'
+  '228380':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Bugbear
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Racing
+    - Simulation
+    - Sports
+    metacritic: 81
+    name: Wreckfest
+    numDLC: 13
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 289.0
+      initial: 28900
+      price_NOK: 289.0
+    publisher:
+    - THQ Nordic
+    recommendations:
+      total: 18184
+    releaceDate: '2018-06-14'
+  '232810':
+    categories: null
+    controllerSupport: none
+    developer:
+    - 22cans
+    gameType: game
+    genres:
+    - Indie
+    - Simulation
+    - Strategy
+    - Early Access
+    metacritic: null
+    name: Godus
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - 22cans Ltd.
+    recommendations:
+      total: 5701
+    releaceDate: null
+  '232910':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Nadeo
+    gameType: game
+    genres:
+    - Racing
+    - Sports
+    metacritic: 77
+    name: "TrackMania\xB2 Stadium"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Ubisoft
+    recommendations:
+      total: 4490
+    releaceDate: '2013-06-20'
+  '233450':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Double Eleven
+    - Introversion Software
+    gameType: game
+    genres:
+    - Indie
+    - Simulation
+    - Strategy
+    metacritic: 83
+    name: Prison Architect
+    numDLC: 5
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 207.0
+      initial: 20700
+      price_NOK: 207.0
+    publisher:
+    - Paradox Interactive
+    recommendations:
+      total: 44326
+    releaceDate: '2015-10-06'
+  '234190':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Wolfire Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Simulation
+    metacritic: null
+    name: Receiver
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Wolfire Games
+    recommendations:
+      total: 2355
+    releaceDate: '2013-04-29'
+  '234710':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Telltale Games
+    gameType: game
+    genres:
+    - Casual
+    - Sports
+    metacritic: 75
+    name: Poker Night 2
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Telltale Games
+    recommendations:
+      total: 4912
+    releaceDate: '2013-04-26'
+  '235600':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Ubisoft Toronto
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: null
+    name: "Tom Clancy\u2019s Splinter Cell Blacklist"
+    numDLC: 2
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 199.0
+      initial: 19900
+      price_NOK: 199.0
+    publisher:
+    - Ubisoft
+    recommendations:
+      total: 12479
+    releaceDate: '2013-08-22'
+  '236390':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Gaijin Entertainment
+    gameType: game
+    genres:
+    - Action
+    - Free to Play
+    - Massively Multiplayer
+    - Simulation
+    metacritic: 81
+    name: War Thunder
+    numDLC: 18
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Gaijin Distribution KFT
+    recommendations:
+      total: 1636
+    releaceDate: '2013-08-15'
+  '238930':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Mousechief
+    gameType: game
+    genres:
+    - Casual
+    - Indie
+    - Simulation
+    - Strategy
+    metacritic: null
+    name: '7 Grand Steps: What Ancients Begat'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Mousechief
+    recommendations:
+      total: 286
+    releaceDate: '2013-06-07'
+  '239160':
+    categories: null
+    controllerSupport: full
+    developer:
+    - "Eidos-Montr\xE9al"
+    - Feral Interactive (Mac)
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: 70
+    name: Thief
+    numDLC: 5
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 169.0
+      initial: 16900
+      price_NOK: 169.0
+    publisher:
+    - Square Enix
+    - Feral Interactive (Mac)
+    recommendations:
+      total: 13196
+    releaceDate: '2014-02-27'
+  '239350':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Mossmouth
+    gameType: game
+    genres:
+    - Indie
+    metacritic: 90
+    name: Spelunky
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Mossmouth
+    recommendations:
+      total: 12090
+    releaceDate: '2013-08-08'
+  '240':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 88
+    name: 'Counter-Strike: Source'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 75909
+    releaceDate: '2004-11-01'
+  '24240':
+    categories: null
+    controllerSupport: none
+    developer:
+    - OVERKILL Software
+    gameType: game
+    genres:
+    - Action
+    metacritic: 76
+    name: "PAYDAY\u2122 The Heist"
+    numDLC: 2
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Daybreak Game Company
+    recommendations:
+      total: 18335
+    releaceDate: '2011-10-20'
+  '242760':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Endnight Games Ltd
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    - Simulation
+    metacritic: 83
+    name: The Forest
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - Endnight Games Ltd
+    recommendations:
+      total: 212134
+    releaceDate: '2018-04-30'
+  '242860':
+    categories: null
+    controllerSupport: full
+    developer:
+    - M2H
+    - Blackmill Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Massively Multiplayer
+    - Simulation
+    - Strategy
+    metacritic: 70
+    name: Verdun
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - M2H
+    recommendations:
+      total: 25813
+    releaceDate: '2015-04-28'
+  '243160':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Untame
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    metacritic: 78
+    name: Mushroom 11
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Untame
+    recommendations:
+      total: 114
+    releaceDate: '2015-10-15'
+  '246620':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Ndemic Creations
+    gameType: game
+    genres:
+    - Casual
+    - Indie
+    - Simulation
+    - Strategy
+    metacritic: null
+    name: 'Plague Inc: Evolved'
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Ndemic Creations
+    recommendations:
+      total: 33726
+    releaceDate: '2016-02-18'
+  '246680':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Broken Rules
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    metacritic: null
+    name: "Secrets of R\xE6tikon"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Broken Rules
+    recommendations:
+      total: 156
+    releaceDate: '2014-04-17'
+  '248570':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Nabi Studios
+    gameType: game
+    genres:
+    - Action
+    - Free to Play
+    - Indie
+    - Strategy
+    metacritic: null
+    name: Toribash
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Nicalis, Inc.
+    recommendations:
+      total: 162
+    releaceDate: '2014-05-16'
+  '24960':
+    categories: null
+    controllerSupport: none
+    developer:
+    - DICE
+    gameType: game
+    genres:
+    - Action
+    metacritic: 87
+    name: "Battlefield: Bad Company\u2122 2"
+    numDLC: 1
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 199.0
+      initial: 19900
+      price_NOK: 199.0
+    publisher:
+    - Electronic Arts
+    recommendations:
+      total: 28553
+    releaceDate: '2010-03-02'
+  '25000':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Wolfire Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: null
+    name: Overgrowth
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 207.0
+      initial: 20700
+      price_NOK: 207.0
+    publisher:
+    - Wolfire Games
+    recommendations:
+      total: 3740
+    releaceDate: '2017-10-16'
+  '251130':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Behold Studios
+    gameType: game
+    genres:
+    - Indie
+    - RPG
+    - Strategy
+    metacritic: 75
+    name: Chroma Squad
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - Behold Studios
+    recommendations:
+      total: 2097
+    releaceDate: '2015-04-30'
+  '251570':
+    categories: null
+    controllerSupport: full
+    developer:
+    - The Fun Pimps
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    - RPG
+    - Simulation
+    - Strategy
+    - Early Access
+    metacritic: null
+    name: 7 Days to Die
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 170.0
+      initial: 17000
+      price_NOK: 169.99999999999997
+    publisher:
+    - The Fun Pimps Entertainment LLC
+    recommendations:
+      total: 110950
+    releaceDate: '2013-12-13'
+  '252430':
+    categories: null
+    controllerSupport: full
+    developer:
+    - PD Design Studio
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: null
+    name: Dusty Revenge:Co-Op Edition
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - PD Design Studio
+    recommendations: null
+    releaceDate: '2014-02-17'
+  '252490':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Facepunch Studios
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    - Massively Multiplayer
+    - RPG
+    metacritic: 69
+    name: Rust
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 279.0
+      initial: 27900
+      price_NOK: 279.0
+    publisher:
+    - Facepunch Studios
+    recommendations:
+      total: 451378
+    releaceDate: '2018-02-08'
+  '252850':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Proletariat Inc.
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Sports
+    - Early Access
+    metacritic: null
+    name: Streamline
+    numDLC: 1
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Proletariat Inc.
+    recommendations: null
+    releaceDate: '2016-09-30'
+  '252950':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Psyonix LLC
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Racing
+    - Sports
+    metacritic: 86
+    name: "Rocket League\xAE"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Psyonix LLC
+    recommendations:
+      total: 381514
+    releaceDate: '2015-07-06'
+  '254320':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Misfits Attic
+    gameType: game
+    genres:
+    - Indie
+    - Strategy
+    metacritic: 83
+    name: Duskers
+    numDLC: null
+    platforms:
+    - windows
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Misfits Attic
+    recommendations:
+      total: 1439
+    releaceDate: '2016-05-18'
+  '255220':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Codemasters Racing
+    - Feral Interactive (Mac)
+    - Feral Interactive (Linux)
+    gameType: game
+    genres:
+    - Racing
+    - Sports
+    metacritic: 78
+    name: GRID Autosport
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Codemasters
+    - Feral Interactive (Mac)
+    - Feral Interactive (Linux)
+    recommendations:
+      total: 4957
+    releaceDate: '2014-06-26'
+  '257850':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Heart Machine
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    - RPG
+    metacritic: 84
+    name: Hyper Light Drifter
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Heart Machine
+    recommendations:
+      total: 11295
+    releaceDate: '2016-03-31'
+  '262410':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Noble Empire Corp.
+    gameType: game
+    genres:
+    - Free to Play
+    - Indie
+    - Simulation
+    metacritic: null
+    name: 'World of Guns: Gun Disassembly'
+    numDLC: 25
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Noble Empire Corp.
+    recommendations:
+      total: 293
+    releaceDate: '2014-05-21'
+  '263460':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Popcannibal
+    gameType: game
+    genres:
+    - Adventure
+    - Casual
+    - Indie
+    metacritic: null
+    name: Girls Like Robots
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 50.0
+      initial: 5000
+      price_NOK: 50.0
+    publisher:
+    - Popcannibal
+    recommendations: null
+    releaceDate: '2014-02-14'
+  '263760':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Secret Exit Ltd.
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Simulation
+    metacritic: null
+    name: "Turbo Dismount\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Secret Exit Ltd.
+    recommendations:
+      total: 4199
+    releaceDate: '2014-05-21'
+  '264710':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Unknown Worlds Entertainment
+    gameType: game
+    genres:
+    - Adventure
+    - Indie
+    metacritic: 87
+    name: Subnautica
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 285.0
+      initial: 28500
+      price_NOK: 285.0
+    publisher:
+    - Unknown Worlds Entertainment
+    recommendations:
+      total: 143014
+    releaceDate: '2018-01-23'
+  '265930':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Coffee Stain Studios
+    gameType: game
+    genres:
+    - Casual
+    - Indie
+    - Simulation
+    metacritic: 62
+    name: Goat Simulator
+    numDLC: 5
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Coffee Stain Publishing
+    recommendations:
+      total: 42479
+    releaceDate: '2014-04-01'
+  '266110':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Terrible Posture Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: 76
+    name: Tower of Guns
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Versus Evil
+    recommendations:
+      total: 411
+    releaceDate: '2014-03-04'
+  '267530':
+    categories: null
+    controllerSupport: full
+    developer:
+    - TT Fusion
+    - Traveller's Tales
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: null
+    name: "The LEGO\xAE Movie - Videogame"
+    numDLC: 1
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Warner Bros. Interactive Entertainment
+    recommendations:
+      total: 1769
+    releaceDate: '2014-02-27'
+  '268910':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Studio MDHR Entertainment Inc.
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: 88
+    name: Cuphead
+    numDLC: 2
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Studio MDHR Entertainment Inc.
+    recommendations:
+      total: 61637
+    releaceDate: '2017-09-29'
+  '269170':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Cherry Pop Games
+    - Perilous Orbit
+    gameType: game
+    genres:
+    - Casual
+    - Indie
+    - Simulation
+    - Sports
+    - Strategy
+    metacritic: null
+    name: Sports Bar VR
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Perilous Orbit
+    recommendations:
+      total: 731
+    releaceDate: '2016-06-01'
+  '269790':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Digital Happiness
+    gameType: game
+    genres:
+    - Adventure
+    - Indie
+    metacritic: 55
+    name: DreadOut
+    numDLC: 1
+    platforms:
+    - windows
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Digital Happiness
+    recommendations:
+      total: 3378
+    releaceDate: '2014-05-15'
+  '270130':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Cloudhead Games ltd.
+    gameType: game
+    genres:
+    - Adventure
+    - Casual
+    - Indie
+    metacritic: 79
+    name: 'The Gallery - Episode 1: Call of the Starseed'
+    numDLC: 1
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - Cloudhead Games ltd.
+    recommendations:
+      total: 968
+    releaceDate: '2016-04-05'
+  '270150':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Osumia Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: 78
+    name: RUNNING WITH RIFLES
+    numDLC: 3
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 120.0
+      initial: 12000
+      price_NOK: 120.0
+    publisher:
+    - Osumia Games
+    recommendations:
+      total: 6951
+    releaceDate: '2015-04-02'
+  '270450':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Erik Asmussen
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Sports
+    metacritic: null
+    name: Robot Roller-Derby Disco Dodgeball
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - 82 Apps
+    recommendations:
+      total: 2181
+    releaceDate: '2015-02-19'
+  '271590':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Rockstar North
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: 96
+    name: Grand Theft Auto V
+    numDLC: 1
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Rockstar Games
+    recommendations:
+      total: 928172
+    releaceDate: '2015-04-13'
+  '27400':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Mousechief
+    gameType: game
+    genres:
+    - RPG
+    - Indie
+    - Casual
+    metacritic: 81
+    name: "Dangerous High School Girls in Trouble!\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Mousechief
+    recommendations: null
+    releaceDate: '2009-02-23'
+  '274170':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Dennaton Games
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: null
+    name: 'Hotline Miami 2: Wrong Number'
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 129.95
+      initial: 12995
+      price_NOK: 129.95
+    publisher:
+    - Devolver Digital
+    recommendations:
+      total: 28878
+    releaceDate: '2015-03-10'
+  '274190':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Free Lives
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Casual
+    - Indie
+    metacritic: 83
+    name: Broforce
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Devolver Digital
+    recommendations:
+      total: 33194
+    releaceDate: '2015-10-15'
+  '275390':
+    categories: null
+    controllerSupport: full
+    developer:
+    - DrinkBox Studios
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    - Indie
+    metacritic: 80
+    name: Guacamelee! Super Turbo Championship Edition
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - DrinkBox Studios
+    recommendations:
+      total: 1757
+    releaceDate: '2014-08-21'
+  '278100':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Two Tribes
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: 'RIVE: Wreck, Hack, Die, Retry!'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - Two Tribes Publishing
+    recommendations:
+      total: 302
+    releaceDate: '2016-09-13'
+  '280':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: 'Half-Life: Source'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 7255
+    releaceDate: '2004-06-01'
+  '280200':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Rogue Earth LLC
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: null
+    name: Eterium
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 36.0
+      initial: 3600
+      price_NOK: 36.0
+    publisher:
+    - Rogue Earth LLC
+    recommendations: null
+    releaceDate: '2014-04-15'
+  '281640':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Stoic
+    gameType: game
+    genres:
+    - Indie
+    - RPG
+    - Strategy
+    metacritic: 82
+    name: The Banner Saga 2
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 175.0
+      initial: 17500
+      price_NOK: 175.0
+    publisher:
+    - Versus Evil
+    recommendations:
+      total: 2238
+    releaceDate: '2016-04-19'
+  '281990':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Paradox Development Studio
+    gameType: game
+    genres:
+    - Simulation
+    - Strategy
+    metacritic: 78
+    name: Stellaris
+    numDLC: 17
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 270.0
+      initial: 27000
+      price_NOK: 270.0
+    publisher:
+    - Paradox Interactive
+    recommendations:
+      total: 70697
+    releaceDate: '2016-05-09'
+  '282760':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Digital Tentacle
+    gameType: game
+    genres:
+    - Casual
+    - Indie
+    metacritic: null
+    name: Circuits
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 36.0
+      initial: 3600
+      price_NOK: 36.0
+    publisher:
+    - Digital Tentacle
+    recommendations:
+      total: 1651
+    releaceDate: '2014-04-17'
+  '284160':
+    categories: null
+    controllerSupport: none
+    developer:
+    - BeamNG
+    gameType: game
+    genres:
+    - Racing
+    - Simulation
+    - Early Access
+    metacritic: null
+    name: BeamNG.drive
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: KRW
+      final_formatted: 2600.0
+      initial: 2600000
+      price_NOK: 19.98609844691251
+    publisher:
+    - BeamNG
+    recommendations:
+      total: 56427
+    releaceDate: '2015-05-29'
+  '284240':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Finish Line Games
+    gameType: game
+    genres:
+    - Adventure
+    - Indie
+    metacritic: null
+    name: Maize
+    numDLC: 1
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Finish Line Games
+    recommendations:
+      total: 515
+    releaceDate: '2016-12-01'
+  '285310':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Chris Sawyer Productions
+    gameType: game
+    genres:
+    - Simulation
+    - Strategy
+    metacritic: null
+    name: "RollerCoaster Tycoon\xAE: Deluxe"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 40.0
+      initial: 4000
+      price_NOK: 40.0
+    publisher:
+    - Atari
+    recommendations:
+      total: 4418
+    releaceDate: '2014-05-21'
+  '30':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 79
+    name: Day of Defeat
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 2824
+    releaceDate: '2003-05-01'
+  '300':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 80
+    name: 'Day of Defeat: Source'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 9834
+    releaceDate: '2010-07-12'
+  '31280':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Telltale Games
+    gameType: game
+    genres:
+    - Casual
+    - Sports
+    metacritic: 71
+    name: Poker Night at the Inventory
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - ''
+    recommendations:
+      total: 5912
+    releaceDate: '2010-11-22'
+  '320':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: 'Half-Life 2: Deathmatch'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 5874
+    releaceDate: '2004-11-01'
+  '32350':
+    categories: null
+    controllerSupport: none
+    developer:
+    - LucasArts
+    gameType: game
+    genres:
+    - Action
+    - Simulation
+    metacritic: 71
+    name: "STAR WARS\u2122 Starfighter\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 41.5
+      initial: 4150
+      price_NOK: 41.50000000000001
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 375
+    releaceDate: '2009-07-08'
+  '32370':
+    categories: null
+    controllerSupport: none
+    developer:
+    - BioWare
+    - Aspyr (Mac)
+    gameType: game
+    genres:
+    - Adventure
+    - RPG
+    metacritic: null
+    name: "STAR WARS\u2122 - Knights of the Old Republic\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - LucasArts
+    - Aspyr (Mac)
+    - Disney
+    - Lucasfilm
+    recommendations:
+      total: 18859
+    releaceDate: '2009-09-05'
+  '32380':
+    categories: null
+    controllerSupport: none
+    developer:
+    - LucasArts
+    gameType: game
+    genres:
+    - Action
+    metacritic: 91
+    name: "STAR WARS\u2122 Jedi Knight: Dark Forces II"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 41.5
+      initial: 4150
+      price_NOK: 41.50000000000001
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 1195
+    releaceDate: '2009-09-16'
+  '32390':
+    categories: null
+    controllerSupport: none
+    developer:
+    - LucasArts
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: "STAR WARS\u2122 Jedi Knight - Mysteries of the Sith\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 20.5
+      initial: 2050
+      price_NOK: 20.5
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 639
+    releaceDate: '2009-09-16'
+  '32400':
+    categories: null
+    controllerSupport: none
+    developer:
+    - LucasArts
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: "STAR WARS\u2122 - Dark Forces"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 41.5
+      initial: 4150
+      price_NOK: 41.50000000000001
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 1691
+    releaceDate: '2009-09-16'
+  '32420':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Krome Studios
+    gameType: game
+    genres:
+    - Action
+    metacritic: 46
+    name: "STAR WARS\u2122: The Clone Wars - Republic Heroes\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 520
+    releaceDate: '2009-10-06'
+  '32430':
+    categories: null
+    controllerSupport: none
+    developer:
+    - LucasArts
+    gameType: game
+    genres:
+    - Action
+    metacritic: 65
+    name: "STAR WARS\u2122 - The Force Unleashed\u2122 Ultimate Sith Edition"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 4510
+    releaceDate: '2009-12-15'
+  '32440':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Traveller's Tales
+    gameType: game
+    genres:
+    - Adventure
+    metacritic: 77
+    name: "LEGO\xAE Star Wars\u2122 - The Complete Saga"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 9981
+    releaceDate: '2009-11-12'
+  '32470':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Petroglyph
+    gameType: game
+    genres:
+    - Strategy
+    metacritic: null
+    name: "STAR WARS\u2122 Empire at War - Gold Pack"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 18337
+    releaceDate: '2010-05-25'
+  '32500':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Aspyr Studios
+    gameType: game
+    genres:
+    - Action
+    metacritic: 59
+    name: "STAR WARS\u2122: The Force Unleashed\u2122 II"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 3671
+    releaceDate: '2010-12-01'
+  '32510':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Traveller's Tales
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: 76
+    name: "LEGO\xAE Star Wars\u2122 III - The Clone Wars\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 145.0
+      initial: 14500
+      price_NOK: 145.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 2854
+    releaceDate: '2011-03-22'
+  '340':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: 'Half-Life 2: Lost Coast'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Valve
+    recommendations:
+      total: 6496
+    releaceDate: '2005-10-27'
+  '35450':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Tripwire Interactive
+    gameType: game
+    genres:
+    - Action
+    - Massively Multiplayer
+    - Simulation
+    metacritic: 76
+    name: 'Red Orchestra 2: Heroes of Stalingrad with Rising Storm'
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Tripwire Interactive
+    recommendations:
+      total: 21428
+    releaceDate: '2011-09-13'
+  '360':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: 'Half-Life Deathmatch: Source'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 2197
+    releaceDate: '2006-05-01'
+  '3700':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Rebellion
+    gameType: game
+    genres:
+    - Action
+    metacritic: 76
+    name: Sniper Elite
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 56.0
+      initial: 5600
+      price_NOK: 56.0
+    publisher:
+    - Rebellion
+    recommendations:
+      total: 1872
+    releaceDate: '2009-07-16'
+  '380':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 87
+    name: 'Half-Life 2: Episode One'
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 58.0
+      initial: 5800
+      price_NOK: 58.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 12148
+    releaceDate: '2006-06-01'
+  '39000':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Virtual Heroes
+    - Army Game Studio
+    gameType: game
+    genres:
+    - Adventure
+    - Simulation
+    - Strategy
+    metacritic: null
+    name: Moonbase Alpha
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - NASA
+    recommendations:
+      total: 182
+    releaceDate: '2010-07-06'
+  '40':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: Deathmatch Classic
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 1320
+    releaceDate: '2001-06-01'
+  '400':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 90
+    name: Portal
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 69115
+    releaceDate: '2007-10-10'
+  '4000':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Facepunch Studios
+    gameType: game
+    genres:
+    - Indie
+    - Simulation
+    metacritic: null
+    name: Garry's Mod
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 564276
+    releaceDate: '2006-11-29'
+  '40400':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Arcen Games, LLC
+    gameType: game
+    genres:
+    - Indie
+    - Strategy
+    metacritic: 80
+    name: 'AI War: Fleet Command'
+    numDLC: 6
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Arcen Games, LLC
+    recommendations:
+      total: 914
+    releaceDate: '2009-10-21'
+  '420':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 90
+    name: 'Half-Life 2: Episode Two'
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 58.0
+      initial: 5800
+      price_NOK: 58.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 17925
+    releaceDate: '2007-10-10'
+  '422420':
+    categories: null
+    controllerSupport: none
+    developer:
+    - 22cans
+    gameType: game
+    genres:
+    - Casual
+    - Indie
+    - Simulation
+    - Strategy
+    - Early Access
+    metacritic: null
+    name: Godus Wars
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 100.0
+      initial: 10000
+      price_NOK: 100.0
+    publisher:
+    - 22cans
+    recommendations:
+      total: 413
+    releaceDate: '2016-02-03'
+  '44350':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Codemasters Racing
+    gameType: game
+    genres:
+    - Racing
+    - Sports
+    metacritic: 80
+    name: GRID 2
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Codemasters
+    recommendations:
+      total: 7863
+    releaceDate: null
+  '4570':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Relic Entertainment
+    gameType: game
+    genres:
+    - Strategy
+    metacritic: 86
+    name: "Warhammer\xAE 40,000: Dawn of War\xAE - Game of the Year Edition"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 85.99
+      initial: 8599
+      price_NOK: 85.98999999999998
+    publisher:
+    - SEGA
+    recommendations:
+      total: 4082
+    releaceDate: '2007-08-07'
+  '49520':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Gearbox Software
+    - Aspyr (Mac)
+    - Aspyr (Linux)
+    gameType: game
+    genres:
+    - Action
+    - RPG
+    metacritic: 89
+    name: Borderlands 2
+    numDLC: 48
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - 2K
+    - Aspyr (Mac)
+    - Aspyr (Linux)
+    recommendations:
+      total: 164240
+    releaceDate: '2012-09-20'
+  '50':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Gearbox Software
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: 'Half-Life: Opposing Force'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 8699
+    releaceDate: '1999-11-01'
+  '500':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 89
+    name: Left 4 Dead
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 24994
+    releaceDate: '2008-11-17'
+  '550':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 89
+    name: Left 4 Dead 2
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: KRW
+      final_formatted: 1050.0
+      initial: 1050000
+      price_NOK: 8.071308988176206
+    publisher:
+    - Valve
+    recommendations:
+      total: 317702
+    releaceDate: '2009-11-16'
+  '55040':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Blendo Games
+    gameType: game
+    genres:
+    - Indie
+    - Strategy
+    metacritic: 75
+    name: Atom Zombie Smasher
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: AUD
+      final_formatted: 14.5
+      initial: 1450
+      price_NOK: 95.19500829822546
+    publisher:
+    - Blendo Games
+    recommendations:
+      total: 900
+    releaceDate: '2011-03-14'
+  '57690':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Haemimont Games
+    gameType: game
+    genres:
+    - Simulation
+    - Strategy
+    metacritic: 78
+    name: Tropico 4
+    numDLC: 11
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 139.0
+      initial: 13900
+      price_NOK: 139.0
+    publisher:
+    - Kalypso Media Digital
+    recommendations:
+      total: 7144
+    releaceDate: '2011-09-01'
+  '60':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: null
+    name: Ricochet
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 37.0
+      initial: 3700
+      price_NOK: 37.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 2707
+    releaceDate: '2000-11-01'
+  '6000':
+    categories: null
+    controllerSupport: none
+    developer:
+    - LucasArts
+    gameType: game
+    genres:
+    - Action
+    metacritic: 78
+    name: "STAR WARS\u2122 Republic Commando\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 8969
+    releaceDate: '2009-07-08'
+  '6020':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Raven Software
+    gameType: game
+    genres:
+    - Action
+    metacritic: 81
+    name: "STAR WARS\u2122 Jedi Knight - Jedi Academy\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 8387
+    releaceDate: '2009-09-16'
+  '6030':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Raven Software
+    gameType: game
+    genres:
+    - Action
+    metacritic: 89
+    name: "STAR WARS\u2122 Jedi Knight II - Jedi Outcast\u2122"
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - LucasArts
+    - Lucasfilm
+    - Disney
+    recommendations:
+      total: 2819
+    releaceDate: '2009-09-16'
+  '6060':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Pandemic Studios
+    gameType: game
+    genres:
+    - Action
+    metacritic: 78
+    name: 'Star Wars: Battlefront 2 (Classic, 2005)'
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Lucasfilm
+    - LucasArts
+    - Disney
+    recommendations:
+      total: 37137
+    releaceDate: '2009-07-08'
+  '620':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    - Adventure
+    metacritic: 95
+    name: Portal 2
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: KRW
+      final_formatted: 1050.0
+      initial: 1050000
+      price_NOK: 8.071308988176206
+    publisher:
+    - Valve
+    recommendations:
+      total: 187000
+    releaceDate: '2011-04-18'
+  '63380':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Rebellion
+    gameType: game
+    genres:
+    - Action
+    metacritic: 66
+    name: Sniper Elite V2
+    numDLC: 4
+    platforms:
+    - windows
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Rebellion
+    recommendations:
+      total: 5165
+    releaceDate: null
+  '65800':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Trendy Entertainment
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - RPG
+    - Strategy
+    metacritic: 81
+    name: Dungeon Defenders
+    numDLC: 25
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 103.0
+      initial: 10300
+      price_NOK: 103.0
+    publisher:
+    - Trendy Entertainment
+    recommendations:
+      total: 8721
+    releaceDate: '2011-10-18'
+  '70':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 96
+    name: Half-Life
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 45158
+    releaceDate: '1998-11-08'
+  '70300':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Terry Cavanagh
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    metacritic: 81
+    name: VVVVVV
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 36.0
+      initial: 3600
+      price_NOK: 36.0
+    publisher:
+    - Terry Cavanagh
+    recommendations:
+      total: 4781
+    releaceDate: '2010-09-07'
+  '72850':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Bethesda Game Studios
+    gameType: game
+    genres:
+    - RPG
+    metacritic: 94
+    name: 'The Elder Scrolls V: Skyrim'
+    numDLC: 1
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 140.0
+      initial: 14000
+      price_NOK: 140.0
+    publisher:
+    - Bethesda Softworks
+    recommendations:
+      total: 174347
+    releaceDate: '2011-11-10'
+  '730':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Valve
+    - Hidden Path Entertainment
+    gameType: game
+    genres:
+    - Action
+    - Free to Play
+    metacritic: 83
+    name: 'Counter-Strike: Global Offensive'
+    numDLC: 1
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: null
+      final_formatted: null
+      initial: null
+      price_NOK: null
+    publisher:
+    - Valve
+    recommendations:
+      total: 3013341
+    releaceDate: '2012-08-21'
+  '7760':
+    categories: null
+    controllerSupport: none
+    developer:
+    - MicroProse Software, Inc
+    gameType: game
+    genres:
+    - Strategy
+    metacritic: null
+    name: 'X-COM: UFO Defense'
+    numDLC: null
+    platforms:
+    - windows
+    price:
+      currency: NOK
+      final_formatted: 36.0
+      initial: 3600
+      price_NOK: 36.0
+    publisher:
+    - 2K
+    recommendations:
+      total: 2263
+    releaceDate: '2008-09-04'
+  '80':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Valve
+    gameType: game
+    genres:
+    - Action
+    metacritic: 65
+    name: 'Counter-Strike: Condition Zero'
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 72.0
+      initial: 7200
+      price_NOK: 72.0
+    publisher:
+    - Valve
+    recommendations:
+      total: 12962
+    releaceDate: '2004-03-01'
+  '8930':
+    categories: null
+    controllerSupport: none
+    developer:
+    - Firaxis Games
+    - Aspyr (Mac)
+    - Aspyr (Linux)
+    gameType: game
+    genres:
+    - Strategy
+    metacritic: 90
+    name: "Sid Meier's Civilization\xAE V"
+    numDLC: 15
+    platforms:
+    - windows
+    - mac
+    - linux
+    price:
+      currency: NOK
+      final_formatted: 200.0
+      initial: 20000
+      price_NOK: 200.0
+    publisher:
+    - 2K
+    - Aspyr (Mac)
+    - Aspyr (Linux)
+    recommendations:
+      total: 106267
+    releaceDate: '2010-09-23'
+  '94400':
+    categories: null
+    controllerSupport: full
+    developer:
+    - Messhof
+    gameType: game
+    genres:
+    - Action
+    - Indie
+    - Sports
+    metacritic: 81
+    name: Nidhogg
+    numDLC: null
+    platforms:
+    - windows
+    - mac
+    price:
+      currency: NOK
+      final_formatted: 70.0
+      initial: 7000
+      price_NOK: 70.0
+    publisher:
+    - Messhof
+    recommendations:
+      total: 4973
+    releaceDate: '2014-01-13'
