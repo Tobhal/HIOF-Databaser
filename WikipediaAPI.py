@@ -189,9 +189,8 @@ def getWikiData2(page):
 
     return dataOut
 
-
 if __name__ == '__main__':
-    page = searchForWikiPage('Aspyr')
+    page = searchForWikiPage('Eagle Dynamics SA')
 
     print(getWikiData2(page))
 

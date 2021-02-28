@@ -69,20 +69,31 @@ def convertDateTime(date):
     return date.date()
 
 # Add elements to list
-def getCompany(name):
+def addCompany(name):
     global allGamesDetail
 
     oCompName = name
     
-    modifyNames
+    modifyNames = companyNames['modify']
 
     if name not in allGamesDetail['company']:
-        if name in 
+        if name in modifyNames:
+            name = modifyNames[name]
+        elif name in companyNames['skip']:
+            return
+        elif name in companyNames['failed']:
+            return
 
+    if name not in allGamesDetail['company']:
+        try:
+            companyPage = WikipediaAPI.searchForWikiPage(name)
+        except:
+            print('Add comp| failed to finde', oCompName)
+            companyNames['failed'].append(oCompName)
+        else:
+            companyData = WikipediaAPI.getWikiData2(companyPage)
+            gameDetail['company'][name] = companyData
 
-    return None
-
-def getGame(name):
     return None
 
 if __name__ == '__main__':
@@ -90,6 +101,7 @@ if __name__ == '__main__':
 
     gamesCount = allGamesResponse['game_count']
     allGames = allGamesResponse['games']
+    allGamesLen = allGamesResponse['game_count']
 
     companyNames = read('companyNames')
     currency = read('currency')
@@ -125,10 +137,55 @@ if __name__ == '__main__':
             if gameDetail['publisher'] != None:
                 for publisher in gameDetail['publisher']:
                     gameDetail['publisher'][publisher] = getCompany(publisher)
-
             
+            print(f"{i + 1:3}/{allGamesLen}| Skiping: {gameDetail['games'][appID]['name']}")
+        else:
+            singleGameDetail = SteamAPI.getAppDetail(appID)
 
+            if singleGameDetail['success'] == False:
+                print(f"{i + 1:3}/{allGamesLen}| Failed to import {gameDetail['games'][appID]['name']}")
+
+            print(f"{i + 1:3}/{allGamesLen}| Adding: {singleGameDetail['name']}")
+
+            if 'price_overview' in singleGameDetail:
+                price = convertCurrency(singleGameDetail['price_overview']['initial'], singleGameDetail['price_overview']['currency'], singleGameDetail['price_overview']['final_formatted'])
+
+            date = singleGameDetail['release_date']['date'].replace("\u00a0", " ")
+
+            gameDict = {
+                'name': gameDetail['name'],
+                'gameType': gameDetail['type'],
+                'developer': (gameDetail['developers']) if "developers" in gameDetail else None,
+                'publisher': gameDetail['publishers'],
+                'platforms': [key for key in gameDetail['platforms'] if gameDetail['platforms'][key] == True],
+                'releaceDate': str(convertDateTime(date)) if date != '' else None,
+                'categories': ([key['description'] for key in gameDetail['categories']]) if "description" in gameDetail else None,
+                'genres': ([key['description'] for key in gameDetail['genres']]) if "genres" in gameDetail else None,
+                'metacritic': gameDetail['metacritic']['score'] if "metacritic" in gameDetail else None,
+                'price': {
+                    'initial': gameDetail['price_overview']['initial'] if "price_overview" in gameDetail else None,
+                    'final_formatted': price['price'] if "price_overview" in gameDetail else None,
+                    "price_NOK": price['priceNOK'] if "price_overview" in gameDetail else None,
+                    'currency': gameDetail['price_overview']['currency'] if "price_overview" in gameDetail else None
+                },
+                #'recommendations': gameDetail['recommendations']['score'] if "recommendations" in gameDetail else None,
+                'recommendations': gameDetail['recommendations'] if "recommendations" in gameDetail else None,
+                'numDLC': len(gameDetail['dlc']) if "dlc" in gameDetail else None,
+                'controllerSupport': gameDetail['controller_support'] if "controller_support" in gameDetail else 'none'
+            }
+
+            gameDetail['games'][int(appID)] = gameDict
+
+            if gameDict['developer'] != None:
+                for dev in gameDict['developer']:
+                    addCompany(dev)
             
+            if gameDict['publisher'] != None:
+                for pub in gameDict['publisher']:
+                    addCompany(pub)
 
+        write('allGamesDetail', gameDetail)
 
-    
+        i + 1
+
+    print('Done!')
