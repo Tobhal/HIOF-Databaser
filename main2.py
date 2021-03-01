@@ -203,4 +203,3 @@ def prosessGames(l = 1000):
 
 if __name__ == '__main__':
     prosessGames(l=0)
-    

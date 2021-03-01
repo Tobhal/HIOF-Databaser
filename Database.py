@@ -3,7 +3,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password=input("Type password: ")
+    password='passord123'
 )
 
 cursor = db.cursor()
