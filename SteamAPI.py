@@ -17,7 +17,8 @@ def getOwnedGames():
 
 def getAppDetail(appID):
     param = {
-        'appids': str(appID)
+        'appids': str(appID),
+        'l': 'english'
     }
 
     r = requests.get('http://store.steampowered.com/api/appdetails', params=param)

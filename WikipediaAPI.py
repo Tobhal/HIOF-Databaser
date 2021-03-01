@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import main2 as main
 import pretty_errors
 import lxml
 import re
@@ -67,7 +68,7 @@ def getWikiData2(page):
     soup = BeautifulSoup(page.content, 'lxml')
     results = soup.find(id='mw-content-text')
     job_elems = results.find('table', class_='infobox vcard')
-    job_data = job_elems.findAll('tr')
+    job_data = job_elems.findAll("tr")
 
     dataOut = {
         'Type': None,
@@ -84,14 +85,34 @@ def getWikiData2(page):
         'Website': None
     }
 
+    reNewLine = re.compile('^\n$')
+
     for line in job_data:
         line = line.findAll(text=True)
 
         if not line:
             continue
 
+        for element in line:
+            if reNewLine.match(element):
+                line.remove(element)
+
         if line[0] == 'Founded':
-            dataOut[line[0]] = line[len(line) - 2]
+            dataOut[line[0]] = str(main.convertDateTime(re.sub('\xa0' , ' ', line[1])))
+
+        elif line[0] == 'Founder':
+            dataOut[line[0]] = re.split(', ', line[1])
+
+        elif line[0] == 'Founders':
+            dataOut[line[0]] = []
+            founder = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
+
+            if len(line) > 2:
+                for part in founder:
+                    if not re.compile('\n').match(part):
+                        dataOut[line[0]].append(part)
+            else:
+                dataOut[line[0]].append(line[1])
 
         elif line[0] == 'Headquarters':
             dataOut[line[0]] = ''
@@ -107,17 +128,21 @@ def getWikiData2(page):
             for part in page:
                 dataOut[line[0]] += part
 
-        elif line[0] == 'Parent':
-            print('Parent')
+            if re.compile('^www.\w+.\w+.+\n.+$').match(dataOut[line[0]]):
+                dataOut[line[0]] = re.compile(' ').split(dataOut[line[0]])[0]
 
+        elif line[0] == 'Parent':
             dataOut[line[0]] = []
             parent = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
 
-            for part in parent:
-                if not re.compile('\w').match(part):
-                    pass
-                else:
-                    dataOut[line[0]].append(part)
+            if len(line) > 2:
+                for part in parent:
+                    if not re.compile('\w').match(part):
+                        pass
+                    else:
+                        dataOut[line[0]].append(part)
+            else:
+                dataOut[line[0]].append(line[1])
 
         elif line[0] == 'Number of employees':
             nummber = line[1]
@@ -190,7 +215,7 @@ def getWikiData2(page):
     return dataOut
 
 if __name__ == '__main__':
-    page = searchForWikiPage('Eagle Dynamics SA')
+    page = searchForWikiPage('ubisoft')
 
     print(getWikiData2(page))
 

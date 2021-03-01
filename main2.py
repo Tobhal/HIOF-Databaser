@@ -12,7 +12,7 @@ companyNames = None
 currency = None
 
 # Handle files
-def write(name, data, fileType = 'yaml'):
+def write(name, data, fileType = 'json'):
     if not name.endswith('.' + fileType):
         name += '.' + fileType
     
@@ -20,7 +20,7 @@ def write(name, data, fileType = 'yaml'):
         if fileType == 'json': json.dump(data, outfile, indent=2)
         if fileType == 'yaml': yaml.dump(data, outfile, indent=2, default_flow_style=False)
 
-def read(name, fileType = 'yaml'):
+def read(name, fileType = 'json'):
     if not name.endswith('.' + fileType):
         name += '.' + fileType
 
@@ -34,7 +34,8 @@ def convertCurrency(initialFormat, code, final_formatted):
     currency = CurrencyConverter()
 
     if code not in currencyList:
-        newCode = int(input('Enter desimal value for', code, 'Final formatt:', final_formatted, ':'))
+        print('Enter desimal value for', code, 'Final formatt:', final_formatted, ':')
+        newCode = int(input())
         
         currencyList[code] = newCode
         write('Currency', currencyList)
@@ -43,26 +44,38 @@ def convertCurrency(initialFormat, code, final_formatted):
 
     return {
         'price': price,
-        'priceNOK': currency.convert(price, code, 'NOK')
+        'priceNOK': round(currency.convert(price, code, 'NOK'), 2)
     }
 
 def convertDateTime(date):
-    if re.compile('^\d{1,2} \w{3}, \d{4}$').match(date):        # ex: 1 NOV, 2010
+    if re.compile('^\d{1,2} \w{3}, \d{4}$').match(date):            # ex: 1 NOV, 2010
         date = datetime.datetime.strptime(date, '%d %b, %Y')
-    elif re.compile('^\d{4}$').match(date):                     # ex: 2010
+    elif re.compile('^\d{4}/\d{4}$').match(date):                   # ex: 1998/1999
+        date = datetime.datetime.strptime(date, '%Y/')
+    elif re.compile('^\d{4} .+').match(date):                                # ex: 1991 in
+        date = datetime.datetime.strftime(date, '%Y ')
+    elif re.compile('^\d{1,2} \w+ \d{4}$').match(date):             # ex: 28 March 1986
+        date = datetime.datetime.strptime(date, '%d %B %Y')
+    elif re.compile('^\d{4}$').match(date):                         # ex: 2010
         date = datetime.datetime.strptime(date, '%Y')
-    elif re.compile('^[A-Z]\w+ \d{1,2},? \d{4}$').match(date):  # ex: August 24, 1996
+    elif re.compile('^[A-Z]\w{2} \d{1,2},? \d{4}$').match(date):    # ex: Nov 16, 2016
+        date = datetime.datetime.strptime(date, '%b %d, %Y')
+    elif re.compile('^[A-Z]\w{3,} \d{1,2},? \d{4}$').match(date):   # ex: August 24, 1996
         date = datetime.datetime.strptime(date, '%B %d, %Y')
-    elif re.compile('^[A-Z]\w{2} \w{4}$').match(date):          # ex: Aug 2005
+    elif re.compile('^[A-Z]\w{2} \w{4}$').match(date):              # ex: Aug 2005
         date = datetime.datetime.strptime(date, '%b %Y')
-    elif re.compile('^[A-Z]\w{3,} \w{4}$').match(date):         # ex: June 2004
+    elif re.compile('^[A-Z]\w{3,} \w{4}$').match(date):             # ex: June 2004
         date = datetime.datetime.strptime(date, '%B %Y')
-    elif re.compile('^\w{1,2} [A-Z]\w+, \d{4}').match(date):    # ex: 5 April, 1997
+    elif re.compile('^\w{1,2} [A-Z]\w+, \d{4}').match(date):        # ex: 5 April, 1997
         date = datetime.datetime.strptime(date, '%d %B %Y')
     elif re.compile('^\d{4} \\\\u.{4} \d{1,2} \\\\u.{4} \d{1,2} \\\\u.{4}$').match(date):    # ex: 2006 \u5e74 11 \u6708 29 \u65e5
         date = datetime.datetime.strptime(date, '%Y %% %m %% %d')
-    elif re.compile('^\d{1,2} \w{3} \d{4}$').match(date):       # ex: 1 NOV 2010
+    elif re.compile('^\d{1,2} \w{3} \d{4}$').match(date):           # ex: 1 NOV 2010
         date = datetime.datetime.strptime(date, '%d %b %Y')
+    elif re.compile('^\d{1,2}\. \w+ \d{4}$').match(date):           # ex: 20. Juni 2013
+        date = datetime.datetime.strptime(date, '%d %B %Y')
+    elif re.compile('^\d{1,2} \w+ \d{4}$').match(date):             # ex: 20 February 2012
+        date = datetime.datetime.strptime(date, '%d, %b, %Y')
     else:
         print('Not known date:', date)
 
@@ -87,16 +100,17 @@ def addCompany(name):
     if name not in allGamesDetail['company']:
         try:
             companyPage = WikipediaAPI.searchForWikiPage(name)
-        except:
-            print('Add comp| failed to finde', oCompName)
-            companyNames['failed'].append(oCompName)
-        else:
             companyData = WikipediaAPI.getWikiData2(companyPage)
-            gameDetail['company'][name] = companyData
+        except:
+            print('Failed to finde', oCompName)
+            companyNames['failed'].append(oCompName)
+            write('companyNames', companyNames, fileType='json')
+        else:
+            allGamesDetail['company'][name] = companyData
 
-    return None
+def prosessGames(l = 1000):
+    global allGamesDetail, companyNames, currency
 
-if __name__ == '__main__':
     allGamesResponse = read('allGames')['response']
 
     gamesCount = allGamesResponse['game_count']
@@ -109,17 +123,16 @@ if __name__ == '__main__':
     try:
         allGamesDetail = read('allGamesDetail')
     except:
-        allGamesDetail = {
-            'games': {},
-            'company': {}
-        }
+        allGamesDetail = dict()
+        allGamesDetail['games'] = dict()
+        allGamesDetail['company'] = dict()
 
         write('allGamesDetail', allGamesDetail)
-    
+
     # main loop
     i = 0    
     for game in allGames:
-        if i == 1000: # To just import some data
+        if i >= l: # To just import some data
             break
 
         appID = str(game['appid'])
@@ -131,20 +144,22 @@ if __name__ == '__main__':
             # Check if dev info needs update
             if gameDetail['developer'] != None:
                 for developer in gameDetail['developer']:
-                    gameDetail['developer'][developer] = getCompany(developer)
+                    addCompany(developer)
             
             # Check if pub info needs update
             if gameDetail['publisher'] != None:
                 for publisher in gameDetail['publisher']:
-                    gameDetail['publisher'][publisher] = getCompany(publisher)
+                    addCompany(publisher)
             
-            print(f"{i + 1:3}/{allGamesLen}| Skiping: {gameDetail['games'][appID]['name']}")
+            print(f"{i + 1:3}/{allGamesLen}| Skiping: {allGamesDetail['games'][appID]['name']}")
         else:
-            singleGameDetail = SteamAPI.getAppDetail(appID)
+            singleGameDetail = SteamAPI.getAppDetail(appID)[appID]
 
             if singleGameDetail['success'] == False:
-                print(f"{i + 1:3}/{allGamesLen}| Failed to import {gameDetail['games'][appID]['name']}")
-
+                print(f"{i + 1:3}/{allGamesLen}| Failed to import {appID}")
+                continue
+            
+            singleGameDetail = singleGameDetail['data']
             print(f"{i + 1:3}/{allGamesLen}| Adding: {singleGameDetail['name']}")
 
             if 'price_overview' in singleGameDetail:
@@ -153,28 +168,27 @@ if __name__ == '__main__':
             date = singleGameDetail['release_date']['date'].replace("\u00a0", " ")
 
             gameDict = {
-                'name': gameDetail['name'],
-                'gameType': gameDetail['type'],
-                'developer': (gameDetail['developers']) if "developers" in gameDetail else None,
-                'publisher': gameDetail['publishers'],
-                'platforms': [key for key in gameDetail['platforms'] if gameDetail['platforms'][key] == True],
+                'name': singleGameDetail['name'],
+                'gameType': singleGameDetail['type'],
+                'developer': (singleGameDetail['developers']) if "developers" in singleGameDetail else None,
+                'publisher': singleGameDetail['publishers'],
+                'platforms': [key for key in singleGameDetail['platforms'] if singleGameDetail['platforms'][key] == True],
                 'releaceDate': str(convertDateTime(date)) if date != '' else None,
-                'categories': ([key['description'] for key in gameDetail['categories']]) if "description" in gameDetail else None,
-                'genres': ([key['description'] for key in gameDetail['genres']]) if "genres" in gameDetail else None,
-                'metacritic': gameDetail['metacritic']['score'] if "metacritic" in gameDetail else None,
+                'categories': ([key['description'] for key in singleGameDetail['categories']]) if "description" in singleGameDetail else None,
+                'genres': ([key['description'] for key in singleGameDetail['genres']]) if "genres" in singleGameDetail else None,
+                'metacritic': singleGameDetail['metacritic']['score'] if "metacritic" in singleGameDetail else None,
                 'price': {
-                    'initial': gameDetail['price_overview']['initial'] if "price_overview" in gameDetail else None,
-                    'final_formatted': price['price'] if "price_overview" in gameDetail else None,
-                    "price_NOK": price['priceNOK'] if "price_overview" in gameDetail else None,
-                    'currency': gameDetail['price_overview']['currency'] if "price_overview" in gameDetail else None
+                    'initial': singleGameDetail['price_overview']['initial'] if "price_overview" in singleGameDetail else None,
+                    'final_formatted': price['price'] if "price_overview" in singleGameDetail else None,
+                    "price_NOK": price['priceNOK'] if "price_overview" in singleGameDetail else None,
+                    'currency': singleGameDetail['price_overview']['currency'] if "price_overview" in singleGameDetail else None
                 },
-                #'recommendations': gameDetail['recommendations']['score'] if "recommendations" in gameDetail else None,
-                'recommendations': gameDetail['recommendations'] if "recommendations" in gameDetail else None,
-                'numDLC': len(gameDetail['dlc']) if "dlc" in gameDetail else None,
-                'controllerSupport': gameDetail['controller_support'] if "controller_support" in gameDetail else 'none'
+                'recommendations': singleGameDetail['recommendations'] if "recommendations" in singleGameDetail else None,
+                'numDLC': len(singleGameDetail['dlc']) if "dlc" in singleGameDetail else 0,
+                'controllerSupport': singleGameDetail['controller_support'] if "controller_support" in singleGameDetail else 'none'
             }
 
-            gameDetail['games'][int(appID)] = gameDict
+            allGamesDetail['games'][int(appID)] = gameDict
 
             if gameDict['developer'] != None:
                 for dev in gameDict['developer']:
@@ -184,8 +198,9 @@ if __name__ == '__main__':
                 for pub in gameDict['publisher']:
                     addCompany(pub)
 
-        write('allGamesDetail', gameDetail)
+        write('allGamesDetail', allGamesDetail)
+        i += 1
 
-        i + 1
-
-    print('Done!')
+if __name__ == '__main__':
+    prosessGames(l=0)
+    
