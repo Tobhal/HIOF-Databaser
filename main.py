@@ -309,11 +309,13 @@ def addInfoToDB(db, im = 1000, lm = 1000):
 
         if gameData['developer'] != None:
             for dev in gameData['developer']:
-                db.connectGameAndComp(gameData['name'], dev, 'developer')
+                if dev in companies:
+                    db.connectGameAndComp(gameData['name'], dev, 'developer')
 
         if gameData['publisher'] != None:
             for pub in gameData['publisher']:
-                db.connectGameAndComp(gameData['name'], pub, 'publisher')
+                if pub in companies:
+                    db.connectGameAndComp(gameData['name'], pub, 'publisher')
 
         db.commit()
 
