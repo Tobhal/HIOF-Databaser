@@ -1,7 +1,6 @@
 import SteamAPI
 import WikipediaAPI
 from Database import Database
-from Profiling import Profile
 import json
 import yaml
 import datetime
