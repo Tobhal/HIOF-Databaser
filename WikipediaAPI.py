@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import main2 as main
+import main
 import pretty_errors
 import lxml
 import re
@@ -19,52 +19,6 @@ def searchForWikiPage(searchText):
     return requests.get('https://en.wikipedia.org/w/index.php?search=' + searchText)
 
 def getWikiData(page):
-    soup = BeautifulSoup(page.content, 'html.parser')
-    results = soup.find(id='mw-content-text')
-    job_elems = results.find('table', class_='infobox vcard')
-    texts = job_elems.findAll(text=True)
-
-    dataOut = {
-        'type': None,
-        'industry': None,
-        'founded': None,
-        'founder': None,
-        'founders': None,
-        'headquarters': None,
-        'area served': None,
-        'number of employees': None,
-        'parent': None,
-        'native name': None,
-        'romanized': None,
-        'website': None
-    }
-
-    for i in range(len(texts)):
-        text = texts[i].lower()
-
-        if text == 'founders':
-            print(text)
-            
-
-        if text == 'headquarters':
-            dataOut[text] = texts[i + 1], texts[i + 3]
-
-        elif text == 'website':
-            if texts[i + 1] == 'www':
-                dataOut[text] = texts[i + 1] + texts[i + 2] + texts[i + 3]
-                continue
-            else:
-                dataOut[text] = texts[i + 1]
-
-        if text == 'romanized':
-            dataOut[text] = texts[i + 2]
-
-        elif text in dataOut:
-            dataOut[text] = texts[i + 1].replace('\u00a0', ' ')
-
-    return dataOut
-
-def getWikiData2(page):
     soup = BeautifulSoup(page.content, 'lxml')
     results = soup.find(id='mw-content-text')
     job_elems = results.find('table', class_='infobox vcard')
@@ -73,12 +27,12 @@ def getWikiData2(page):
     dataOut = {
         'Type': None,
         'Industry': None,
-        'Founded': None,
+        'Founded': '1970-01-01',
         'Founder': None,
         'Founders': None,
         'Headquarters': None,
         'Area served': None,
-        'Number of employees': None,
+        'Number of employees': 0,
         'Parent': None,
         'Native name': None,
         'Romanized': None,
@@ -86,6 +40,9 @@ def getWikiData2(page):
     }
 
     reNewLine = re.compile('^\n$')
+    reNewLineInWord = re.compile('\\\\n')
+    reUnicodeDach = re.compile('\u2013')
+    reThing = re.compile("\\\\'\w+\\\\'")
 
     for line in job_data:
         line = line.findAll(text=True)
@@ -96,6 +53,15 @@ def getWikiData2(page):
         for element in line:
             if reNewLine.match(element):
                 line.remove(element)
+
+            if reNewLineInWord.match(element):
+                element.replace('\n', '')
+
+            if reUnicodeDach.match(element):
+                element.replace('\u2013', '-')
+
+            if reQoute.match(element):
+                re.sub("\\\\'\w+\\\\'", '')
 
         if line[0] == 'Founded':
             dataOut[line[0]] = str(main.convertDateTime(re.sub('\xa0' , ' ', line[1])))
@@ -132,6 +98,10 @@ def getWikiData2(page):
                 dataOut[line[0]] = re.compile(' ').split(dataOut[line[0]])[0]
 
         elif line[0] == 'Parent':
+            for element in line:
+                if re.compile('\(\d{4}-\d{4}\)').match(element):
+                    re.sub('\(\d{4}-\d{4}\)', '')
+
             dataOut[line[0]] = []
             parent = [line[i + 1] for i in range(len(line) - 1)] if len(line) > 2 else line[1]
 
@@ -217,7 +187,7 @@ def getWikiData2(page):
 if __name__ == '__main__':
     page = searchForWikiPage('ubisoft')
 
-    print(getWikiData2(page))
+    print(getWikiData(page))
 
 
 # -----------
