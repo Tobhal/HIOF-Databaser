@@ -7,3 +7,5 @@ files_old/
 files Old/
 
 .vscode/
+
+.DS_Store
