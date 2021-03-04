@@ -139,18 +139,10 @@ class Database:
     def connectGameAndComp(self, game, comp, role):
         try:
             self.cursor.execute(f""" 
-                INSERT INTO GameCompany (Games_GameID, Companies_CompanyID, CompanyRole_CompanyRoleID)
-                    SELECT * FROM (SELECT (
-                        SELECT GameID FROM Games WHERE Name = "{game}"
-                    ),(
-                        SELECT CompanyID FROM Companies WHERE CompanyName = "{comp}"
-                    ),(
-                        SELECT CompanyRoleID FROM CompanyRoles WHERE CompanyRoleName = "{role}"
-                    )) AS tmp 
-                    WHERE NOT EXISTS (
-                        SELECT GameID FROM Games WHERE Name = "{game}"
-                    )
-                    LIMIT 1;
+                INSERT INTO GameCompany SET
+                    Games_GameID = (SELECT GameID FROM Games WHERE Name = "{game}"),
+                    Companies_CompanyID = (SELECT CompanyID FROM Companies WHERE CompanyName = "{comp}"),
+                    CompanyRole_CompanyRoleID = (SELECT CompanyRoleID FROM CompanyRoles WHERE CompanyRoleName = "{role}");
             """)
         except mysql.connector.Error as e:
             print('Connect game and comp', e)
