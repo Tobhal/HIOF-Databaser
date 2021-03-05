@@ -98,11 +98,11 @@ class Database:
             self.commit()
 
     def connectionInsert(self, destination, table1Name, value1, table2Name, value2):
-        if value1 or value2 == None:
+        if value1 == None or value2 == None:
             return
 
         insertionTypes = {
-            'Games': ['gameID', 'Games', 'Name'],
+            'Games': ['GameID', 'Games', 'Name'],
             'Category': ['CategoryID', 'Category', 'CategoryName'],
             'Platform': ['PlatformID', 'Platform', 'PlatformName'],
             'Companies': ['CompanyID', 'Companies', 'CompanyName'],
@@ -119,15 +119,12 @@ class Database:
         
         try:
             self.cursor.execute(f"""
-                INSERT INTO {destination} ({table1+ "_" + cell1}, {table2 + "_" + cell2})
+                INSERT INTO {destination} ({table1}_{cell1}, {table2}_{cell2})
                     SELECT * FROM (SELECT (
-                        SELECT {cell1} FROM {table1} WHERE {name1} = '{value1}"
+                        SELECT {cell1} FROM {table1} WHERE {name1} = "{value1}"
                     ), (
                         SELECT {cell2} FROM {table2} WHERE {name2} = "{value2}"
-                    )) AS tmp 
-                    WHERE NOT EXISTS (
-                        SELECT {cell1} FROM {table1} WHERE {name1} = "{value1}"
-                    )
+                    )) AS tmp
                     LIMIT 1;
             """)
         except mysql.connector.Error as e:
